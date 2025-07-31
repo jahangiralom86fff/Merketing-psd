@@ -322,7 +322,206 @@
 
 }
 
+
 /*add to cart section End now*/
+
+/*cart-count section start now*/
+.cart-count{
+    padding:100px 0px;
+    background-color:#000825;
+    width: 100%;
+}
+.cart-count .title-total{
+    color:#ffffff;
+    text-transform: capitalize;
+    font-size: 46px;
+    font-weight: 500;
+    border-bottom: 1px solid #2f364d;
+    padding-bottom: 10px;
+    
+}
+.cart-count .sub-count{
+    width:100%;
+    padding-top:51px;
+}
+.cart-count .sub-count .text{
+    width:90%;
+    float: left;
+    padding-top:15px;
+}
+.cart-count .sub-count .text p{
+    color:#ffffff;
+    font-size: 24px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.cart-count .sub-count .text-dollars{
+    width:10%;
+    float: left;
+    padding-top:15px;
+
+}
+.cart-count .sub-count .text-dollars p{
+    color:#ff4934;
+    font-size: 24px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.cart-count .count-btn{
+    width: 100%;
+    padding-top:80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cart-count .count-btn a{
+    width:398px;
+    height:60px;
+    background-color: #ff4934;
+    text-decoration: none;
+    border-radius: 10px;
+    color: #ffffff;
+    font-weight: 600;
+    padding:18px 0px 0px 25px;
+    position: relative;
+}
+.cart-count .count-btn a::after{
+    content: "\f061";
+    position: absolute;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 1000;
+    right:32px;
+    transform: rotate(-40deg);
+}
+/*cart-count section End now*/
+
+/*products section start now*/
+.products{
+    padding:100px 0px;
+    padding-top:60px;
+    background-color:#000825;
+    width: 100%;
+
+}
+.products .products-title h2{
+    font-size: 46px;
+    font-weight: 600;
+    color:#ffffff;
+    text-transform: capitalize;
+    padding:60px 0px;
+    text-align: center;
+
+}
+.products .products-imgbox img{
+    width:100%;
+    height: 280px;
+    border-radius:10px 10px 0px 0px;
+}
+.products .content{
+    width:100%;
+    height: 245px;
+    background-color: #ffffff;
+    border-radius:0px 0px 10px 10px;
+    padding-top:40px;
+}
+.products .content h2{
+    color:#101210;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: capitalize;
+    
+
+}
+.products .content .sub-title{
+    position: relative;
+}
+.products .content .sub-title p{
+    color:#7b7b7b;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 500;
+    text-align: center;
+    margin-left: -60px;
+   
+}
+.products .content .sub-title p .text{
+    color:#7b7b7b;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 500;
+    text-align: center;
+    position: absolute;
+    right:105px;
+
+
+}
+.products .content .sub-title p .text::after{
+    position: absolute;
+    content:'';
+    width:46px;
+    height:1px;
+    top:10px;
+    left:0px;
+    background-color: #7b7b7b;
+
+}
+.products .star-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.products .star-icon ul{
+    padding-left: 0px;
+}
+.products .star-icon ul li{
+    list-style-type: none;
+    float: left;
+    margin:0px 4px;
+}
+.products .star-icon ul li a{
+    text-decoration: none;
+    color:#ff4934;
+    font-size: 18px;
+}
+.products .btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.products .btn .products-btn{
+    width: 145px;
+    height: 45px;
+    border-radius: 6px;
+    text-transform: capitalize;
+    font-weight: 600;
+    text-decoration: none;
+    color:#101210 !important;
+    font-size: 14px;
+    color:#ffffff;
+    padding-top:12px;
+    padding-left: 15px;
+    border: 1px solid #e7e7e9;
+    position: relative;
+    transition: all 400ms ease-in-out;
+}
+.products .btn .products-btn:hover{
+    background-color: #ff4934;
+    color:#ffffff !important;
+}
+.products .btn .products-btn::after{
+    position: absolute;
+    content:"\f07a";
+    font-weight: 1000;
+    left:20px;
+    color:#101210;
+    font-family: "Font Awesome 5 Free";
+    transition: all 400ms ease-in-out;
+}
+.products .btn .products-btn:hover::after{
+    color: #ffffff;
+}
+/*products section End now*/
 
 /*subscribe section start now*/
 .subscribe{
