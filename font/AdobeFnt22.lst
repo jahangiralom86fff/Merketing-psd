@@ -1,0 +1,1421 @@
+%!Adobe-FontList 1.22
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:E:\Merketing-psd\Font\Rajdhani\OFL.txt
+FileModTime:1750487679
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Rajdhani-Bold
+FamilyName:Rajdhani
+StyleName:Bold
+FullName:Rajdhani Bold
+MenuName:Rajdhani
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:E:\Merketing-psd\Font\Rajdhani\Rajdhani-Bold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:373192
+FileModTime:1750487679
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Rajdhani
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Rajdhani-Light
+FamilyName:Rajdhani
+StyleName:Light
+FullName:Rajdhani Light
+MenuName:Rajdhani Light
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:E:\Merketing-psd\Font\Rajdhani\Rajdhani-Light.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:357516
+FileModTime:1750487679
+WeightClass:300
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Rajdhani Light
+NameArray:0,Win,16,Rajdhani
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Rajdhani-Medium
+FamilyName:Rajdhani
+StyleName:Medium
+FullName:Rajdhani Medium
+MenuName:Rajdhani Medium
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:E:\Merketing-psd\Font\Rajdhani\Rajdhani-Medium.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:357884
+FileModTime:1750487679
+WeightClass:500
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Rajdhani Medium
+NameArray:0,Win,16,Rajdhani
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Rajdhani-Regular
+FamilyName:Rajdhani
+StyleName:Regular
+FullName:Rajdhani Regular
+MenuName:Rajdhani
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:E:\Merketing-psd\Font\Rajdhani\Rajdhani-Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:352088
+FileModTime:1750487679
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Rajdhani
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Rajdhani-SemiBold
+FamilyName:Rajdhani
+StyleName:SemiBold
+FullName:Rajdhani SemiBold
+MenuName:Rajdhani SemiBold
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:E:\Merketing-psd\Font\Rajdhani\Rajdhani-SemiBold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:363500
+FileModTime:1750487679
+WeightClass:600
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Rajdhani SemiBold
+NameArray:0,Win,16,Rajdhani
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:E:\Merketing-psd\Font\Roboto\OFL.txt
+FileModTime:1750487679
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:E:\Merketing-psd\Font\Roboto\README.txt
+FileModTime:1750487679
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Roboto-Italic
+FamilyName:Roboto
+StyleName:Italic
+FullName:Roboto Italic
+MenuName:Roboto
+FamilyPrefix:Roboto
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:E:\Merketing-psd\Font\Roboto\Roboto-Italic-VariableFont_wdth,wght.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:TrueTypeVariableFont
+FileLength:497124
+FileModTime:1750487679
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Roboto
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Roboto-Regular
+FamilyName:Roboto
+StyleName:Regular
+FullName:Roboto Regular
+MenuName:Roboto
+FamilyPrefix:Roboto
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:E:\Merketing-psd\Font\Roboto\Roboto-VariableFont_wdth,wght.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:TrueTypeVariableFont
+FileLength:468308
+FileModTime:1750487679
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Roboto
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Roboto-Black
+FamilyName:Roboto
+StyleName:Black
+FullName:Roboto Black
+MenuName:Roboto Black
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:E:\Merketing-psd\Font\Roboto\static\Roboto-Black.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:147424
+FileModTime:1750487680
+WeightClass:900
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Roboto Black
+NameArray:0,Win,16,Roboto
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Roboto-BlackItalic
+FamilyName:Roboto
+StyleName:Black Italic
+FullName:Roboto Black Italic
+MenuName:Roboto Black
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:E:\Merketing-psd\Font\Roboto\static\Roboto-BlackItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:153780
+FileModTime:1750487680
+WeightClass:900
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Roboto Black
+NameArray:0,Win,16,Roboto
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Roboto-Bold
+FamilyName:Roboto
+StyleName:Bold
+FullName:Roboto Bold
+MenuName:Roboto
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:E:\Merketing-psd\Font\Roboto\static\Roboto-Bold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:146768
+FileModTime:1750487680
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Roboto
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Roboto-BoldItalic
+FamilyName:Roboto
+StyleName:Bold Italic
+FullName:Roboto Bold Italic
+MenuName:Roboto
+StyleBits:3
+WritingScript:Roman
+OutlineFileName:E:\Merketing-psd\Font\Roboto\static\Roboto-BoldItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:153096
+FileModTime:1750487680
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Roboto
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Roboto-ExtraBold
+FamilyName:Roboto
+StyleName:ExtraBold
+FullName:Roboto ExtraBold
+MenuName:Roboto ExtraBold
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:E:\Merketing-psd\Font\Roboto\static\Roboto-ExtraBold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:146900
+FileModTime:1750487680
+WeightClass:800
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Roboto ExtraBold
+NameArray:0,Win,16,Roboto
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Roboto-ExtraBoldItalic
+FamilyName:Roboto
+StyleName:ExtraBold Italic
+FullName:Roboto ExtraBold Italic
+MenuName:Roboto ExtraBold
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:E:\Merketing-psd\Font\Roboto\static\Roboto-ExtraBoldItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:153292
+FileModTime:1750487680
+WeightClass:800
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Roboto ExtraBold
+NameArray:0,Win,16,Roboto
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Roboto-ExtraLight
+FamilyName:Roboto
+StyleName:ExtraLight
+FullName:Roboto ExtraLight
+MenuName:Roboto ExtraLight
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:E:\Merketing-psd\Font\Roboto\static\Roboto-ExtraLight.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:146044
+FileModTime:1750487680
+WeightClass:250
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Roboto ExtraLight
+NameArray:0,Win,16,Roboto
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Roboto-ExtraLightItalic
+FamilyName:Roboto
+StyleName:ExtraLight Italic
+FullName:Roboto ExtraLight Italic
+MenuName:Roboto ExtraLight
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:E:\Merketing-psd\Font\Roboto\static\Roboto-ExtraLightItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:151664
+FileModTime:1750487680
+WeightClass:250
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Roboto ExtraLight
+NameArray:0,Win,16,Roboto
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Roboto-Italic
+FamilyName:Roboto
+StyleName:Italic
+FullName:Roboto Italic
+MenuName:Roboto
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:E:\Merketing-psd\Font\Roboto\static\Roboto-Italic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:152208
+FileModTime:1750487680
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Roboto
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Roboto-Light
+FamilyName:Roboto
+StyleName:Light
+FullName:Roboto Light
+MenuName:Roboto Light
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:E:\Merketing-psd\Font\Roboto\static\Roboto-Light.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:146056
+FileModTime:1750487680
+WeightClass:300
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Roboto Light
+NameArray:0,Win,16,Roboto
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Roboto-LightItalic
+FamilyName:Roboto
+StyleName:Light Italic
+FullName:Roboto Light Italic
+MenuName:Roboto Light
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:E:\Merketing-psd\Font\Roboto\static\Roboto-LightItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:151944
+FileModTime:1750487680
+WeightClass:300
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Roboto Light
+NameArray:0,Win,16,Roboto
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Roboto-Medium
+FamilyName:Roboto
+StyleName:Medium
+FullName:Roboto Medium
+MenuName:Roboto Medium
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:E:\Merketing-psd\Font\Roboto\static\Roboto-Medium.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:146132
+FileModTime:1750487680
+WeightClass:500
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Roboto Medium
+NameArray:0,Win,16,Roboto
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Roboto-MediumItalic
+FamilyName:Roboto
+StyleName:Medium Italic
+FullName:Roboto Medium Italic
+MenuName:Roboto Medium
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:E:\Merketing-psd\Font\Roboto\static\Roboto-MediumItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:152416
+FileModTime:1750487680
+WeightClass:500
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Roboto Medium
+NameArray:0,Win,16,Roboto
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Roboto-Regular
+FamilyName:Roboto
+StyleName:Regular
+FullName:Roboto Regular
+MenuName:Roboto
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:E:\Merketing-psd\Font\Roboto\static\Roboto-Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:146004
+FileModTime:1750487680
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Roboto
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Roboto-SemiBold
+FamilyName:Roboto
+StyleName:SemiBold
+FullName:Roboto SemiBold
+MenuName:Roboto SemiBold
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:E:\Merketing-psd\Font\Roboto\static\Roboto-SemiBold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:146760
+FileModTime:1750487680
+WeightClass:600
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Roboto SemiBold
+NameArray:0,Win,16,Roboto
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Roboto-SemiBoldItalic
+FamilyName:Roboto
+StyleName:SemiBold Italic
+FullName:Roboto SemiBold Italic
+MenuName:Roboto SemiBold
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:E:\Merketing-psd\Font\Roboto\static\Roboto-SemiBoldItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:153036
+FileModTime:1750487680
+WeightClass:600
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Roboto SemiBold
+NameArray:0,Win,16,Roboto
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Roboto-Thin
+FamilyName:Roboto
+StyleName:Thin
+FullName:Roboto Thin
+MenuName:Roboto Thin
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:E:\Merketing-psd\Font\Roboto\static\Roboto-Thin.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:145936
+FileModTime:1750487680
+WeightClass:250
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Roboto Thin
+NameArray:0,Win,16,Roboto
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Roboto-ThinItalic
+FamilyName:Roboto
+StyleName:Thin Italic
+FullName:Roboto Thin Italic
+MenuName:Roboto Thin
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:E:\Merketing-psd\Font\Roboto\static\Roboto-ThinItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:151148
+FileModTime:1750487680
+WeightClass:250
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Roboto Thin
+NameArray:0,Win,16,Roboto
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:RobotoCondensed-Black
+FamilyName:Roboto Condensed
+StyleName:Black
+FullName:Roboto Condensed Black
+MenuName:Roboto Condensed Black
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:E:\Merketing-psd\Font\Roboto\static\Roboto_Condensed-Black.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:147148
+FileModTime:1750487680
+WeightClass:900
+WidthClass:3
+AngleClass:0
+NameArray:0,Win,1,Roboto Condensed Black
+NameArray:0,Win,16,Roboto Condensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:RobotoCondensed-BlackItalic
+FamilyName:Roboto Condensed
+StyleName:Black Italic
+FullName:Roboto Condensed Black Italic
+MenuName:Roboto Condensed Black
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:E:\Merketing-psd\Font\Roboto\static\Roboto_Condensed-BlackItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:153680
+FileModTime:1750487680
+WeightClass:900
+WidthClass:3
+AngleClass:0
+NameArray:0,Win,1,Roboto Condensed Black
+NameArray:0,Win,16,Roboto Condensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:RobotoCondensed-Bold
+FamilyName:Roboto Condensed
+StyleName:Bold
+FullName:Roboto Condensed Bold
+MenuName:Roboto Condensed
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:E:\Merketing-psd\Font\Roboto\static\Roboto_Condensed-Bold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:146580
+FileModTime:1750487680
+WeightClass:700
+WidthClass:3
+AngleClass:0
+NameArray:0,Win,1,Roboto Condensed
+NameArray:0,Win,16,Roboto Condensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:RobotoCondensed-BoldItalic
+FamilyName:Roboto Condensed
+StyleName:Bold Italic
+FullName:Roboto Condensed Bold Italic
+MenuName:Roboto Condensed
+StyleBits:3
+WritingScript:Roman
+OutlineFileName:E:\Merketing-psd\Font\Roboto\static\Roboto_Condensed-BoldItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:152972
+FileModTime:1750487680
+WeightClass:700
+WidthClass:3
+AngleClass:0
+NameArray:0,Win,1,Roboto Condensed
+NameArray:0,Win,16,Roboto Condensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:RobotoCondensed-ExtraBold
+FamilyName:Roboto Condensed
+StyleName:ExtraBold
+FullName:Roboto Condensed ExtraBold
+MenuName:Roboto Condensed ExtraBold
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:E:\Merketing-psd\Font\Roboto\static\Roboto_Condensed-ExtraBold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:146812
+FileModTime:1750487680
+WeightClass:800
+WidthClass:3
+AngleClass:0
+NameArray:0,Win,1,Roboto Condensed ExtraBold
+NameArray:0,Win,16,Roboto Condensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:RobotoCondensed-ExtraBoldItalic
+FamilyName:Roboto Condensed
+StyleName:ExtraBold Italic
+FullName:Roboto Condensed ExtraBold Italic
+MenuName:Roboto Condensed ExtraBold
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:E:\Merketing-psd\Font\Roboto\static\Roboto_Condensed-ExtraBoldItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:153324
+FileModTime:1750487680
+WeightClass:800
+WidthClass:3
+AngleClass:0
+NameArray:0,Win,1,Roboto Condensed ExtraBold
+NameArray:0,Win,16,Roboto Condensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:RobotoCondensed-ExtraLight
+FamilyName:Roboto Condensed
+StyleName:ExtraLight
+FullName:Roboto Condensed ExtraLight
+MenuName:Roboto Condensed ExtraLight
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:E:\Merketing-psd\Font\Roboto\static\Roboto_Condensed-ExtraLight.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:146004
+FileModTime:1750487679
+WeightClass:250
+WidthClass:3
+AngleClass:0
+NameArray:0,Win,1,Roboto Condensed ExtraLight
+NameArray:0,Win,16,Roboto Condensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:RobotoCondensed-ExtraLightItalic
+FamilyName:Roboto Condensed
+StyleName:ExtraLight Italic
+FullName:Roboto Condensed ExtraLight Italic
+MenuName:Roboto Condensed ExtraLight
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:E:\Merketing-psd\Font\Roboto\static\Roboto_Condensed-ExtraLightItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:152120
+FileModTime:1750487680
+WeightClass:250
+WidthClass:3
+AngleClass:0
+NameArray:0,Win,1,Roboto Condensed ExtraLight
+NameArray:0,Win,16,Roboto Condensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:RobotoCondensed-Italic
+FamilyName:Roboto Condensed
+StyleName:Italic
+FullName:Roboto Condensed Italic
+MenuName:Roboto Condensed
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:E:\Merketing-psd\Font\Roboto\static\Roboto_Condensed-Italic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:152248
+FileModTime:1750487680
+WeightClass:400
+WidthClass:3
+AngleClass:0
+NameArray:0,Win,1,Roboto Condensed
+NameArray:0,Win,16,Roboto Condensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:RobotoCondensed-Light
+FamilyName:Roboto Condensed
+StyleName:Light
+FullName:Roboto Condensed Light
+MenuName:Roboto Condensed Light
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:E:\Merketing-psd\Font\Roboto\static\Roboto_Condensed-Light.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:145952
+FileModTime:1750487680
+WeightClass:300
+WidthClass:3
+AngleClass:0
+NameArray:0,Win,1,Roboto Condensed Light
+NameArray:0,Win,16,Roboto Condensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:RobotoCondensed-LightItalic
+FamilyName:Roboto Condensed
+StyleName:Light Italic
+FullName:Roboto Condensed Light Italic
+MenuName:Roboto Condensed Light
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:E:\Merketing-psd\Font\Roboto\static\Roboto_Condensed-LightItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:152392
+FileModTime:1750487680
+WeightClass:300
+WidthClass:3
+AngleClass:0
+NameArray:0,Win,1,Roboto Condensed Light
+NameArray:0,Win,16,Roboto Condensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:RobotoCondensed-Medium
+FamilyName:Roboto Condensed
+StyleName:Medium
+FullName:Roboto Condensed Medium
+MenuName:Roboto Condensed Medium
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:E:\Merketing-psd\Font\Roboto\static\Roboto_Condensed-Medium.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:145916
+FileModTime:1750487680
+WeightClass:500
+WidthClass:3
+AngleClass:0
+NameArray:0,Win,1,Roboto Condensed Medium
+NameArray:0,Win,16,Roboto Condensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:RobotoCondensed-MediumItalic
+FamilyName:Roboto Condensed
+StyleName:Medium Italic
+FullName:Roboto Condensed Medium Italic
+MenuName:Roboto Condensed Medium
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:E:\Merketing-psd\Font\Roboto\static\Roboto_Condensed-MediumItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:152424
+FileModTime:1750487680
+WeightClass:500
+WidthClass:3
+AngleClass:0
+NameArray:0,Win,1,Roboto Condensed Medium
+NameArray:0,Win,16,Roboto Condensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:RobotoCondensed-Regular
+FamilyName:Roboto Condensed
+StyleName:Regular
+FullName:Roboto Condensed Regular
+MenuName:Roboto Condensed
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:E:\Merketing-psd\Font\Roboto\static\Roboto_Condensed-Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:145908
+FileModTime:1750487680
+WeightClass:400
+WidthClass:3
+AngleClass:0
+NameArray:0,Win,1,Roboto Condensed
+NameArray:0,Win,16,Roboto Condensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:RobotoCondensed-SemiBold
+FamilyName:Roboto Condensed
+StyleName:SemiBold
+FullName:Roboto Condensed SemiBold
+MenuName:Roboto Condensed SemiBold
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:E:\Merketing-psd\Font\Roboto\static\Roboto_Condensed-SemiBold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:146516
+FileModTime:1750487680
+WeightClass:600
+WidthClass:3
+AngleClass:0
+NameArray:0,Win,1,Roboto Condensed SemiBold
+NameArray:0,Win,16,Roboto Condensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:RobotoCondensed-SemiBoldItalic
+FamilyName:Roboto Condensed
+StyleName:SemiBold Italic
+FullName:Roboto Condensed SemiBold Italic
+MenuName:Roboto Condensed SemiBold
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:E:\Merketing-psd\Font\Roboto\static\Roboto_Condensed-SemiBoldItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:152660
+FileModTime:1750487680
+WeightClass:600
+WidthClass:3
+AngleClass:0
+NameArray:0,Win,1,Roboto Condensed SemiBold
+NameArray:0,Win,16,Roboto Condensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:RobotoCondensed-Thin
+FamilyName:Roboto Condensed
+StyleName:Thin
+FullName:Roboto Condensed Thin
+MenuName:Roboto Condensed Thin
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:E:\Merketing-psd\Font\Roboto\static\Roboto_Condensed-Thin.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:145920
+FileModTime:1750487679
+WeightClass:250
+WidthClass:3
+AngleClass:0
+NameArray:0,Win,1,Roboto Condensed Thin
+NameArray:0,Win,16,Roboto Condensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:RobotoCondensed-ThinItalic
+FamilyName:Roboto Condensed
+StyleName:Thin Italic
+FullName:Roboto Condensed Thin Italic
+MenuName:Roboto Condensed Thin
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:E:\Merketing-psd\Font\Roboto\static\Roboto_Condensed-ThinItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:151588
+FileModTime:1750487680
+WeightClass:250
+WidthClass:3
+AngleClass:0
+NameArray:0,Win,1,Roboto Condensed Thin
+NameArray:0,Win,16,Roboto Condensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:RobotoSemiCondensed-Black
+FamilyName:Roboto SemiCondensed
+StyleName:Black
+FullName:Roboto SemiCondensed Black
+MenuName:Roboto SemiCondensed Black
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:E:\Merketing-psd\Font\Roboto\static\Roboto_SemiCondensed-Black.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:147372
+FileModTime:1750487680
+WeightClass:900
+WidthClass:4
+AngleClass:0
+NameArray:0,Win,1,Roboto SemiCondensed Black
+NameArray:0,Win,16,Roboto SemiCondensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:RobotoSemiCondensed-BlackItalic
+FamilyName:Roboto SemiCondensed
+StyleName:Black Italic
+FullName:Roboto SemiCondensed Black Italic
+MenuName:Roboto SemiCondensed Black
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:E:\Merketing-psd\Font\Roboto\static\Roboto_SemiCondensed-BlackItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:153832
+FileModTime:1750487680
+WeightClass:900
+WidthClass:4
+AngleClass:0
+NameArray:0,Win,1,Roboto SemiCondensed Black
+NameArray:0,Win,16,Roboto SemiCondensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:RobotoSemiCondensed-Bold
+FamilyName:Roboto SemiCondensed
+StyleName:Bold
+FullName:Roboto SemiCondensed Bold
+MenuName:Roboto SemiCondensed
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:E:\Merketing-psd\Font\Roboto\static\Roboto_SemiCondensed-Bold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:146756
+FileModTime:1750487680
+WeightClass:700
+WidthClass:4
+AngleClass:0
+NameArray:0,Win,1,Roboto SemiCondensed
+NameArray:0,Win,16,Roboto SemiCondensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:RobotoSemiCondensed-BoldItalic
+FamilyName:Roboto SemiCondensed
+StyleName:Bold Italic
+FullName:Roboto SemiCondensed Bold Italic
+MenuName:Roboto SemiCondensed
+StyleBits:3
+WritingScript:Roman
+OutlineFileName:E:\Merketing-psd\Font\Roboto\static\Roboto_SemiCondensed-BoldItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:153148
+FileModTime:1750487680
+WeightClass:700
+WidthClass:4
+AngleClass:0
+NameArray:0,Win,1,Roboto SemiCondensed
+NameArray:0,Win,16,Roboto SemiCondensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:RobotoSemiCondensed-ExtraBold
+FamilyName:Roboto SemiCondensed
+StyleName:ExtraBold
+FullName:Roboto SemiCondensed ExtraBold
+MenuName:Roboto SemiCondensed ExtraBold
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:E:\Merketing-psd\Font\Roboto\static\Roboto_SemiCondensed-ExtraBold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:146860
+FileModTime:1750487680
+WeightClass:800
+WidthClass:4
+AngleClass:0
+NameArray:0,Win,1,Roboto SemiCondensed ExtraBold
+NameArray:0,Win,16,Roboto SemiCondensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:RobotoSemiCondensed-ExtraBoldItalic
+FamilyName:Roboto SemiCondensed
+StyleName:ExtraBold Italic
+FullName:Roboto SemiCondensed ExtraBold Italic
+MenuName:Roboto SemiCondensed ExtraBold
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:E:\Merketing-psd\Font\Roboto\static\Roboto_SemiCondensed-ExtraBoldItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:153360
+FileModTime:1750487680
+WeightClass:800
+WidthClass:4
+AngleClass:0
+NameArray:0,Win,1,Roboto SemiCondensed ExtraBold
+NameArray:0,Win,16,Roboto SemiCondensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:RobotoSemiCondensed-ExtraLight
+FamilyName:Roboto SemiCondensed
+StyleName:ExtraLight
+FullName:Roboto SemiCondensed ExtraLight
+MenuName:Roboto SemiCondensed ExtraLight
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:E:\Merketing-psd\Font\Roboto\static\Roboto_SemiCondensed-ExtraLight.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:146100
+FileModTime:1750487680
+WeightClass:250
+WidthClass:4
+AngleClass:0
+NameArray:0,Win,1,Roboto SemiCondensed ExtraLight
+NameArray:0,Win,16,Roboto SemiCondensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:RobotoSemiCondensed-ExtraLightItalic
+FamilyName:Roboto SemiCondensed
+StyleName:ExtraLight Italic
+FullName:Roboto SemiCondensed ExtraLight Italic
+MenuName:Roboto SemiCondensed ExtraLight
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:E:\Merketing-psd\Font\Roboto\static\Roboto_SemiCondensed-ExtraLightItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:152012
+FileModTime:1750487680
+WeightClass:250
+WidthClass:4
+AngleClass:0
+NameArray:0,Win,1,Roboto SemiCondensed ExtraLight
+NameArray:0,Win,16,Roboto SemiCondensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:RobotoSemiCondensed-Italic
+FamilyName:Roboto SemiCondensed
+StyleName:Italic
+FullName:Roboto SemiCondensed Italic
+MenuName:Roboto SemiCondensed
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:E:\Merketing-psd\Font\Roboto\static\Roboto_SemiCondensed-Italic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:152304
+FileModTime:1750487680
+WeightClass:400
+WidthClass:4
+AngleClass:0
+NameArray:0,Win,1,Roboto SemiCondensed
+NameArray:0,Win,16,Roboto SemiCondensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:RobotoSemiCondensed-Light
+FamilyName:Roboto SemiCondensed
+StyleName:Light
+FullName:Roboto SemiCondensed Light
+MenuName:Roboto SemiCondensed Light
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:E:\Merketing-psd\Font\Roboto\static\Roboto_SemiCondensed-Light.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:146064
+FileModTime:1750487680
+WeightClass:300
+WidthClass:4
+AngleClass:0
+NameArray:0,Win,1,Roboto SemiCondensed Light
+NameArray:0,Win,16,Roboto SemiCondensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:RobotoSemiCondensed-LightItalic
+FamilyName:Roboto SemiCondensed
+StyleName:Light Italic
+FullName:Roboto SemiCondensed Light Italic
+MenuName:Roboto SemiCondensed Light
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:E:\Merketing-psd\Font\Roboto\static\Roboto_SemiCondensed-LightItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:152304
+FileModTime:1750487680
+WeightClass:300
+WidthClass:4
+AngleClass:0
+NameArray:0,Win,1,Roboto SemiCondensed Light
+NameArray:0,Win,16,Roboto SemiCondensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:RobotoSemiCondensed-Medium
+FamilyName:Roboto SemiCondensed
+StyleName:Medium
+FullName:Roboto SemiCondensed Medium
+MenuName:Roboto SemiCondensed Medium
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:E:\Merketing-psd\Font\Roboto\static\Roboto_SemiCondensed-Medium.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:146124
+FileModTime:1750487680
+WeightClass:500
+WidthClass:4
+AngleClass:0
+NameArray:0,Win,1,Roboto SemiCondensed Medium
+NameArray:0,Win,16,Roboto SemiCondensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:RobotoSemiCondensed-MediumItalic
+FamilyName:Roboto SemiCondensed
+StyleName:Medium Italic
+FullName:Roboto SemiCondensed Medium Italic
+MenuName:Roboto SemiCondensed Medium
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:E:\Merketing-psd\Font\Roboto\static\Roboto_SemiCondensed-MediumItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:152492
+FileModTime:1750487680
+WeightClass:500
+WidthClass:4
+AngleClass:0
+NameArray:0,Win,1,Roboto SemiCondensed Medium
+NameArray:0,Win,16,Roboto SemiCondensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:RobotoSemiCondensed-Regular
+FamilyName:Roboto SemiCondensed
+StyleName:Regular
+FullName:Roboto SemiCondensed Regular
+MenuName:Roboto SemiCondensed
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:E:\Merketing-psd\Font\Roboto\static\Roboto_SemiCondensed-Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:146048
+FileModTime:1750487680
+WeightClass:400
+WidthClass:4
+AngleClass:0
+NameArray:0,Win,1,Roboto SemiCondensed
+NameArray:0,Win,16,Roboto SemiCondensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:RobotoSemiCondensed-SemiBold
+FamilyName:Roboto SemiCondensed
+StyleName:SemiBold
+FullName:Roboto SemiCondensed SemiBold
+MenuName:Roboto SemiCondensed SemiBold
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:E:\Merketing-psd\Font\Roboto\static\Roboto_SemiCondensed-SemiBold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:146720
+FileModTime:1750487680
+WeightClass:600
+WidthClass:4
+AngleClass:0
+NameArray:0,Win,1,Roboto SemiCondensed SemiBold
+NameArray:0,Win,16,Roboto SemiCondensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:RobotoSemiCondensed-SemiBoldItalic
+FamilyName:Roboto SemiCondensed
+StyleName:SemiBold Italic
+FullName:Roboto SemiCondensed SemiBold Italic
+MenuName:Roboto SemiCondensed SemiBold
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:E:\Merketing-psd\Font\Roboto\static\Roboto_SemiCondensed-SemiBoldItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:152836
+FileModTime:1750487680
+WeightClass:600
+WidthClass:4
+AngleClass:0
+NameArray:0,Win,1,Roboto SemiCondensed SemiBold
+NameArray:0,Win,16,Roboto SemiCondensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:RobotoSemiCondensed-Thin
+FamilyName:Roboto SemiCondensed
+StyleName:Thin
+FullName:Roboto SemiCondensed Thin
+MenuName:Roboto SemiCondensed Thin
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:E:\Merketing-psd\Font\Roboto\static\Roboto_SemiCondensed-Thin.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:146068
+FileModTime:1750487680
+WeightClass:250
+WidthClass:4
+AngleClass:0
+NameArray:0,Win,1,Roboto SemiCondensed Thin
+NameArray:0,Win,16,Roboto SemiCondensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:RobotoSemiCondensed-ThinItalic
+FamilyName:Roboto SemiCondensed
+StyleName:Thin Italic
+FullName:Roboto SemiCondensed Thin Italic
+MenuName:Roboto SemiCondensed Thin
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:E:\Merketing-psd\Font\Roboto\static\Roboto_SemiCondensed-ThinItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:151496
+FileModTime:1750487680
+WeightClass:250
+WidthClass:4
+AngleClass:0
+NameArray:0,Win,1,Roboto SemiCondensed Thin
+NameArray:0,Win,16,Roboto SemiCondensed
+%EndFont
+
