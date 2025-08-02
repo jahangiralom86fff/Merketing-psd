@@ -1318,7 +1318,7 @@
     z-index: 1;
     position:relative;
     padding-left:35px;
-    transition: all 500ms ease-in-out;
+    transition: all 500ms ease;
 }
 .work-process .work-blog:hover{
     background-color: #ff4934;
@@ -1337,7 +1337,7 @@
     background-color:#010a2b;
     border-bottom: none;
     border-radius:90px 90px 0px 0px;
-    transition: all 500ms ease-in-out;
+    transition: all 500ms ease;
 
 }
 .work-process .work-blog:hover .single-blog .null{
@@ -1355,7 +1355,7 @@
     color: #ff4934;
     left:30px;
     top:-30px;
-    transition: all 500ms ease-in-out;
+    transition: all 500ms ease-in-out;
 }
 .work-process .work-blog:hover .icon .icon-steam2{
     color: #ffffff;
@@ -1366,7 +1366,7 @@
     color: #ff4934;
     left:30px;
     top:-30px;
-    transition: all 500ms ease-in-out;
+    transition: all 500ms ease-in-out;
 }
 .work-process .work-blog:hover .icon .icon-search{
     color: #ffffff;
@@ -1377,7 +1377,7 @@
     color: #ff4934;
     left:30px;
     top:-30px;
-    transition: all 500ms ease-in-out;
+    transition: all 500ms ease-out;
 }
 .work-process .work-blog:hover .icon .icon-stats-bars{
     color: #ffffff;
