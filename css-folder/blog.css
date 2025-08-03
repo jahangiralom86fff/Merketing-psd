@@ -439,48 +439,43 @@
     outline: none;
 }
 .blog .category{
-    margin-top:65px;
+    margin-top:50px;
     margin-bottom: 40px;
 }
+/*catagory area*/
 .blog .category h1{
     color:#ffffff;
     font-size:28px;
     font-weight: 600;
     text-transform: capitalize;
 }
-.blog .category-list ul{
-    padding: 0;
-    padding-top:40px;
-}
-.blog .category-list ul li{
-    list-style-type: none;
+.blog .category .category-item{
     width:100%;
-    height:41px;
-    margin-top:12px;
-    border-bottom: 1px solid #1a213b;
-}
-.blog .category-list ul li a{
+    height:48px;
+    border-bottom:1px solid #1a213b;
+    display: inline-block;
+    margin-top:15px;
+    margin-bottom: 10px;
     text-decoration: none;
-    color:#87888a;
     position: relative;
-    transition: all 400ms ease-in;
+    font-size: 18px;
+    font-weight: 600;
+    color:#919191;
+    transition: all 500ms ease;
 }
-.blog .category-list ul li a:hover{
+.blog .category .category-item:hover{
     color:#ff4934;
 }
-.blog .category-list ul li a::after{
-    content: "\f061";
-    font-family: "Font Awesome 5 Free";
+.blog .category .category-item .category-arrow{
     position: absolute;
-    top:-3px;
-    font-weight: 1000;
-    left:405px;
+    right:0px;
     color:#ffffff;
-    transition: all 400ms ease-in;
+    transition: all 500ms ease;
 }
-.blog .category-list ul li a:hover::after{
-    color:#ff4934; 
+.blog .category .category-item:hover .category-arrow{
+    color:#ff4934;
 }
+/*catagory area End*/
 .blog .Recent-news{
     padding-top:25px;
     padding-bottom: 40px;
@@ -490,6 +485,7 @@
     color:#ffffff;
     font-weight: 600;
     text-transform: capitalize;
+    text-decoration: none;
 }
 .blog .recent-single{
     width:100%;
@@ -509,6 +505,7 @@
     height:100px;
     width:100px;
     border-radius: 10px;
+    text-decoration: none;
 }
 .blog .Recent-sub-title .text p{
     font-size: 16px;
@@ -524,18 +521,28 @@
     background-color: #ff4934;
     position: absolute;
     left:128px;
-    top:33px
+    top:30px
 
     
 }
 .blog .recent-title {
-    padding-top:12px;
+    padding-top:8px;
+    text-decoration: none;
 }
-.blog .recent-title h1{
+.blog .recent-single .recent-titles {
+    text-decoration: none;
+    
+   
+}
+.blog .recent-single .recent-titles .single-text{
+    font-weight: bold;
     font-size: 20px;
     color:#ffffff;
-    font-weight: bold;
+    width:90%;
+    padding-top:7px;
+    
 }
+
 .blog .tags-area{
     margin-top:-25px;
     
