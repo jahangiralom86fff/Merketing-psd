@@ -286,12 +286,21 @@
     width:100%;
     height: 60px;
     border:1px solid #1a213b;
-    padding-left:25px;
+    padding-left:20px;
     border-radius: 8px;
     background-color: #020c33;
-    outline: none;
     color:#919191;
+    padding-top:10px;
+    outline: none;
+    
 }
+.contacts-area .contact-list form textarea::placeholder{
+    color:#919191;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+
 .contacts-area .contact-list form button{
     width:150px;
     height:50px;
@@ -514,12 +523,14 @@
     color:#ffffff;
     font-size: 18px;
     text-decoration: none;
+    line-height: 1;
     position: relative;
     
 }
 .fotter .icon-add ul li a .brands-icon{
    color: #ffffff;
    z-index: 44;
+   line-height: 1;
 }
 .fotter .icon-add ul li a::before{
     content: '';
