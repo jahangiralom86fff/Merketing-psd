@@ -935,7 +935,14 @@
 }
 /*digital btn area end*/
 
-
+.choose-us .choose-shape{
+    position: relative;
+}
+.choose-us .choose-shape img{
+    position: absolute;
+    top:47px;
+    right:-30px;
+}
 .choose-us .heading{
     width:200px;
     height:65px;
@@ -949,6 +956,7 @@
     color:#ffffff;
     font-size: 16px;
     font-family: "Roboto",sans-serif;
+    padding-top: 10px;
 }
 .choose-us .transprency{
     height: 400px;
@@ -1155,10 +1163,13 @@
     position: relative;
 }
 .testimonials .qote-box .quote{
+    content:'';
     position: absolute;
     top:24px;
     right:95px;
-    color: #18203e;
+    color:red;
+    background-color: green;
+    z-index: 4555;
     font-size:46px;
     font-weight: bold;
 }
