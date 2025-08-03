@@ -246,11 +246,11 @@
     width:90%;
     background-color: #ff4934;
     border-radius: 10px;
-    padding:15px 0px 0px 43px;
+    padding:17px 0px 0px 43px;
     color:#ffffff;
     font-size: 18px;
     text-decoration: none;
-    font-weight: 500;
+    font-weight: 600;
     transition: all 500ms ease;
     text-transform: capitalize;
 }
@@ -313,7 +313,8 @@
     border-radius: 50%;
     position: absolute;
     left:340px;
-    top:-30px;
+    top:-25px;
+    z-index: 5;
 }
 .banner .img img{
     z-index: 12545;
@@ -766,8 +767,9 @@
     text-decoration: none;
     color:#ffffff;
     font-size: 18px;
+    font-weight: 600;
     text-transform: capitalize;
-    padding-top:18px;
+    padding-top:16px;
     position: relative;
     overflow: hidden;
     display: inline-block;
