@@ -388,23 +388,30 @@
     align-items: center;
     font-weight: bold;
     font-size: 16px;
-    transition: all 400ms ease-in-out;
+    position: relative;
+    z-index: 455;
 }
-.blog .blog-number ul li a:hover{
+
+.blog .blog-number ul li a::after{
+    content: "";
+    position: absolute;
+    width:100%;
+    height: 100%;
+    background-color: #ff4934;
+    border-radius: 6px;
+    transition: all 400ms ease-in-out;
+    transform: scale(0,0.5);
+    font-weight: bold;
+    z-index: -1;
+}
+.blog .blog-number ul li a:hover::after{
+    transform: scale(1,1);
     background-color: #ff4934;
 }
-.blog .blog-number ul .arrow-right{
-    position: relative;
+.blog .blog-number ul a .arrow-right{
+    color:#000518;
 }
-.blog .blog-number ul .arrow-right::after{
-    position: absolute;
-    content:"\f061";
-    font-family: "Font Awesome 5 Free";
-    font-weight: 1000;
-    top:8px;
-    left:14px;
 
-}
 /*read more blog end*/
 /*blog-area End now*/
 
