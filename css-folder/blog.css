@@ -203,8 +203,9 @@
 .about-company{
     padding: 150px 0px;
     width: 100%;
-    background: #000825;
-    margin-top:0px;
+    background:url(../img-folder/about-page/about-background-img.png);
+    background-position: center;
+    margin-top:-3px;
 }
 .about-company .title {
     text-align: center;

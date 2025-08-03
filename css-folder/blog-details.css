@@ -203,8 +203,9 @@
 .about-company{
     padding: 150px 0px;
     width: 100%;
-    background: #000825;
-    margin-top:0px;
+    background:url(../img-folder/about-page/about-background-img.png);
+    background-position: center;
+    margin-top:-3px;
 }
 .about-company .title {
     text-align: center;
@@ -457,6 +458,7 @@
     width: 96%;
     font-weight: 500;
     padding-bottom: 30px;
+    font-family: "Roboto", sans-serif;
 }
 .blog .details-reomte{
     padding:40px 40px 30px 50px;
@@ -509,6 +511,7 @@
     text-transform: capitalize;
     font-weight: 500;
     width:92%;
+    font-family: "Roboto",sans-serif;
 }
 .blog .detail-tags{
     width:100%;
@@ -710,6 +713,7 @@
     font-weight: 500;
     color:#ffffff;
     width:90%;
+    font-family: "Roboto",sans-serif;
 
     
 }
@@ -740,6 +744,7 @@
     font-weight: 500;
     font-size: 16px;
     text-transform: capitalize;
+    font-family:"Roboto",sans-serif;
 }
 .blog .details-list{
     width: 100%;
@@ -949,6 +954,7 @@
     color:#b4b6be;
     font-size: 16px;
     text-transform: capitalize;
+    font-family:"Roboto",sans-serif;
 
 }
 .fotter .icon-add ul{

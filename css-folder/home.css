@@ -218,7 +218,7 @@
 }
 .banner .single-text .text{
     font-size:18px;
-    font-family: "Raboto" sans-serif;
+    font-family: "Roboto",sans-serif;
     color:#a8a8b3;
     width:90%;
 }
@@ -634,6 +634,7 @@
     text-align: center;
     margin-left:-160px;
     margin-top:30px;
+    font-family:"Roboto",sans-serif;
 }
 .service .single-text .text{
     color:#737375;
@@ -854,7 +855,6 @@
     text-decoration: none;
     color:#7b7b7b;
     font-size:16px;
-    font-family: "Roboto",sans-serif;
     position: relative;
 }
 .choose-us .service-item ul li a::before{
@@ -1209,7 +1209,7 @@
     border: 1px solid #ffffff;
     border-bottom: 2px solid #ffffff;
     border-radius: 20px;
-    font-size: 25px;
+    font-size: 30px;
     left:604px;
     top:60px;
   
@@ -1225,6 +1225,7 @@
     color:#ffffff;
     text-transform: capitalize;
     z-index: 455;
+    font-weight: 600;
 }
 
 /*fancybox section End now*/
@@ -1296,7 +1297,7 @@
 .counter .text p{
     font-size:18px;
     color:#ffffff;
-    font-family: "Roboto",sans-serif;
+    font-weight: 600;
     text-transform: capitalize;
 }
 
