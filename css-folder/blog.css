@@ -171,54 +171,57 @@
   
 }
 /*navbar btn area end now*/
+.navbar .navbar-middle .list-item .single-title{
+    position: relative;
 
-.navbar .navbar-right .contact ul li .btn:focus{
-    box-shadow: none;
-    border: none;
 }
-.navbar .single-title{
-    position:relative;
-}
-.navbar .single-title .list-item{
-    left:-46px;
-    top:50px;
+.navbar .navbar-middle .list-item .single-title .list-item{
     position: absolute;
-    padding: 20px 80px;
-    padding-left:15px;
-    background-color: #08154f;
+    left:-58px;
+    top:64px;
+    float: left;
+    width:200px;
+    height: 190px;
     border-radius: 10px;
-    visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#08154f;
     overflow: hidden;
-    animation-duration: 300ms;
-    transition: all 400ms ease-in-out;
-}
-.navbar .navbar-middle .list-item ul .icon-area::before{
-    content:none;
-}
-.navbar .navbar-middle .list-item ul .icon-area::after{
-    content:"\f061";
-    font-family: "Font Awesome 5 Free";
-    font-weight: 1000;
-    top:0px;
-    left:-65px;
-    position: absolute;
+    visibility: hidden;
     transition: all 400ms ease-in;
 }
-.navbar .navbar-middle .list-item ul .icon-area:hover::after{
-    left:-25px;
-    color:#ffffff;
-}
-.navbar .single-title:hover .list-item{
+.navbar .navbar-middle .list-item .single-title:hover .list-item{
     visibility: visible;
+
 }
-.navbar .single-title .list-item ul li{
-    position: relative;
-    margin:10px 0px;
-    transition: all 400ms ease;
+.navbar .navbar-middle .list-item .single-title .list-item .icon-area{
+   display: flex;
+   flex-direction: column;
+   margin-top: 12px;
+   transition: all 400ms ease-in;
 }
-.navbar .single-title .list-item ul li:hover{
-    transform: translateX(10px);
+
+.navbar .navbar-middle .list-item .single-title .list-item .icon-area:hover{
+    transform: translateX(20px);
 }
+.navbar .navbar-middle .list-item .single-title .list-item .icon-area::before{
+    position: absolute;
+    content: none;
+}
+.navbar .navbar-middle .list-item .single-title .list-item .icon-area::after{
+    position: absolute;
+    content: "\f061";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 1000;
+    left:-90px;
+    color:#ffffff;
+    transition: all 400ms ease-in;
+}
+.navbar .navbar-middle .list-item .single-title .list-item .icon-area:hover::after{
+    left:-25px;
+}
+
 /*navbar section End now*/
 
 

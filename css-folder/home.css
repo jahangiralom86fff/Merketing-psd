@@ -79,11 +79,12 @@
 .navbar .navbar-middle .list-item ul li a{
     text-decoration: none;
     font-size: 17px;
-    font-weight: 600;
     color:#ffffff;
     text-transform: capitalize;
     line-height: 1.5;
+    font-weight: 600;
 }
+
 .navbar .navbar-right .contact ul li{
     float:left;
 }
@@ -92,8 +93,8 @@
     text-decoration: none;
     color:#ffffff;
     z-index: 2155;
-    font-weight: 500;
     font-size:20px;
+    font-weight: 600;
 
 }
 .navbar .navbar-right .contact ul li .call{
@@ -170,32 +171,57 @@
   
 }
 /*navbar btn area end now*/
+.navbar .navbar-middle .list-item .single-title{
+    position: relative;
 
-.navbar .navbar-right .contact ul li .btn:focus{
-    box-shadow: none;
-    border: none;
 }
-.navbar .single-title{
-    position:relative;
-}
-.navbar .single-title .list-item{
-    left:-46px;
-    top:50px;
+.navbar .navbar-middle .list-item .single-title .list-item{
     position: absolute;
-    padding: 20px 80px;
-    padding-left:15px;
-    background-color: #000825;
+    left:-58px;
+    top:64px;
+    float: left;
+    width:200px;
+    height: 190px;
     border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#08154f;
+    overflow: hidden;
     visibility: hidden;
-    animation-duration: 300ms;
-    transition: all 400ms ease-in-out;
+    transition: all 400ms ease-in;
 }
-.navbar .single-title:hover .list-item{
+.navbar .navbar-middle .list-item .single-title:hover .list-item{
     visibility: visible;
+
 }
-.navbar .single-title .list-item ul li{
-    margin:10px 0px;
+.navbar .navbar-middle .list-item .single-title .list-item .icon-area{
+   display: flex;
+   flex-direction: column;
+   margin-top: 12px;
+   transition: all 400ms ease-in;
 }
+
+.navbar .navbar-middle .list-item .single-title .list-item .icon-area:hover{
+    transform: translateX(20px);
+}
+.navbar .navbar-middle .list-item .single-title .list-item .icon-area::before{
+    position: absolute;
+    content: none;
+}
+.navbar .navbar-middle .list-item .single-title .list-item .icon-area::after{
+    position: absolute;
+    content: "\f061";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 1000;
+    left:-90px;
+    color:#ffffff;
+    transition: all 400ms ease-in;
+}
+.navbar .navbar-middle .list-item .single-title .list-item .icon-area:hover::after{
+    left:-25px;
+}
+
 /*navbar section End now*/
 
 
