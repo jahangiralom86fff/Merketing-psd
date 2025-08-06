@@ -84,6 +84,7 @@
     line-height: 1.5;
     font-weight: 600;
 }
+
 .navbar .navbar-right .contact ul li{
     float:left;
 }
@@ -184,16 +185,34 @@
     position: absolute;
     padding: 20px 80px;
     padding-left:15px;
-    background-color: #000825;
+    background-color: #08154f;
     border-radius: 10px;
     visibility: hidden;
+    overflow: hidden;
     animation-duration: 300ms;
     transition: all 400ms ease-in-out;
+}
+.navbar .navbar-middle .list-item ul .icon-area::before{
+    content:none;
+}
+.navbar .navbar-middle .list-item ul .icon-area::after{
+    content:"\f061";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 1000;
+    top:0px;
+    left:-65px;
+    position: absolute;
+    transition: all 400ms ease-in;
+}
+.navbar .navbar-middle .list-item ul .icon-area:hover::after{
+    left:-25px;
+    color:#ffffff;
 }
 .navbar .single-title:hover .list-item{
     visibility: visible;
 }
 .navbar .single-title .list-item ul li{
+    position: relative;
     margin:10px 0px;
 }
 /*navbar section End now*/
@@ -713,7 +732,7 @@
     text-decoration: none;
     font-size: 28px;
     color:#ffffff;
-    font-family:"Roboto",sans-serif;
+    line-height: 1;
     font-weight: bolder;
     right:31px;
     top:-55px;
