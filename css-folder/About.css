@@ -413,7 +413,7 @@
 }
 .service .shape img{
     position:absolute;
-    top:-12px;
+    top:-20px;
     left:0px;
 }
 .service .title{
@@ -763,7 +763,7 @@
 
 .Experience .contacts-area .sub-contacts ul {
     float: left;
-    padding-left: 0;
+    padding-left: 5px;
 }
 .Experience .contacts-area .sub-contacts ul li{
     list-style-type: none;

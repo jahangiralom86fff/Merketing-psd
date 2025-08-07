@@ -317,8 +317,8 @@
 }
 .add-to-cart .cart-btn .btn-area{
     position: absolute;
-    width: 180px;
-    height: 60px;
+    width: 165px;
+    height: 58px;
     background-color: #ff4934;
     text-decoration: none;
     display: inline-block;
@@ -331,16 +331,42 @@
     text-transform: capitalize;
     color:#ffffff;
     font-weight: 600;
+    overflow: hidden;
+    transition: width 400ms ease-in-out;
 
+}
+.add-to-cart .cart-btn .btn-area:hover{
+    width:180px;
+}
+.add-to-cart .cart-btn .btn-area::after{
+    position: absolute;
+    content: '';
+    width:100%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: rgba(255,255,255,.2);
+    left:-180px;
+    transition: all 500ms ease-in;
+}
+.add-to-cart .cart-btn .btn-area:hover::after{
+    left:0px; 
 }
 .add-to-cart .cart-btn .btn-area::before{
     content: "\f061";
     position: absolute;
     font-family: "Font Awesome 5 Free";
     font-weight: 1000;
+    left:110px;
+    top:60px;
+    transform: rotate(0deg);
+    transition: all 400ms ease-in;
+}
+.add-to-cart .cart-btn .btn-area:hover::before{
+    top:16px;
     left:140px;
     transform: rotate(-40deg);
 }
+
 .add-to-cart .cart-btn input::placeholder{
     color:#484848;
     font-size: 16px;
@@ -401,24 +427,50 @@
     align-items: center;
 }
 .cart-count .count-btn a{
-    width:398px;
+    width:390px;
     height:60px;
     background-color: #ff4934;
     text-decoration: none;
     border-radius: 10px;
     color: #ffffff;
     font-weight: 600;
-    padding:18px 0px 0px 25px;
+    padding:19px 0px 0px 25px;
+    overflow: hidden;
     position: relative;
+    
+}
+.cart-count .count-btn a::before{
+    position: absolute;
+    content:'';
+    top:0px;
+    left:-390px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255,255,255,.2);
+    border-radius: 10px;
+    transition: all 500ms ease-in-out;
+}
+.cart-count .count-btn a:hover::before{
+       left:0px;
 }
 .cart-count .count-btn a::after{
     content: "\f061";
     position: absolute;
     font-family: "Font Awesome 5 Free";
     font-weight: 1000;
-    right:32px;
-    transform: rotate(-40deg);
+    right:80px;
+    top:60px;
+    transform: rotate(0deg);
+    transition: all 500ms ease-in-out;
 }
+
+.cart-count .count-btn a:hover::after{
+    right:32px;
+    top:19px;
+    transform: rotate(-42deg);
+   
+}
+
 /*cart-count section End now*/
 
 /*products section start now*/
@@ -451,13 +503,20 @@
     padding-top:40px;
 }
 .products .content h2{
-    color:#101210;
+    color:#313331;
     font-size: 20px;
     font-weight: 500;
     text-align: center;
     text-transform: capitalize;
     
 
+}
+.products .content .text{
+    color:#101210;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: capitalize;
 }
 .products .content .sub-title{
     position: relative;

@@ -638,7 +638,7 @@
 }
 .service .shape img{
     position:absolute;
-    top:-12px;
+    top:-20px;
     left:0px;
 }
 
@@ -1612,6 +1612,7 @@
     font-size:16px;
     color:#818692;
     text-transform: capitalize;
+    font-family: "Roboto",sans-serif;
 }
 .subscribe .btn .button{
     width:100%;
@@ -1698,6 +1699,7 @@
     font-weight: bold;
 }
 .fotter .sub-text p{
+    font-family: "Roboto",sans-serif;
     color:#b4b6be;
     font-size: 16px;
     text-transform: capitalize;
