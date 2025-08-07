@@ -395,6 +395,8 @@
 /*service section start now*/
 .service{
     padding: 100px 0px;
+    width: 100%;
+    height: auto;
     background: linear-gradient(to left, #000825 0%, #04103e 100%);
 }
 .service .shape{
@@ -414,26 +416,27 @@
     top:-12px;
     left:0px;
 }
-
+.service .title{
+    text-align: center;
+    width: 100%;
+}
 .service .title h1{
     font-size:38px;
     color:#ffffff;
     text-align: center;
-    width:88%;
+    
 }
 .service .title h2{
     font-size:38px;
     color:#ffffff;
     text-align: center;
-    width:88%;
 }
 .service .single-text p{
     color:#737375;
     font-size:16px;
     text-align: center;
-    margin-left:-160px;
-    margin-top:30px;
-    font-family: "Roboto Condensed", sans-serif;
+    margin-top:20px;
+    font-family: "Roboto", sans-serif;
 }
 .service .single-text .text{
     color:#737375;
