@@ -738,6 +738,7 @@
 .service .service-single:hover .title-text{
     color:#ffffff;
 }
+/*service btn*/
 .service .service-single .service-btn{
     position: relative;
     display: flex;
@@ -745,34 +746,69 @@
     align-items: center;
     transition: all 300ms ease-in-out;
 }
-.service .service-single .service-btn::before{
-    position: absolute;
-    content:"\f061";
-    font-weight:1000;
-    font-family: "Font Awesome 5 Free";
-    color:blue;
-    z-index: 45455;
-    font-size: 18px;
-    font-weight: bold;
-    top:40px;
-    left:256px;
-    transform: rotate(-40deg);
-    color:#ffffff;
-}
+
 .service .service-single:hover .service-btn::before{
     color:#ff4934;
 }
 .service .service-single .more-btn{
     position: absolute;
     top:28px;
-    padding:15px 38px;
+    width:160px;
+    height:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #ff4934;
     border-radius: 8px;
     color:#ffffff;
     text-decoration: none;
     font-size:18px;
     text-transform: capitalize;
+    overflow: hidden;
     transition: all 300ms ease-in-out;
+
+}
+.service .service-single .more-btn::before{
+    content:'';
+    width:100%;
+    height: 100%;
+    background-color: rgba(255,255,255,.2);
+    border-radius: 8px;
+    position: absolute;
+    top:0px;
+    left:-170px;
+    transition: all 500ms ease-in-out;
+
+
+}
+.service .service-single .more-btn:hover::before{
+    top:0px;
+    left:0px;
+}
+.service .service-single .more-btn::after{
+    position: absolute;
+    content: "\f061";
+    font-family: "Font Awesome 5 Free";
+    right:30px;
+    top:68px;
+    color: white;
+    font-weight: 1000;
+    transform: rotate(0deg);
+}
+.service .service-single .more-btn:hover::after{
+    position: absolute;
+    content: "\f061";
+    font-family: "Font Awesome 5 Free";
+    right:15px;
+    top:9px;
+    color: #ff4934;
+    font-weight: 1000;
+    transform: rotate(-42deg);
+    transition: all 500ms ease-in-out;
+}
+
+.service .service-single .more-btn:hover{
+    width: 175px;
 }
 .service .service-single:hover .more-btn{
     color: #ff4934;
