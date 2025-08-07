@@ -278,6 +278,7 @@
     border-bottom: 1px solid #333951;
     padding-bottom:30px;
     font-size: 24px;
+    font-family:"Roboto",sans-serif;
     color:#ffffff;
     
 }
@@ -287,6 +288,7 @@
     border-bottom: 1px solid #333951;
     font-weight: 500;
     font-size: 24px;
+    font-family:"Roboto",sans-serif;
     color:#ffffff;
 }
 .add-to-cart table tbody tr td img{
@@ -332,6 +334,7 @@
     color:#ffffff;
     font-weight: 600;
     overflow: hidden;
+    font-family: "Roboto", sans-serif;
     transition: width 400ms ease-in-out;
 
 }
@@ -635,6 +638,7 @@
     text-transform: capitalize;
 }
 .subscribe .title .text{
+    font-family: "Roboto",sans-serif;
     font-size:16px;
     color:#818692;
     text-transform: capitalize;
@@ -679,19 +683,24 @@
     content:"\f061";
     font-family: "Font Awesome 5 Free";
     color:#ffffff;
-    left:90%;
-    top:-43px;
+    right:11%;
+    top:-45px;
 
 }
 .subscribe .subscribe-btn a{
     position:absolute;
-    left:430px;
+    right:55px;
     top:-65px;
-    padding: 19.5px 55px;
+    width:150px;
+    height:65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #e94231;
     color:#ffffff;
     text-decoration: none;
     font-size:18px;
+    font-weight: 600;
     border-radius:8px 8px 5px 5px;
 }
 /*subscribe section End now*/
@@ -726,6 +735,7 @@
 .fotter .sub-text p{
     color:#b4b6be;
     font-size: 16px;
+    font-family:"Roboto",sans-serif;
     text-transform: capitalize;
 
 }
@@ -749,6 +759,7 @@
     border-radius: 50%;
     color:#ffffff;
     font-size: 18px;
+    line-height: 1;
     text-decoration: none;
     position: relative;
     

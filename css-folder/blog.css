@@ -614,6 +614,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    font-weight: 600;
+    z-index: 222;
     position:relative;
     
 }
@@ -625,6 +627,8 @@
     border-radius: 8px;
     background-color: #ff4934;
     color:#ffffff;
+    z-index: -1;
+  
     transform: scale(0,1);
     transition: all 500ms ease-in-out;
 }
@@ -632,12 +636,7 @@
     transform: scale(1,1);
     
 }
-.blog .tags-area ul li .zed{
-    z-index: 45;
-    color:#ffffff;
-    text-transform: capitalize;
-    font-weight: 600;
-}
+
 .blog .img-box img{
     height:499px;
     width:377px;
@@ -698,7 +697,7 @@
     box-shadow: none;
 }
 .subscribe .button form .button-style::placeholder{
-    color:#dddddd;
+    color:#d7d7d7;
     font-size: 16px;
 
 }
@@ -711,19 +710,24 @@
     content:"\f061";
     font-family: "Font Awesome 5 Free";
     color:#ffffff;
-    left:90%;
-    top:-43px;
+    right:11%;
+    top:-45px;
 
 }
 .subscribe .subscribe-btn a{
     position:absolute;
-    left:430px;
+    right:55px;
     top:-65px;
-    padding: 19.5px 55px;
+    width:150px;
+    height:65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #e94231;
     color:#ffffff;
     text-decoration: none;
     font-size:18px;
+    font-weight: 600;
     border-radius:8px 8px 5px 5px;
 }
 /*subscribe section End now*/

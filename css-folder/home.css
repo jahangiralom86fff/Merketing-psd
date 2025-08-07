@@ -1654,15 +1654,20 @@
     content:"\f061";
     font-family: "Font Awesome 5 Free";
     color:#ffffff;
-    left:90%;
-    top:-43px;
+    right:11%;
+    top:-45px;
 
 }
 .subscribe .subscribe-btn a{
     position:absolute;
     left:430px;
     top:-65px;
-    padding: 19.5px 55px;
+    width:150px;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
     background-color: #e94231;
     color:#ffffff;
     text-decoration: none;
@@ -1725,6 +1730,7 @@
     border-radius: 50%;
     color:#ffffff;
     font-size: 18px;
+    line-height: 1;
     text-decoration: none;
     position: relative;
     

@@ -380,6 +380,9 @@
     align-items: center;
     border-radius: 50%;
 }
+.soical-contacts .social-sub .contatcs-title a .whatsapp-icon{
+    font-size: 30px;
+}
 .soical-contacts .social-sub .contatcs-ares{
     width: 60%;
     float: left;
@@ -432,6 +435,7 @@
     text-transform: capitalize;
 }
 .subscribe .title .text{
+    font-family:"Roboto",sans-serif;
     font-size:16px;
     color:#818692;
     text-transform: capitalize;
@@ -476,19 +480,24 @@
     content:"\f061";
     font-family: "Font Awesome 5 Free";
     color:#ffffff;
-    left:90%;
-    top:-43px;
+    right:11%;
+    top:-45px;
 
 }
 .subscribe .subscribe-btn a{
     position:absolute;
-    left:430px;
+    right:55px;
     top:-65px;
-    padding: 19.5px 55px;
+    width:150px;
+    height:65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #e94231;
     color:#ffffff;
     text-decoration: none;
     font-size:18px;
+    font-weight: 600;
     border-radius:8px 8px 5px 5px;
 }
 /*subscribe section End now*/
