@@ -1089,7 +1089,7 @@ blog .achive-date .sub-achivess .text{
     font-size: 16px;
     color:#b4b6be;
     text-transform: capitalize;
-    font-family: "Roboto"sans-serif;
+    font-family: "Roboto",sans-serif;
     position: relative;
     transition: all 200ms ease-in;
 }
