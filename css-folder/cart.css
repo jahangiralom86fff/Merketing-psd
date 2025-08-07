@@ -364,7 +364,7 @@
 .add-to-cart .cart-btn .btn-area:hover::before{
     top:16px;
     left:140px;
-    transform: rotate(-40deg);
+    transform: rotate(-43deg);
 }
 
 .add-to-cart .cart-btn input::placeholder{
@@ -426,8 +426,9 @@
     justify-content: center;
     align-items: center;
 }
+
 .cart-count .count-btn a{
-    width:390px;
+    width:380px;
     height:60px;
     background-color: #ff4934;
     text-decoration: none;
@@ -437,7 +438,11 @@
     padding:19px 0px 0px 25px;
     overflow: hidden;
     position: relative;
+    transition: width 400ms ease-in-out;
     
+}
+.cart-count .count-btn a:hover{
+    width:390px;
 }
 .cart-count .count-btn a::before{
     position: absolute;
