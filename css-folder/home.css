@@ -636,7 +636,7 @@
     left: 89%;
     top:31px;
 }
-.service .shape img{
+.service .shape .shape-parallax{
     position:absolute;
     top:-20px;
     left:0px;
@@ -646,19 +646,17 @@
     font-size:38px;
     color:#ffffff;
     text-align: center;
-    width:88%;
+   
 }
 .service .title h2{
     font-size:38px;
     color:#ffffff;
     text-align: center;
-    width:88%;
 }
 .service .single-text p{
     color:#737375;
     font-size:16px;
     text-align: center;
-    margin-left:-160px;
     margin-top:30px;
     font-family:"Roboto",sans-serif;
 }
