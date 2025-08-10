@@ -319,6 +319,7 @@
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    
    
 }
    
@@ -348,7 +349,7 @@
     position: absolute;
     top:0px;
     border-radius: 10px;
-    left:-250px;
+    left:-230px;
     transition: all 500ms ease-in;
 }
 .Digital-merketing .digital-btn .more-btn:hover::after{
@@ -360,9 +361,9 @@
 }
 .Digital-merketing .digital-btn .more-btn .right-arrow{
     position: absolute;
-    top:70px;
-    left:110px;
-    right:-20px;
+    top:63px;
+    left:115px;
+    right:50px;
     transform: rotate(0deg);
     transition: all 500ms ease-in-out;
 }
@@ -743,77 +744,89 @@
     height:auto;
     border-radius: 105px;
 }
-.Experience .contacts-area{
-    position:relative;
-}
-.Experience .contacts-area .sub-contacts{
-    top:-250px;
-    right:33px;
-    position: absolute;
-    height: 175px;
-    width:56px;
-    border-radius: 30px;
-    background-color: #ffffff;
-    padding-top: 25px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-
-.Experience .contacts-area .sub-contacts ul {
-    float: left;
-    padding-left: 5px;
-}
-.Experience .contacts-area .sub-contacts ul li{
-    list-style-type: none;
-    margin:16px 0px;
-    
-}
-.Experience .contacts-area .sub-contacts ul li a{
-    text-decoration: none;
-    color:#ff4934;
-    font-size: 16px;
-}
-.Experience .single-plus {
-    position: relative;
-}
-.Experience .single-plus .plus-item{
-    position:absolute;
-    width:60px;
-    height:60px;
+.Experience .link-area .plus-icon{
+    width:71px;
+    height: 71px;
     background-color: #ff4934;
     border-radius: 50%;
+    font-weight:bold;
+    font-size: 36px;
+    margin-left: 198px;
+    margin-top:-60px;
+    position: relative;
+    z-index: 44555;
+    color:#ffffff;
+    text-decoration: none;
+}
+
+.Experience .link-area .plus-icon .plus{
+    width:100%;
+    height: 100%;
+    border-radius: 50%;
+    position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
-    text-decoration: none;
-    font-size: 28px;
-    color:#ffffff;
     line-height: 1;
-    font-weight: bolder;
-    right:31px;
-    top:-55px;
+    cursor: pointer;
+   
+}
+.Experience .link-area .plus-icon .link-item{
+    position: absolute;
+    top:-190px;
+    left:8px;
+    width:55px;
+    height:170px;
+    background-color: #ffffff;
+    border-radius: 25px;
+    visibility: hidden;
+    z-index: 45885;
+    transition: all 500ms ease-in;
+}
+.Experience .link-area .plus-icon:hover .link-item{
+    visibility: visible;
+}
+.Experience .link-area .plus-icon .link-item ul{
+    padding-left: 0px;
+    padding-top:18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.Experience .link-area .plus-icon .link-item ul li{
+    list-style-type: none;
+    margin:-6px 0px; 
+    
+}
+.Experience .link-area .plus-icon .link-item ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    color:#ff4934;
+  
+}
+.Experience .text{
+    text-align: center;
+    padding-top:20px;
+}
+.Experience .text h5{
+    text-align: center;
+    color:#ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
 
 }
+.Experience .text h6{
+    text-align: center;
+    color:#ff4934;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-family:"Roboto",sans-serif;
+}
 
-.Experience .title-text .single-text{
-    font-size: 20px;
-    color: #ffffff;
-    text-transform: capitalize;
-    text-align: center;
-    margin-top: 25px;
-    font-weight: 400;
-}
-.Experience .title-text .sub-text{
-    font-size: 20px;
-    color: #ff4934;
-    text-transform: capitalize;
-    text-align: center;
-    margin-top:-9px;
-    font-weight: 400;
-}
 /*Experience End*/
 
 
