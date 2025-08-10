@@ -9,3 +9,5 @@ function parallax(e){
         move .style.transform = "translateX("+ x +"px) translateY("+ y +"px)";
     });
 }
+
+
