@@ -224,7 +224,6 @@
 
 /*navbar section End now*/
 
-
 /*about company section start now*/
 .about-company{
     padding: 150px 0px;
@@ -512,7 +511,7 @@
 }
 /*catagory area End*/
 .blog .Recent-news{
-    padding-top:25px;
+    padding-top:0px;
     padding-bottom: 40px;
 }
 .blog .Recent-news h1{
@@ -524,7 +523,8 @@
 }
 .blog .recent-single{
     width:100%;
-    margin-top: 50px;
+    margin-top:30px;
+    
 
 }
 .blog .recent-single .Recent-sub{
@@ -536,6 +536,7 @@
 .blog .recent-single .Recent-sub .Recent-sub-title{
     width:70%;
     float: left;
+  
 }
 .blog .recent-single .Recent-sub img{
     height:100px;
@@ -545,7 +546,7 @@
 }
 .blog .Recent-sub-title .text{
     display: inline-block;
-   
+  
 }
 .blog .Recent-sub-title .text p{
     font-size: 16px;
@@ -671,6 +672,7 @@
     text-transform: capitalize;
 }
 .subscribe .title .text{
+    font-family:"Roboto",sans-serif;
     font-size:16px;
     color:#818692;
     text-transform: capitalize;
