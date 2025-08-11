@@ -34,9 +34,9 @@
     text-decoration: none;
     position: relative;
 }
-.navbar .navbar-side .img-box  .text{
+.navbar .navbar-side .img-box .text{
     font-size:30px;
-    font-weight: 400;
+    font-weight: 600;
     text-decoration: none;
     color:#ffffff;
     position: absolute;
@@ -230,6 +230,7 @@
     width: 100%;
     background:url(../img-folder/about-page/about-background-img.png);
     background-position: center;
+    overflow: hidden;
     margin-top:-3px;
 }
 .about-company .title {

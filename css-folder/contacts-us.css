@@ -34,9 +34,9 @@
     text-decoration: none;
     position: relative;
 }
-.navbar .navbar-side .img-box  .text{
+.navbar .navbar-side .img-box .text{
     font-size:30px;
-    font-weight: 400;
+    font-weight: 600;
     text-decoration: none;
     color:#ffffff;
     position: absolute;
@@ -117,7 +117,7 @@
     margin-left:30px;
     margin-top:-12px;
     color:#ffffff;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 18px;
     text-transform: capitalize;
     overflow: hidden;
@@ -230,6 +230,7 @@
     width: 100%;
     background:url(../img-folder/about-page/about-background-img.png);
     background-position: center;
+    overflow: hidden;
     margin-top:-3px;
 }
 .about-company .title {
@@ -533,7 +534,7 @@
     text-decoration: none;
     font-size:18px;
     font-weight: 600;
-    border-radius:8px 8px 5px 5px;
+    border-radius:8px 8px 5px 8px;
 }
 /*subscribe section End now*/
 
