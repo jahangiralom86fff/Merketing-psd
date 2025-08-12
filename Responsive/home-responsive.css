@@ -1,36 +1,4 @@
 @media only screen and (min-width:480px) and (max-width:767px){
     
-    .navbar .navbar-side .img-box  .text{
-        font-size:20px;
-        font-weight: 400;
-        text-decoration: none;
-        color:#ffffff;
-        position: absolute;
-        top:-10px;
-        left:40px;
-    }
-    .navbar .navbar-middle .list-item ul li{
-        margin: 0px 4px;
-        
    
-    }
-    .navbar .navbar-middle .list-item ul li a{
-        font-size: 12px;
-       
-    }
-    .navbar .navbar-side{
-        float: left;
-        width:4%;
-
-    }
-    .navbar .navbar-middle{
-        float: left;
-        width:60%;
-
-        
-    }
-    .navbar .navbar-right{
-        float: left;
-        width:20%;
-    }
 }

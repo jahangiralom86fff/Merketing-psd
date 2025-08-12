@@ -890,34 +890,53 @@
     font-size: 16px;
 
 }
-.subscribe .subscribe-btn{
-    position:relative;
-}
-.subscribe .subscribe-btn::after{
-    position: absolute;
-    font-weight: 900;
-    content:"\f061";
-    font-family: "Font Awesome 5 Free";
-    color:#ffffff;
-    right:11%;
-    top:-45px;
 
+.subscribe .button{
+    position: relative;
 }
-.subscribe .subscribe-btn a{
-    position:absolute;
-    right:55px;
-    top:-65px;
+.subscribe form .submit-btn{
+    position: absolute;
+    top:0px;
+    left:245px;
     width:150px;
-    height:65px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #e94231;
-    color:#ffffff;
-    text-decoration: none;
-    font-size:18px;
+    font-size: 18px;
     font-weight: 600;
-    border-radius:8px 8px 5px 8px;
+    color:#ffffff;
+    border-radius: 0px 10px 10px 0px;
+    height:65px;
+    border: none;
+    background-color: #ff4934;
+    overflow: hidden;
+    
+}
+.subscribe form .submit-btn::after{
+    position: absolute;
+    content: '';
+    width:100%;
+    height: 100%;
+    background-color: rgba(255,255,255,.2);
+    top:0px;
+    left: -150px;
+    border-radius: 0px 10px 10px 0px;
+    transition: all 400ms ease-in;
+}
+.subscribe form .submit-btn:hover:after{
+    left: 0px;
+}
+
+.subscribe form .submit-btn::before{
+    position: absolute;
+    content: "\f061";
+    font-weight: 1000;
+    font-family: "Font Awesome 5 Free";
+    top:60px;
+    right:30px;
+    color:#ffffff;
+    transition: all 500ms ease;
+}
+.subscribe form .submit-btn:hover::before{
+    right:13px;
+    top:18px;
 }
 /*subscribe section End now*/
 
@@ -1113,4 +1132,3 @@
     color:#818592;
 }
 /*company log end*/
-

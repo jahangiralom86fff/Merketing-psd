@@ -1,0 +1,109 @@
+@media only screen and (min-width:480px) and (max-width:767px){
+    .navbar{
+        width:100%;
+        padding: 20px 0px;
+    }
+    .navbar .navbar-side .img-box img{
+        width:25px;
+        height:30px;
+        margin-top:4px;
+    }
+    .navbar .navbar-side .img-box  .text{
+        font-size:16px;
+        top:-5px;
+        left:40px;
+    
+    }
+    .navbar .navbar-side{
+        float: left;
+        width:10%;
+
+    }
+    .navbar .navbar-middle{
+        float: left;
+        width:55%;
+
+        
+    }
+    .navbar .navbar-right{
+        float: left;
+        margin-left: -20px;
+        width:35%;
+    }
+    .navbar .navbar-middle .list-item ul li{
+        margin: 0px 5px;
+   
+    }
+
+    .navbar .navbar-middle .list-item ul li a{
+        font-size: 12px;
+        line-height: 1;
+        font-weight: 500;
+        width:30%;
+    }
+    
+    .navbar .navbar-middle .list-item ul li::before {
+        content: none;
+       
+    }
+    .navbar .navbar-right .contact ul li .call{
+        width:15px;
+        height: 15px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        float: left;
+        font-size:12px;
+    }
+    .navbar .navbar-right .contact ul{
+        padding-left: 10px;
+    }
+    .navbar .navbar-right .contact ul li a{
+        font-size:12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 500;
+        float: left;
+
+    }
+    .navbar .navbar-right .contact ul li .btn {
+        width: 100px;
+        height: 30px;
+        margin-left: 50px;
+        margin-top: 10px;
+        font-size: 12px;
+        border-radius: 5px;
+        padding-top:6px;
+        display: flex;
+        justify-content: center;
+        overflow: hidden;
+        align-items: center;
+    }
+    .navbar .navbar-right .contact ul li .btn:hover{
+        width: 110px;
+    }
+    .navbar .navbar-right .contact ul li .btn::after{
+        position: absolute;
+        right:60px;
+    }
+    .navbar .navbar-right .contact ul li .btn::before{
+        left:20px;
+        top:35px;
+    }
+    .navbar .navbar-right .contact ul li .btn:hover::before{
+        position: absolute;
+        font-family: "Font Awesome 5 Free";
+        content: "\f061";
+        font-weight: 900;
+        color:#585b68;
+        left:85px;
+        top:6px;
+        color:#ffffff;
+        transform: rotate(-45deg);
+    
+
+    }
+   
+}
