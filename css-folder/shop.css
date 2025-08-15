@@ -515,8 +515,228 @@
     color:#ff4934;
 }
 /*catagory area End*/
+.shop-blog .products-title h2{
+    font-size: 20px;
+    color:#ffffff;
+    text-transform: capitalize;
+    font-weight: 600;
+    padding-bottom:0px;
+
+}
 
 
+/*product fillter plugin*/
+
+/* Container styles */
+
+/* range slider container */
+.range-slider {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 40px 0;
+}
+
+/* Slider track (the base line) */
+.slider-track {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 8px;
+    background: #e0e0e0;
+    transform: translateY(-50%);
+    border-radius: 4px;
+}
+
+/* Colored range bar (between handles) */
+.slider-range {
+    position: absolute;
+    top: 50%;
+    height: 8px;
+    background:#ff4934;
+    transform: translateY(-50%);
+    border-radius: 4px;
+}
+
+/* Slider handles */
+.shop-blog .slider-handle {
+    position: absolute;
+    top: 50%;
+    width: 24px;
+    height: 24px;
+    background: red;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    cursor: pointer;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    touch-action: none;
+    z-index: 2;
+}
+
+/* Input fields styling */
+.shop-blog .inputs {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.shop-blog .input-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.shop-blog .input-group label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+.shop-blog .input-group{
+    position: relative;
+}
+
+.shop-blog  .input-group input {
+    width: 120px;
+    padding:8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    border:none;
+    outline: none;
+    background-color: transparent;
+    color:#ffffff;
+    font-size: 16px;
+    font-family: "Roboto",sans-serif;
+    font-weight: 500;
+    margin-left: -100px;
+
+}
+.shop-blog  .input-group .product-input{
+    position: absolute;
+    top:0px;
+    left:90px;
+    width:90px;
+    height: 36px;
+    background-color: #ff4934;
+    text-align: center;
+       
+        
+}
+.shop-blog  .input-group .product-input::placeholder{
+    color:#ffffff !important;
+}
+
+/*product fillter plugin end*/
+
+.shop-blog .revies-title{
+    padding-top:50px;
+}
+.shop-blog .revies-title h2{
+    font-family: "Roboto",sans-serif;
+    color:#ffffff;
+    font-weight: 600;
+    text-transform: capitalize;
+    border-bottom:1px solid #1a213b;
+    padding-bottom: 20px;
+}
+.shop-blog .recent-img {
+    padding-top:40px;
+}
+.shop-blog .recent-img img{
+    width:50px;
+    height: 50px;
+}
+.shop-blog .text {
+    padding-top:40px;
+}
+.shop-blog .text h6{
+    color:#ffffff;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-family: "Roboto",sans-serif;
+
+}
+.shop-blog .product-icon ul{
+    padding-left:0;
+    margin-top:-8px;
+}
+.shop-blog .product-icon ul li{
+    list-style-type: none;
+    float: left;
+    margin:0px 3px;
+  
+}
+.shop-blog .product-icon ul li a{
+    color:#ff4934;
+    font-size: 16px;
+    text-decoration: none;
+}
+.shop-blog .demo-text p{
+    font-size: 14px;
+    color:#ff4934;
+    font-family: "Roboto",sans-serif;
+    text-transform: capitalize;
+
+}
+
+
+.shop-blog .tags-area{
+    margin-top:30px;
+    
+}
+.shop-blog .tags-area h3{
+    font-size: 28px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color:#ffffff;
+}
+.shop-blog .tags-area ul{
+    padding:0px;
+    padding-top:25px;
+    margin-left: -8px;
+}
+.shop-blog .tags-area ul li{
+    list-style-type: none;
+    float: left;
+    margin:12px 10px;
+}
+.shop-blog .tags-area ul li a{
+    text-decoration: none;
+    color:#ffffff;
+    font-size:16px;
+    font-family: "Roboto",sans-serif;
+    padding:12px 16px;
+    border:1px solid #4d5367;
+    border-radius: 8px;
+    display: inline-block;
+    display: flex;
+    text-transform: capitalize;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    z-index: 222;
+    position:relative;
+    
+}
+.shop-blog .tags-area ul li a::after{
+    content:'';
+    position:absolute;
+    width:100%;
+    height:100%;
+    border-radius: 8px;
+    background-color: #ff4934;
+    color:#ffffff;
+    z-index: -1;
+  
+    transform: scale(0,1);
+    transition: all 500ms ease-in-out;
+}
+.shop-blog .tags-area ul li a:hover::after{
+    transform: scale(1,1);
+    
+}
 /*shop blog End now*/
 
 
