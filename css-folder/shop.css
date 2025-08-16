@@ -633,6 +633,11 @@
 .shop-blog .revies-title{
     padding-top:50px;
 }
+.shop-blog .shop-rivew{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .shop-blog .revies-title h2{
     font-family: "Roboto",sans-serif;
     color:#ffffff;
@@ -643,6 +648,9 @@
 }
 .shop-blog .recent-img {
     padding-top:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .shop-blog .recent-img img{
     width:50px;
