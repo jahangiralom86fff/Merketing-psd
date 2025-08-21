@@ -31,51 +31,39 @@
 
         <!--Responsive and css file-->
         <link rel="stylesheet" type="text/css" href="css-folder/shop.css">
+        <link rel="stylesheet" type="text/css" href="Responsive/shop-responsive.css">
         <!--Res End-->
 
     </head>
     <body>
         <!--navbar section start now-->
-        <section class="navbar">
-            <div class="container">
-                <div class="navbar-side">
-                    <a href="#" class="img-box">
-                        <img src="img-folder/home/marketing-home.png" alt="img-box">
-                        <span class="text">Toko</span>
-                    </a>
-                </div>
-                <div class="navbar-middle">
-                    <div class="list-item">
-                        <ul>
-                            <li class="icon-not"><a href="marketing-home.html">home</a></li>
-                            <li class="single-title">
-                                <a href="#">page</a>
-                                <div class="list-item">
-                                    <ul>
-                                        <li class="icon-area"><a href="About.html">About</a></li>
-                                        <li class="icon-area"><a href="cart.html">cart</a></li>
-                                        <li class="icon-area"><a href="blog-details.html">Blog details</a></li>
-                                        <li class="icon-area"><a href="marketing-home.html">back home</a></li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li class="icon-not"><a href="serivce.html">services</a></li>
-                            <li class="icon-not"><a href="#">shop</a></li>
-                            <li><a href="blog.html">bolg</a></li>
-                            <li class="icon-not"><a href="contact-us.html">contact us</a></li>
-                        </ul>
-                    </div>  
-                </div>
-                <div class="navbar-right">
-                    <div class="contact">
-                        <ul>
-                            <li><a href="#"><span class="call"><i class="fa-solid fa-phone"></i></span>+000 (123) 456 88</a></li>
-                            <li><a href="#"><span class="btn">let s talk</span></a></li>
-                        </ul>
-                    </div>
+        <div class="topnav" id="myTopnav">
+            <a href="#home" class="active">Home</a>
+            <div class="imgbox">
+                <img src="img-folder/home/marketing-home.png" alt="shape">
+                <span class="toko-text">Toko</span>
+            </div>
+            <div id="dropdown-navbar" class="dropdown-navbar">
+                <button class="dropbtn">Pages 
+                <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="About.html">About</a>
+                    <a href="blog-details.html">Blog Details</a>
+                    <a href="cart.html">Cart</a>
+                    <a href="marketing-home.html">Home</a>
                 </div>
             </div>
-        </section>
+            <a href="serivce.html">Sevices</a>
+            <a href="shop.html">Shop</a>
+            <a href="blog.html">Blog</a>
+            <a href="contact-us.html">contact us</a>
+            <div class="btn-area">
+                <a href="#" class="call-us"><span class="call-btns"><i class="fa-solid fa-phone"></i></span>+000 (123) 456 88</a>
+                <a href="#" class="talks-btn">Let’s Talk</a>
+            </div>
+            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+        </div>
         <!--navbar section End now-->
 
         <!--about company section-->
