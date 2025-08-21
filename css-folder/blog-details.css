@@ -377,8 +377,8 @@
     float: left;
 }
 .blog .recent-single .Recent-sub img{
-    height:100px;
-    width:100px;
+    height:auto;
+    width:auto;
     border-radius: 10px;
 }
 .blog .Recent-sub-title .text{
@@ -472,8 +472,8 @@
     font-weight: 600;
 }
 .blog .img-box img{
-    height:499px;
-    width:377px;
+    height:auto;
+    width:auto;
     border-radius: 10px;
     padding-top:30px;
 
@@ -482,8 +482,8 @@
 
 /*blog details section start now*/
 .blog .img-area img{
-    width: 93%;
-    height:544px;
+    width:auto;
+    height:auto;
     border-radius: 10px;
 
 }
