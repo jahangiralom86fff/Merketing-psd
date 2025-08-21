@@ -278,8 +278,8 @@
     margin-bottom: 41px;
 }
 .blog .img-area img{
-    width:98%;
-    height:550px;
+    width:auto;
+    height:auto;
     object-fit: cover;
     border-radius: 10px;
     text-decoration: none;
