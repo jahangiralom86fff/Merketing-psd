@@ -603,6 +603,7 @@
 /*navbar Responsive navbar*/
 
 /*shape responsive area*/
+
 @media only screen and (min-width:350px) and (max-width:600px){
    .about-company .shape img {
         position: absolute;
@@ -644,7 +645,157 @@
         width:30%;
         float: left;
     }
+    .products .products-title h2{
+        font-size: 38px;
+    }
+    .products #produts{
+        margin-top: 40px;
+    }
+
+    /*subscribe area now*/
+    .subscribe .title h3{
+        font-size: 35px;
+        text-align: center;
+    }
+    .subscribe .title .text{
+        font-size: 12px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+    .subscribe .button{
+        margin-top: 46px;
+        margin-left: 20px;
+    }
+
+    .subscribe .button form .button-style {
+        width: 148px;
+        height: 65px;
+    }
+    
+    .subscribe .button{
+        position: relative;
+    }
+    .subscribe form .submit-btn{
+        left:145px;
+        overflow: none;
+        
+    }
+    
+    /*subscribe area End now*/
+
+    /*fotter section start now*/
+    .fotter .sub-text p{
+        font-size: 14px;
+        padding-left: 30px;
+    }
+    .fotter .side-bar ul li a .text{
+        margin-left: -22px;
+    }
+    .fotter .icon-add ul{
+        margin-left: 15px;
+    }
+    .fotter .icon-add ul li{
+        margin:10px 10px;
+    }
+    .fotter .text h1{
+       margin-left: 27px;  
+    }
+    .fotter .company-title ul{
+        margin-left: 30px;
+    }
+    .fotter .contacts-info ul{
+        padding-left: 60px;
+    
+    }
+    /*fotter section End*/
+   
   
 
 }
-/*shape responsive End now*/
+
+@media only screen and (min-width:600px) and (max-width:851px){
+   .about-company .shape img {
+        position: absolute;
+        top: -280px;
+        left: 33%;
+    }
+    .add-to-cart form table thead tr th {
+        font-size: 20px;
+    }
+
+    .add-to-cart form table tbody tr td:has(img){
+        display: none;
+    }
+    .add-to-cart form table tbody tr td {
+        width:20%;
+        font-size: 16px;
+        height: 120px;
+    }
+  
+    .add-to-cart .Quantity button {
+        left: 355px;
+
+    }
+    .products #produts{
+        margin-top: 60px;
+    }
+    .products .content .sub-title p .text {
+        right: 44%;
+    }
+    .subscribe .button {
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+    .subscribe .title h3 {
+        font-size: 40px;
+    }
+    .fotter .side-bar ul li a .text{
+        margin-left: -52px;
+    }
+}
+
+@media only screen and (min-width:851px) and (max-width:992px){
+   .about-company .shape img {
+        position: absolute;
+        top: -260px;
+        left: 39%;
+    }
+    .add-to-cart form table thead tr th {
+        font-size: 20px;
+    }
+
+    .add-to-cart form table tbody tr td:has(img){
+        display: none;
+    }
+    .add-to-cart form table tbody tr td {
+        width:20%;
+        font-size: 16px;
+        height: 120px;
+    }
+  
+    .add-to-cart .Quantity button {
+        left: 355px;
+
+    }
+    .products #preducst{
+        margin-top:20px;
+    }
+    .products #produts{
+       margin-top:20px;
+    }
+    .products .content .sub-title p .text {
+        right: 44%;
+    }
+    .subscribe .button {
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+    .subscribe .title h3 {
+        font-size: 40px;
+    }
+    .fotter .side-bar ul li a .text{
+        margin-left: -52px;
+    }
+}
+/*Responsive area End now*/
