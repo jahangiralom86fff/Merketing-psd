@@ -105,6 +105,14 @@
         display: block;
         text-align: left;
     }
+    .topnav.responsive .talks-btn{
+        float: none;
+        display: none;
+        text-align: left;
+    }
+    .topnav .responsive .btn-area .talks-btn{
+        display: none;
+    } 
     .topnav.responsive .dropdown-navbar {
         float: none;
     }

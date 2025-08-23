@@ -105,6 +105,12 @@
         display: block;
         text-align: left;
     }
+    .topnav.responsive .talks-btn {
+        float: none;
+        display:none;
+        text-align: left;
+    }
+   
     .topnav.responsive .dropdown-navbar {
         float: none;
     }
@@ -134,6 +140,10 @@
     }
     .topnav .btn-area .call-us{
         display: none;
+    }
+    .topnav .responsive .talks-btn{
+        display: none !important;
+        
     }
    
 }
@@ -591,3 +601,50 @@
    
 }
 /*navbar Responsive navbar*/
+
+/*shape responsive area*/
+@media only screen and (min-width:350px) and (max-width:600px){
+   .about-company .shape img {
+        position: absolute;
+        top: -289px;
+        left: 22%;
+    }
+    .add-to-cart form table thead tr th {
+        max-width:  20%;
+        padding-left: -15px;
+        font-size: 18px;
+        font-family: "Roboto",sans-serif;
+        color: #ffffff;
+    }
+ 
+    .add-to-cart form table tbody tr td:has(img){
+        display: none;
+    }
+    .add-to-cart form table tbody tr td {
+        width:35%;
+        text-align: left;
+        font-size: 17px;
+        height: 120px;
+    }
+    .add-to-cart .Quantity input {
+        width: 160px;
+        height: 60px;
+    }
+    .add-to-cart .Quantity button {
+        width: 150px;
+        height: 60px;
+        left: 170px;
+       
+    }
+    .cart-count .sub-count .text{
+        width:70%;
+        float: left;
+    }
+    .cart-count .sub-count .text-dollars{
+        width:30%;
+        float: left;
+    }
+  
+
+}
+/*shape responsive End now*/
