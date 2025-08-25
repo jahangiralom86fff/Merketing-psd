@@ -596,3 +596,119 @@
    
 }
 /*navbar Responsive navbar*/
+
+/*Responsive design start now all */
+@media only screen and (min-width:349px) and (max-width:601px){
+    .about-company .shape img {
+        left: 25%;
+    }
+    .shop-blog .shop-select form select {
+        width: 150px;
+        margin-right: 0.4em;
+    }
+    .shop-blog .shop-select {
+        margin-top: -100px;
+        margin-left: 9px;
+    }
+    .shop-blog .shop-text p{
+        width:40%;
+    }
+    .shop-blog .text h6{
+        text-align: center;
+    }
+    .shop-blog .product-icon ul{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top:10px;
+    }
+    .shop-blog .demo-text p{
+        text-align: center;
+        margin-top:-15px;
+    }
+    .shop-blog .revies-title h2{
+        text-align: center;
+    }
+    .subscribe .title h3{
+        font-size: 38px;
+    }
+    .subscribe .button form .button-style {
+        width: 180px;
+    }
+    .subscribe form .submit-btn {
+        left: 180px;
+        
+    }
+    .subscribe .button {
+        margin-top: 36px;
+        margin-left: 0px;
+    }
+    .fotter .text {
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+    .fotter .company-title ul{
+        margin-left: 30px;
+    }
+    .fotter .contacts-info ul{
+        margin-left: 30px;
+    }
+    .fotter .icon-add ul{
+        margin-left: 2dvh;
+    }
+    .fotter .icon-add ul li {
+        margin: 10px 8px;
+    }
+    
+    .fotter .side-bar ul li a .text{
+        margin-left:-8px;
+    }
+  
+
+}
+@media only screen and (min-width:601px) and (max-width:992px){
+    .about-company .shape img {
+        left: 27%;
+    }
+    .shop-blog .shop-text {
+        margin-bottom: -60px;
+    }
+    .shop-blog .recent-img {
+        padding-top: 50px;
+        display: flex;
+        justify-content: left;
+        margin-left: 25px;
+    }
+    .subscribe .button{
+        margin-left: 0px;
+        margin-top:40px;
+    }
+    .subscribe .title h3{
+        font-size: 40px;
+    }
+
+}
+@media only screen and (min-width:992px) and (max-width:1201px){
+    .about-company .shape img {
+        left: 48%;
+    }
+    .subscribe .button {
+        margin-top: 6px;
+        margin-left: 82px;
+    }
+    .shop-blog .recent-img {
+        padding-top: 43px;
+        display: flex;
+        justify-content: left;
+        margin-left: -10px;
+    }
+    .shop-blog .input-group #max-input{
+        margin-left: 20px;
+        
+    }
+
+ 
+}
+/*Responsive design End all*/
+

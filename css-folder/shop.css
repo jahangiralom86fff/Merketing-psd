@@ -302,20 +302,21 @@
     font-weight: 500;
     font-size: 16px;
     font-family:"Roboto",sans-serif;
+    margin-right: 18px;
    
 
 }
 
 .shop-blog .img-shop img{
-    width:95%;
-    height: 282px;
+    width:90%;
+    height:auto;
     border-radius:5px 5px 0px 0px;
     text-decoration: none;
     object-fit: cover;
     
 }
 .shop-blog .content{
-    width:95%;
+    width:90%;
     height: 244px;
     border:1px solid #4d5367;
     border-top:1px solid transparent;
