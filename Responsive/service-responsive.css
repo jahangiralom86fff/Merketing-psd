@@ -596,3 +596,80 @@
    
 }
 /*navbar Responsive navbar*/
+
+
+/*Responsive all service page*/
+@media only screen and (min-width:349px) and (max-width:601px){
+    .about-company .shape img {
+        left: 20%;
+    }
+    .service .title h1{
+        font-size: 30px;
+    }
+    .service .title h2{
+        font-size: 30px; 
+    }
+    .service .shape-to img {
+        right: 10%;
+        top: -20px;
+    }
+    .service .shape img {
+        position: absolute;
+        top: -70px;
+        left: -6px;
+    }
+    .subscribe .title h3{
+        font-size: 38px;
+    }
+    .subscribe .button {
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+    .fotter .text {
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+    .fotter .company-title ul{
+        margin-left: 30px;
+    }
+    .fotter .contacts-info ul{
+        margin-left: 30px;
+    }
+    .fotter .icon-add ul{
+        margin-left: 2dvh;
+    }
+    .fotter .icon-add ul li {
+        margin: 10px 8px;
+    }
+    
+    .fotter .side-bar ul li a .text{
+        margin-left:-8px;
+    }
+    .fotter .side-bar ul li a img {
+        margin-left: -15px;
+    }
+    .fotter .sub-text p{
+        margin-left: 30px;
+    }
+    .testimonials .item .sub-text-area p {
+        font-size: 16px;
+    }
+    .testimonials .item .list-item ul {
+        position: absolute;
+        right: 0px;
+    }
+    .testimonials .text h1{
+        font-size: 30px;
+        text-align: center;
+    }
+    .testimonials .text p{
+        text-align: center;
+    }
+    .testimonials .shape-imgbox img {
+        position: absolute;
+        top: -150px;
+        right:10px;
+    }
+  
+}
+/*Responsive all service End page*/

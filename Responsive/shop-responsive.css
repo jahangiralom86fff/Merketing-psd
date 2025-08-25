@@ -600,7 +600,7 @@
 /*Responsive design start now all */
 @media only screen and (min-width:349px) and (max-width:601px){
     .about-company .shape img {
-        left: 25%;
+        left: 20%;
     }
     .shop-blog .shop-select form select {
         width: 150px;
