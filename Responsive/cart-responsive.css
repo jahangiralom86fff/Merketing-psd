@@ -690,7 +690,10 @@
         padding-left: 30px;
     }
     .fotter .side-bar ul li a .text{
-        margin-left: -22px;
+        margin-left: -5px;
+    }
+    .fotter .side-bar ul li a img {
+        margin-left: -6px;
     }
     .fotter .icon-add ul{
         margin-left: 15px;
@@ -716,7 +719,6 @@
 
 @media only screen and (min-width:600px) and (max-width:851px){
    .about-company .shape img {
-        position: absolute;
         top: -280px;
         left: 33%;
     }
@@ -734,7 +736,7 @@
     }
   
     .add-to-cart .Quantity button {
-        left: 355px;
+        left: 345px;
 
     }
     .products #produts{
@@ -750,8 +752,18 @@
     .subscribe .title h3 {
         font-size: 40px;
     }
+   
     .fotter .side-bar ul li a .text{
-        margin-left: -52px;
+        margin-left: -9px;
+    }
+    .fotter .side-bar ul li a img {
+        margin-left: -40px;
+    }
+    .products #preducst{
+        margin-top: 60px;
+    }
+    .products .content .sub-title p .text {
+        right: 215px;
     }
 }
 
@@ -797,5 +809,62 @@
     .fotter .side-bar ul li a .text{
         margin-left: -52px;
     }
+    .products .content .sub-title p .text {
+        right: 120px;
+    }
+}
+@media only screen and (min-width:992px) and (max-width:1201px){
+    .about-company .shape img {
+        left: 47%;
+    }
+    .add-to-cart form table thead tr th {
+        font-size: 20px;
+       
+    }
+    .add-to-cart form table tbody tr td {
+        font-size: 18px;
+    }
+    .add-to-cart .Quantity button {
+        left: 330px; 
+    }
+    .cart-count .sub-count .text-dollars {
+        width: 20%;
+    }
+    .cart-count .sub-count .text {
+        width: 80%;
+    }
+    .subscribe .button {
+        margin-top: 6px;
+        margin-left: 50px;
+    }
+    .products .content .sub-title p .text {
+        right: 70px;
+    }
+    .fotter .icon-add ul li {
+        list-style-type: none;
+        float: left;
+        margin: 10px 8px;
+    }
+
+}
+
+@media only screen and (min-width:1201px) and (max-width:1401px){
+    .add-to-cart .Quantity button { 
+        left: 340px;
+    }
+    .subscribe .button {
+        margin-top: 6px;
+        margin-left: 70px;
+    }
+    .products .content .sub-title p .text {
+        right: 90px;
+    }
+}
+
+@media only screen and (min-width:1401px) and (max-width:1551px){
+    .add-to-cart .Quantity button { 
+        left: 410px;
+    }
+  
 }
 /*Responsive area End now*/
