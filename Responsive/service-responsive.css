@@ -610,13 +610,11 @@
         font-size: 30px; 
     }
     .service .shape-to img {
-        right: 10%;
+        right: 8%;
         top: -20px;
     }
     .service .shape img {
-        position: absolute;
-        top: -70px;
-        left: -6px;
+       display: none;
     }
     .subscribe .title h3{
         font-size: 38px;
@@ -671,5 +669,37 @@
         right:10px;
     }
   
+}
+@media only screen and (min-width:601px) and (max-width:992px){
+    .about-company .shape img {
+        left: 27%;
+    }
+    .service .shape img {
+        position: absolute;
+        top: -70px;
+        left: -30px;
+    }
+    .subscribe .button{
+        margin-left: 0px;
+        margin-top:40px;
+    }
+    .service .shape-to img {
+        position: absolute;
+        right: 8%;
+        top:-10px;
+    }
+    .testimonials .item .sub-text-area p{
+        width: 100%;
+    }
+
+}
+@media only screen and (min-width:992px) and (max-width:1201px){
+    .about-company .shape img {
+        left: 48%;
+    }
+    .subscribe .button {
+        margin-top: 6px;
+        margin-left: 70px;
+    }
 }
 /*Responsive all service End page*/
