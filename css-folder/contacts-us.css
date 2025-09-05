@@ -273,8 +273,8 @@
 
 }
 .contacts-area .img-box img{
-    width:531px;
-    height: 680px;
+    width:auto;
+    height:auto;
     border-radius: 10px;
 }
 .contacts-area .contacts-title h2{

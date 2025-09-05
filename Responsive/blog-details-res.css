@@ -596,3 +596,33 @@
    
 }
 /*navbar Responsive navbar*/
+
+/*main section responsive start now*/
+@media only screen and (min-width:349px) and (max-width:601px){
+    .blog .details-title h3{
+        text-align: center;
+        font-size: 30px;
+    }
+    .blog .detail-subtitle p{
+        text-align: center;
+        font-size: 14px;
+    }
+  
+    .blog .detail-tags .single-detais .single-list ul li{
+       margin:6px 10px;
+
+    }
+    .blog .detail-tags .single-detais-sub{
+        width: 20%;
+    }
+    .blog .detail-tags .single-detais{
+        width: 80%;
+    }
+    .blog .single-detais-sub .contacts-details ul li{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+    }
+}
+
+/*main Responsive End Now*/
