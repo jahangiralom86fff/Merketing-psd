@@ -599,6 +599,16 @@
 
 /*main Responsive start now*/
 @media only screen and (min-width:349px) and (max-width:601px){
+    .fancy-box .fancy-box-btn .fancy-play-btn{
+        position: absolute;
+        z-index: 455;
+        top: 40%;
+        left: 6%;
+        transform: translate(-50%, -50%);
+    
+    
+    }
+        
     .about-company .shape img {
         left: 20%;
     }
