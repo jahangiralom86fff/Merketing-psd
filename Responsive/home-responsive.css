@@ -596,3 +596,316 @@
    
 }
 /*navbar Responsive navbar*/
+
+/*home page Responsive start*/
+@media only screen and (min-width:349px) and (max-width:601px){
+    .banner .title h1{
+        font-size: 30px;
+        text-align: center;
+    }
+    .banner .banner-title .banner-item{
+        display: none;
+    }
+    .banner .mike-banner{
+        display: none;
+    }
+    .banner .banner-title .single-banner{
+        display: none;
+    }
+    .banner .smart-phone{
+        display: none;
+    }
+    .banner .single-text .text{
+        font-size: 16px;
+        text-align: center;
+    }
+    .banner .banner-title{
+        padding-top:30px;
+    }
+    .banner .graph-img{
+        display: none;
+    }
+    .banner .banner-btn{
+        padding: 30px 0px;
+        margin:0 auto;
+    }
+    /*about us area*/
+    .about-us .text a{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .about-us .text{
+        margin-top: 120px;
+    }
+    .about-us .title h1{
+        font-size: 30px;
+        text-align: center;
+    }
+    .about-us .text .txt{
+        text-align: center;
+    }
+
+    .about-us .about-btn{
+        padding-top:36px;
+        margin:0 auto;
+    }
+    .about-us .shape-area img{
+        left:80px;
+    }
+    .about-us .img-box-one{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+    /*about us End*/
+
+    /*digital merketing*/
+    .about-us .Digital-merketing{
+      display: none;
+    } 
+    .service .shape-to img{
+        top:-52px;
+        left:80%;
+    }
+    .service .shape .shape-parallax{
+        display: none;
+    }
+    .service .title h1{
+        font-size: 30px;
+    }
+    .service .title h2{
+        font-size: 30px;
+    }
+    /*digital marketing*/
+
+    /*chosse-us*/
+    .choose-us .choose-title h3{
+        text-align: center;
+    }
+    .choose-us .head-text h1{
+        width:100%;
+        font-size: 30px;
+        text-align: center;
+        margin-top:15px;
+    }
+    .choose-us .single-text p {
+        width: 100%;
+    }
+    .choose-us .choose-shape img {
+        top: 2px;
+        right: 30px;
+    }
+    .choose-us .choose-shape{
+        margin-top: 40px;
+    }
+    .choose-us .choose-imgbox img{
+        top:-40px;
+        width: 92%;
+        left: 0px;
+    }
+    /*chosse-us*/
+
+    /*testimonials area*/
+    .testimonials .text p{
+        text-align: center;
+    }
+    .testimonials .text h1{
+        text-align: center;
+        font-size: 30px;
+    }
+    /*testimonials End*/
+
+    .fancy-box .text h1 {
+       font-size: 30px;
+    }
+  
+    /*work process area*/
+    .work-process .single-text h1{
+        font-size: 30px;
+    }
+    .work-process #procces{
+        padding-top: 110px;
+    }
+    .work-process .work-blog .single-blog .null{
+        top:-98px;
+    }
+    /*work process area end now*/
+
+    /*articles part start now*/
+
+    .articles .title h2{
+        font-size: 30px;
+    }
+    .articles .shape-two img {
+        position: absolute;
+        left: 83%;
+        top: -5px;
+    }
+    .articles .shape img {
+        position: absolute;
+        left: 20px;
+        top:-90px;
+    }
+    .articles .imgbox{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .articles  #articles{
+        padding-top:230px;
+    }
+    .articles .blog .single-blog {
+        top: 90%;
+        left: 0px;
+        
+    }
+
+    /*articles part End now*/
+    .subscribe .title{
+        padding-top:25px;
+    }
+    .subscribe .title h3{
+        font-size: 38px;
+    }
+    .subscribe .button form .button-style {
+        width: 180px;
+    }
+    .subscribe form .submit-btn {
+        left: 180px;
+        
+    }
+    .subscribe .button {
+        margin-top: 36px;
+        margin-left: 0px;
+    }
+    .fotter .side-bar ul li a img {
+        margin-left: -18px;
+    }
+    .fotter .sub-text p{
+        padding-left: 30px;
+    }
+
+    .fotter .text {
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+    .fotter .company-title ul{
+        margin-left: 30px;
+    }
+    .fotter .contacts-info ul{
+        margin-left: 30px;
+    }
+    .fotter .icon-add ul{
+        margin-left: 2dvh;
+    }
+    .fotter .icon-add ul li {
+        margin: 10px 8px;
+    }
+    
+    .fotter .side-bar ul li a .text{
+        margin-left:-8px;
+    }
+   
+}
+@media only screen and (min-width:601px) and (max-width:992px){
+  
+    .banner .smart-phone{
+        display: none;
+    }
+    .banner .graph-img{
+        display: none;
+    }
+    .choose-us .choose-shape{
+        margin-top:50px;
+    }
+    .testimonials .text p{
+        text-align: center;
+    }
+    
+    .testimonials .text h1{
+        text-align: center;
+        font-size: 40px;
+    }
+    .about-us .img-box-one{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .about-us .shape-area img{
+        left: 80px;
+    }
+    .service .shape-to img{
+        top:-25px;
+        right: 4%;
+    }
+    .service .shape .shape-parallax{
+       display: none;
+    }
+    .work-process #procces{
+        padding-top: 110px;
+    }
+    .articles #articles{
+        margin-top: 80px;
+    }
+    .articles .shape-two img{
+        top:-15px;
+    }
+    .articles .shape img{
+        top:-50px;
+        left:-25px;
+    }
+    .articles .title h2{
+        font-size: 40px;
+    }
+    .articles .blog{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .articles .blog .single-blog{
+        left:20%;
+        top:70%;
+    }
+    .subscribe .button{
+        margin-left: 0px;
+        margin-top:40px;
+    }
+    .subscribe .title h3{
+        font-size: 40px;
+    }
+}
+@media only screen and (min-width:991px) and (max-width:1201px){
+    .banner .graph-img{
+        display: none;
+    }
+    .articles .blog .single-blog{
+        width: 250px;
+    }
+    .articles .blog .single-blog .list ul li{
+        margin: 2px 1px;
+    }
+    .subscribe .button{
+        margin-left: 50px;
+    }
+
+}
+@media only screen and (min-width:1201px) and (max-width:1401px){
+    .articles .blog .single-blog{
+        width: 300px;
+    }
+    .articles .blog .single-blog .list ul li{
+        margin: 6px 5px;
+    }
+    .subscribe .button {
+        margin-top: 6px;
+        margin-left: 170px;
+    }
+    .work-process .work-blog .single-blog .null{
+        top:-98px;
+    }
+}
+
+/*home page Responsive end*/

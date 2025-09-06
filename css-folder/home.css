@@ -467,8 +467,6 @@
 .about-us .img-box img{
     height:540px;
     width:360px;
-    border: 3px solid #ff4934;
-    border-radius: 190px 190px 190px 190px;
     z-index:15452;
     position: relative;
 }
@@ -1261,8 +1259,11 @@
 }
 
 .fancy-box .fancy-box-btn .fancy-play-btn{
-    position: relative;
+    position: absolute;
     z-index: 455;
+    top: 40%;
+    left: 50%;
+   
    
 }
 .fancy-box .fancy-box-btn .fancy-play-btn .play-btn{
@@ -1273,8 +1274,10 @@
     border-bottom: 2px solid #ffffff;
     border-radius: 20px;
     font-size: 30px;
-    left:604px;
-    top:60px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
   
 }
 .fancy-box .text {
@@ -1515,8 +1518,8 @@
     margin-top:60px;
 }
 .articles .imgbox img{
-    width:86%;
-    height:391px;
+    width:auto;
+    height:auto;
     object-fit: cover;
     border-radius: 20px;
 }
