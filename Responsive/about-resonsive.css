@@ -599,15 +599,6 @@
 
 /*main Responsive start now*/
 @media only screen and (min-width:349px) and (max-width:601px){
-    .fancy-box .fancy-box-btn .fancy-play-btn{
-        position: absolute;
-        z-index: 455;
-        top: 40%;
-        left: 6%;
-        transform: translate(-50%, -50%);
-    
-    
-    }
         
     .about-company .shape img {
         left: 20%;
@@ -661,8 +652,8 @@
         font-size: 30px;
         text-align: center;
     }
-    .fancy-box .fancy-box-btn .fancy-play-btn .play-btn {
-       left: 210px;
+    .fancy-box .fancy-box-btn .fancy-play-btn{
+        margin-top: 20px;
     }
     .Experience .sub-title h2{
         font-size: 28px;
@@ -719,5 +710,29 @@
         margin-left:-8px;
     }
 
+}
+@media only screen and (min-width:601px) and (max-width:993px){
+    .Experience .sub-title h2{
+        font-size:30px;
+    }
+    .Experience .sub-title h3{
+        font-size:30px;
+    }
+    .Experience .single-bolg .img-area{
+        margin-top:30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .subscribe .button{
+        margin-left: 0px;
+        margin-top:40px;
+    }
+    .subscribe .title h3{
+        font-size: 40px;
+    }
+   
+   
+   
 }
 /*main Responsive End now*/
