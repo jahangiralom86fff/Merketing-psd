@@ -87,6 +87,13 @@
         float: right;
         display: block;
     }
+    .dropdown-content a{
+        border-bottom:1px solid #ffffff;
+        margin-left: 25px;
+    }
+    .dropdown-content a:last-child{
+        border-style: none;
+    }
    
 }
 
@@ -599,6 +606,9 @@
 
 /*main section responsive start now*/
 @media only screen and (min-width:349px) and (max-width:601px){
+    .about-company .shape img {
+        left: 20%;
+    }
     .blog .details-title h3{
         text-align: center;
         font-size: 30px;
@@ -612,17 +622,79 @@
        margin:6px 10px;
 
     }
-    .blog .detail-tags .single-detais-sub{
-        width: 20%;
-    }
+  
     .blog .detail-tags .single-detais{
-        width: 80%;
+        width: 100%;
+    }
+    .blog .detail-tags .single-detais-sub{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin: 20px 0px;
     }
     .blog .single-detais-sub .contacts-details ul li{
        display: flex;
        justify-content: center;
        align-items: center;
     }
+    .blog .achive-date .single-achive .sub-achives{
+        width: 30%;
+    }
+    .blog .achive-date .single-achive{
+        margin: 10px 0px;
+    }
+    .blog .sub-review .title{
+        padding-left: 55px;
+    }
+    .blog .sub-review .title h5{
+        font-size: 16px;
+    }
+    .blog .single-title p{
+        font-size: 14px;
+        padding-left: 55px;
+    }
+   .blog .reply-area a{
+        margin-left: 16%;
+   }
+    .subscribe .title h3{
+        font-size: 38px;
+    }
+    .subscribe .button form .button-style {
+        width: 180px;
+    }
+    .subscribe form .submit-btn {
+        left: 180px;
+        
+    }
+    .subscribe .button {
+        margin-top: 36px;
+        margin-left: 0px;
+    }
+    .fotter .sub-text p{
+        margin-left: 3019523
+        ;
+    }
+    .fotter .text {
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+    .fotter .company-title ul{
+        margin-left: 30px;
+    }
+    .fotter .contacts-info ul{
+        margin-left: 30px;
+    }
+    .fotter .icon-add ul{
+        margin-left: 2dvh;
+    }
+    .fotter .icon-add ul li {
+        margin: 10px 8px;
+    }
+    
+    .fotter .side-bar ul li a .text{
+        margin-left:-8px;
+    }
+  
 }
 
 /*main Responsive End Now*/

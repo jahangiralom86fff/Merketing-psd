@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
 
-*{
-    padding:0px;
-    margin:0px;
-    font-family: "Rajdhani", sans-serif;
+:root {
+  --Rajdhani:"Rajdhani", sans-serif;;
+  --white: #ffffff;
 }
 
 /*navbar section start now*/
@@ -525,8 +526,8 @@
     font-weight: 600;
     text-transform: capitalize;
     color:#ff4934;
-    left:295px;
-    top:-46px;
+    left:43%;
+    top:90%;
     font-size: 40px;
 }
 .blog .details-reomte .ceo-title {
@@ -683,8 +684,8 @@
     float: left;
 }
 .blog .achive-date .single-achive .sub-achives img{
-    width:100px;
-    height: 100px;
+    width:auto;
+    height: auto;
     border-radius: 5px;
     
 }

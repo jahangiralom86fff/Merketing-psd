@@ -87,6 +87,14 @@
         float: right;
         display: block;
     }
+    .dropdown-content a{
+        border-bottom:1px solid #ffffff;
+        margin-left: 25px;
+    }
+    .dropdown-content a:last-child{
+        border-style: none;
+    }
+   
    
 }
 
@@ -615,6 +623,12 @@
     }
     .shop-blog .text h6{
         text-align: center;
+    }
+    .shop-blog .img-shop img{
+        width: 100%;
+    }
+    .shop-blog .content{
+        width: 100%;
     }
     .shop-blog .product-icon ul{
         text-align: center;
