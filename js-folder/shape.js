@@ -1,3 +1,4 @@
+
 document .addEventListener("mousemove", parallax);
 function parallax(e){
     document .querySelectorAll(".shape-parallax").forEach(function(move){
@@ -9,5 +10,4 @@ function parallax(e){
         move .style.transform = "translateX("+ x +"px) translateY("+ y +"px)";
     });
 }
-
 

@@ -429,11 +429,7 @@
     text-align: center;
     
 }
-.service .title h2{
-    font-size:38px;
-    color:#ffffff;
-    text-align: center;
-}
+
 .service .single-text p{
     color:#737375;
     font-size:16px;
@@ -493,7 +489,7 @@
     width:50%;
     margin-top:20px;
 }
-.service .single-title h1{
+.service .service-single .single-title h3{
     font-size:24px;
     color:#ffffff;
     text-align: center;
@@ -737,16 +733,10 @@
     color:#ffffff;
     font-weight:600;
     text-transform: capitalize;
+    margin-bottom:3rem;
+    margin-top:1.2rem;
 }
-.Experience .sub-title h3{
-    margin-top:-10px;
-    text-align: center;
-    font-size: 46px;
-    color:#ffffff;
-    font-weight:600;
-    text-transform: capitalize;
-    margin-bottom: 100px;
-}
+
 .Experience .single-bolg .img-area img{
     width: auto;
     height:auto;
@@ -787,12 +777,9 @@
     height:170px;
     background-color: #ffffff;
     border-radius: 25px;
-    visibility: hidden;
     z-index: 45885;
     transition: all 500ms ease-in;
-}
-.Experience .link-area .plus-icon:hover .link-item{
-    visibility: visible;
+    display: none;
 }
 .Experience .link-area .plus-icon .link-item ul{
     padding-left: 0px;
