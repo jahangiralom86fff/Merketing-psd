@@ -940,7 +940,7 @@
 .fotter  .text {
     margin-top:30px;
 }
-.fotter  .text h1{
+.fotter .text h3{
     font-size: 22px;
     color:#ffffff;
     text-transform: capitalize;
@@ -1054,7 +1054,7 @@
     text-transform: capitalize;
     font-size: 16px;
     font-family: "Roboto",sans-serif;
-    color:#818592;
+    color:#ffffff;
 }
 .copy-right .brands-text .text{
      text-decoration: none;
