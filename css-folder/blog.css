@@ -552,8 +552,8 @@ body{
   
 }
 .blog .recent-single .Recent-sub img{
-    height:100px;
-    width:100px;
+    height:auto;
+    width:auto;
     border-radius: 10px;
     text-decoration: none;
 }

@@ -794,18 +794,17 @@
         margin-left: -18px;
     }
     .fotter .sub-text p{
-        padding-left: 30px;
+        padding-left: 3px;
     }
 
-    .fotter .text {
-        margin-top: 30px;
-        margin-left: 30px;
-    }
-    .fotter .company-title ul{
+  .fotter .text {
+    margin-top: 30px;
+    margin-left: 0px;
+  }    .fotter .company-title ul{
         margin-left: 30px;
     }
     .fotter .contacts-info ul{
-        margin-left: 30px;
+        margin-left: 3px;
     }
     .fotter .icon-add ul{
         margin-left: 2dvh;
@@ -1014,15 +1013,14 @@
         margin-top: 36px;
         margin-left: 0px;
     }
-    .fotter .text {
-        margin-top: 30px;
-        margin-left: 30px;
-    }
-    .fotter .company-title ul{
+  .fotter .text {
+    margin-top: 30px;
+    margin-left: 0px;
+  }    .fotter .company-title ul{
         margin-left: 30px;
     }
     .fotter .contacts-info ul{
-        margin-left: 30px;
+        margin-left: 3px;
     }
     .fotter .icon-add ul{
         margin-left: 2dvh;
@@ -1132,18 +1130,16 @@
         margin-left: 0px;
     }
     .fotter .sub-text p{
-        margin-left: 3019523
-        ;
+        margin-left: 15px;
     }
-    .fotter .text {
-        margin-top: 30px;
-        margin-left: 30px;
-    }
-    .fotter .company-title ul{
+  .fotter .text {
+    margin-top: 30px;
+    margin-left: 0px;
+  }    .fotter .company-title ul{
         margin-left: 30px;
     }
     .fotter .contacts-info ul{
-        margin-left: 30px;
+        margin-left: 3px;
     }
     .fotter .icon-add ul{
         margin-left: 2dvh;
@@ -1162,6 +1158,69 @@
 
 
 /*blog page start now*/
+@media only screen and (max-width: 400px){
+    .blog .recent-single .recent-titles .single-text {
+        width: 100%;
+        font-size: 18px;
+    }
+    .blog .recent-single .Recent-sub .Recent-sub-title{
+        width:65%;
+        float: left;
+    
+    }
+    .blog .recent-single .Recent-sub {
+        width: 35%;
+        float: left;
+    }
+}
+@media only screen and (max-width: 600px){
+    .blog .recent-single .recent-titles .single-text {
+        width: 95%;
+        font-size: 18px;
+    }
+    .blog .recent-single .Recent-sub .Recent-sub-title{
+        width:75%;
+        float: left;
+    
+    }
+    .blog .recent-single .Recent-sub {
+        width: 25%;
+        float: left;
+    }
+
+}
+@media only screen and (min-width:600px) and (max-width:751px){
+    .blog .recent-single .recent-titles .single-text {
+        width: 95%;
+        font-size: 18px;
+    }
+    .blog .recent-single .Recent-sub .Recent-sub-title{
+        width:75%;
+        float: left;
+    
+    }
+    .blog .recent-single .Recent-sub {
+        width: 25%;
+        float: left;
+    }
+}
+@media only screen and (min-width:749px) and (max-width:992px){
+    .blog .recent-single .recent-titles .single-text {
+        width: 95%;
+        font-size: 18px;
+    }
+    .blog .recent-single .Recent-sub .Recent-sub-title{
+        width:75%;
+        float: left;
+    
+    }
+    .blog .recent-single .Recent-sub {
+        width: 25%;
+        float: left;
+    }
+
+}
+
 
 /*blog page End now*/
 
@@ -1250,9 +1309,9 @@
     /*subscribe area End now*/
 
     /*fotter section start now*/
-    .fotter .sub-text p{
+   .fotter .sub-text p{
         font-size: 14px;
-        padding-left: 30px;
+        padding-left: 25px;
     }
     .fotter .side-bar ul li a .text{
         margin-left: -5px;
@@ -1435,6 +1494,7 @@
 
 /*cart page End now*/
 
+
 /*contact-us page start now*/
 
 /*main section start now*/
@@ -1475,18 +1535,17 @@
     .fotter .side-bar ul li a img{
         margin-left: -7px;
     }
-    .fotter .text {
-        margin-top: 30px;
-        margin-left: 30px;
-    }
-    .soical-contacts .social-sub .contatcs-title{
+  .fotter .text {
+    margin-top: 30px;
+    margin-left: 0px;
+  }    .soical-contacts .social-sub .contatcs-title{
         width:25%;
     }
     .fotter .company-title ul{
         margin-left: 30px;
     }
     .fotter .contacts-info ul{
-        margin-left: 30px;
+        margin-left: 3px;
     }
     .fotter .icon-add ul{
         margin-left: 2dvh;
@@ -1566,13 +1625,13 @@
     }
     .fotter .text {
         margin-top: 30px;
-        margin-left: 30px;
-    }
+        margin-left: 0px;
+    }    
     .fotter .company-title ul{
         margin-left: 30px;
     }
     .fotter .contacts-info ul{
-        margin-left: 30px;
+        margin-left: 3px;
     }
     .fotter .icon-add ul{
         margin-left: 2dvh;
@@ -1588,7 +1647,7 @@
         margin-left: -15px;
     }
     .fotter .sub-text p{
-        margin-left: 30px;
+        margin-left: 15px;
     }
     .testimonials .item .sub-text-area p {
         font-size: 16px;
@@ -1703,13 +1762,13 @@
     }
     .fotter .text {
         margin-top: 30px;
-        margin-left: 30px;
-    }
+        margin-left: 0px;
+    }    
     .fotter .company-title ul{
         margin-left: 30px;
     }
     .fotter .contacts-info ul{
-        margin-left: 30px;
+        margin-left: 3px;
     }
     .fotter .icon-add ul{
         margin-left: 2dvh;
