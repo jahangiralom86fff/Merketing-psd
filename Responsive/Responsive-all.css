@@ -1,3 +1,4 @@
+/*home page start now*/
 
 /*responsive navbar top*/
 
@@ -916,4 +917,856 @@
     }
 }
 
-/*home page Responsive end*/
+/*home page End now*/
+
+
+/*about page start now*/
+
+/*main Responsive start now*/
+@media only screen and (min-width:349px) and (max-width:601px){
+        
+    .about-company .shape img {
+        left: 20%;
+    }
+    .Digital-merketing .title-text p{
+        font-size: 16px;
+        text-align: center;
+    }
+    .Digital-merketing .sub-title h2{
+        font-size: 30px;
+        text-align: center;
+        width: 100%;
+    }
+    .Digital-merketing .text p{
+        font-size: 14px;
+        text-align: center;
+        padding-top: 16px;
+        width: 100%;
+    }
+    .Digital-merketing .single-text p{
+        font-size: 14px;
+        text-align: center;
+        width: 100%;
+    }
+    .Digital-merketing .digital-btn {
+
+        margin: 0 auto;
+    }
+    .service .shape img {
+        position: absolute;
+        top: -100px;
+        left: 0px;
+    }
+    .service .shape-to img {
+        position: absolute;
+        right: 8%;
+        top: -71px;
+    }
+    .service .title h1{
+        font-size: 30px;
+        text-align: center;
+    }
+    .service .title h2{
+        font-size: 30px;
+        text-align: center;
+    }
+    .Digital-merketing .img-box{
+        width:auto;
+    }
+    .fancy-box .text h1{
+        font-size: 30px;
+        text-align: center;
+    }
+    .fancy-box .fancy-box-btn .fancy-play-btn{
+        margin-top: 20px;
+    }
+    .Experience .sub-title h2{
+        font-size: 28px;
+    }
+    .Experience .sub-title h3{
+        font-size: 28px;
+    }
+    .Experience .img-area{
+        margin-top:20px;
+        display: flex;
+        justify-content: center;
+
+    }
+    .Experience .link-area .plus-icon {
+        margin-left: 290px;
+        margin-top: -60px;
+        position: relative;
+        z-index: 44555;
+        color: #ffffff;
+    }
+  
+    .subscribe .title h3{
+        font-size: 38px;
+    }
+    .subscribe .button form .button-style {
+        width: 180px;
+    }
+    .subscribe form .submit-btn {
+        left: 179px;
+        
+    }
+    .subscribe .button {
+        margin-top: 36px;
+        margin-left: 0px;
+    }
+    .fotter .text {
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+    .fotter .company-title ul{
+        margin-left: 30px;
+    }
+    .fotter .contacts-info ul{
+        margin-left: 30px;
+    }
+    .fotter .icon-add ul{
+        margin-left: 2dvh;
+    }
+    .fotter .icon-add ul li {
+        margin: 10px 8px;
+    }
+    
+    .fotter .side-bar ul li a .text{
+        margin-left:-8px;
+    }
+
+}
+@media only screen and (min-width:601px) and (max-width:993px){
+    .Experience .sub-title h2{
+        font-size:30px;
+    }
+    .Experience .sub-title h3{
+        font-size:30px;
+    }
+    .Experience .single-bolg .img-area{
+        margin-top:30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .subscribe .button{
+        margin-left: 0px;
+        margin-top:40px;
+    }
+    .subscribe .title h3{
+        font-size: 40px;
+    }
+   
+   
+   
+}
+
+/*about page End now*/
+
+/*blog-details page start now*/
+
+/*main section responsive start now*/
+@media only screen and (min-width:349px) and (max-width:601px){
+    .about-company .shape img {
+        left: 20%;
+    }
+    .blog .details-title h3{
+        text-align: center;
+        font-size: 30px;
+    }
+    .blog .detail-subtitle p{
+        text-align: center;
+        font-size: 14px;
+    }
+  
+    .blog .detail-tags .single-detais .single-list ul li{
+       margin:6px 10px;
+
+    }
+  
+    .blog .detail-tags .single-detais{
+        width: 100%;
+    }
+    .blog .detail-tags .single-detais-sub{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin: 20px 0px;
+    }
+    .blog .single-detais-sub .contacts-details ul li{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+    }
+    .blog .achive-date .single-achive .sub-achives{
+        width: 30%;
+    }
+    .blog .achive-date .single-achive{
+        margin: 10px 0px;
+    }
+    .blog .sub-review .title{
+        padding-left: 55px;
+    }
+    .blog .sub-review .title h5{
+        font-size: 16px;
+    }
+    .blog .single-title p{
+        font-size: 14px;
+        padding-left: 55px;
+    }
+   .blog .reply-area a{
+        margin-left: 16%;
+   }
+    .subscribe .title h3{
+        font-size: 38px;
+    }
+    .subscribe .button form .button-style {
+        width: 180px;
+    }
+    .subscribe form .submit-btn {
+        left: 180px;
+        
+    }
+    .subscribe .button {
+        margin-top: 36px;
+        margin-left: 0px;
+    }
+    .fotter .sub-text p{
+        margin-left: 3019523
+        ;
+    }
+    .fotter .text {
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+    .fotter .company-title ul{
+        margin-left: 30px;
+    }
+    .fotter .contacts-info ul{
+        margin-left: 30px;
+    }
+    .fotter .icon-add ul{
+        margin-left: 2dvh;
+    }
+    .fotter .icon-add ul li {
+        margin: 10px 8px;
+    }
+    
+    .fotter .side-bar ul li a .text{
+        margin-left:-8px;
+    }
+  
+}
+
+/*blog-detais page End now*/
+
+
+/*blog page start now*/
+
+/*blog page End now*/
+
+/*cart page start now*/
+
+/*shape responsive area*/
+
+@media only screen and (min-width:350px) and (max-width:600px){
+   .about-company .shape img {
+        position: absolute;
+        top: -289px;
+        left: 22%;
+    }
+    .add-to-cart form table thead tr th {
+        max-width:  20%;
+        padding-left: -15px;
+        font-size: 18px;
+        font-family: "Roboto",sans-serif;
+        color: #ffffff;
+    }
+ 
+    .add-to-cart form table tbody tr td:has(img){
+        display: none;
+    }
+    .add-to-cart form table tbody tr td {
+        width:35%;
+        text-align: left;
+        font-size: 17px;
+        height: 120px;
+    }
+    .add-to-cart .Quantity input {
+        width: 160px;
+        height: 60px;
+    }
+    .add-to-cart .Quantity button {
+        width: 150px;
+        height: 60px;
+        left: 170px;
+       
+    }
+    .cart-count .sub-count .text{
+        width:70%;
+        float: left;
+    }
+    .cart-count .sub-count .text-dollars{
+        width:30%;
+        float: left;
+    }
+    .products .products-title h2{
+        font-size: 38px;
+    }
+    .products #produts{
+        margin-top: 40px;
+    }
+
+    /*subscribe area now*/
+    .subscribe .title h3{
+        font-size: 35px;
+        text-align: center;
+    }
+    .subscribe .title .text{
+        font-size: 12px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+    .subscribe .button{
+        margin-top: 46px;
+        margin-left: 20px;
+    }
+
+    .subscribe .button form .button-style {
+        width: 148px;
+        height: 65px;
+    }
+    
+    .subscribe .button{
+        position: relative;
+    }
+    .subscribe form .submit-btn{
+        left:145px;
+        overflow: none;
+        
+    }
+    
+    /*subscribe area End now*/
+
+    /*fotter section start now*/
+    .fotter .sub-text p{
+        font-size: 14px;
+        padding-left: 30px;
+    }
+    .fotter .side-bar ul li a .text{
+        margin-left: -5px;
+    }
+    .fotter .side-bar ul li a img {
+        margin-left: -6px;
+    }
+    .fotter .icon-add ul{
+        margin-left: 15px;
+    }
+    .fotter .icon-add ul li{
+        margin:10px 10px;
+    }
+    .fotter .text h1{
+       margin-left: 27px;  
+    }
+    .fotter .company-title ul{
+        margin-left: 30px;
+    }
+    .fotter .contacts-info ul{
+        padding-left: 60px;
+    
+    }
+    /*fotter section End*/
+   
+  
+
+}
+
+@media only screen and (min-width:600px) and (max-width:851px){
+   .about-company .shape img {
+        top: -280px;
+        left: 33%;
+    }
+    .add-to-cart form table thead tr th {
+        font-size: 20px;
+    }
+
+    .add-to-cart form table tbody tr td:has(img){
+        display: none;
+    }
+    .add-to-cart form table tbody tr td {
+        width:20%;
+        font-size: 16px;
+        height: 120px;
+    }
+  
+    .add-to-cart .Quantity button {
+        left: 345px;
+
+    }
+    .products #produts{
+        margin-top: 60px;
+    }
+    .products .content .sub-title p .text {
+        right: 44%;
+    }
+    .subscribe .button {
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+    .subscribe .title h3 {
+        font-size: 40px;
+    }
+   
+    .fotter .side-bar ul li a .text{
+        margin-left: -9px;
+    }
+    .fotter .side-bar ul li a img {
+        margin-left: -40px;
+    }
+    .products #preducst{
+        margin-top: 60px;
+    }
+    .products .content .sub-title p .text {
+        right: 215px;
+    }
+}
+
+@media only screen and (min-width:851px) and (max-width:992px){
+   .about-company .shape img {
+        position: absolute;
+        top: -260px;
+        left: 39%;
+    }
+    .add-to-cart form table thead tr th {
+        font-size: 20px;
+    }
+
+    .add-to-cart form table tbody tr td:has(img){
+        display: none;
+    }
+    .add-to-cart form table tbody tr td {
+        width:20%;
+        font-size: 16px;
+        height: 120px;
+    }
+  
+    .add-to-cart .Quantity button {
+        left: 355px;
+
+    }
+    .products #preducst{
+        margin-top:20px;
+    }
+    .products #produts{
+       margin-top:20px;
+    }
+    .products .content .sub-title p .text {
+        right: 44%;
+    }
+    .subscribe .button {
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+    .subscribe .title h3 {
+        font-size: 40px;
+    }
+    .fotter .side-bar ul li a .text{
+        margin-left: -52px;
+    }
+    .products .content .sub-title p .text {
+        right: 120px;
+    }
+}
+@media only screen and (min-width:992px) and (max-width:1201px){
+    .about-company .shape img {
+        left: 47%;
+    }
+    .add-to-cart form table thead tr th {
+        font-size: 20px;
+       
+    }
+    .add-to-cart form table tbody tr td {
+        font-size: 18px;
+    }
+    .add-to-cart .Quantity button {
+        left: 330px; 
+    }
+    .cart-count .sub-count .text-dollars {
+        width: 20%;
+    }
+    .cart-count .sub-count .text {
+        width: 80%;
+    }
+    .subscribe .button {
+        margin-top: 6px;
+        margin-left: 50px;
+    }
+    .products .content .sub-title p .text {
+        right: 70px;
+    }
+    .fotter .icon-add ul li {
+        list-style-type: none;
+        float: left;
+        margin: 10px 8px;
+    }
+
+}
+
+@media only screen and (min-width:1201px) and (max-width:1401px){
+    .add-to-cart .Quantity button { 
+        left: 340px;
+    }
+    .subscribe .button {
+        margin-top: 6px;
+        margin-left: 70px;
+    }
+    .products .content .sub-title p .text {
+        right: 90px;
+    }
+}
+
+@media only screen and (min-width:1401px) and (max-width:1551px){
+    .add-to-cart .Quantity button { 
+        left: 410px;
+    }
+  
+}
+
+/*cart page End now*/
+
+/*contact-us page start now*/
+
+/*main section start now*/
+@media only screen and (min-width:349px) and (max-width:601px){
+    .about-company .shape img {
+        left: 20%;
+    }
+    .contacts-area .contacts-title h2{
+        text-align: center;
+        margin-top:30px;
+        font-size: 30px;
+    }
+    
+    .contacts-area .contacts-title p{
+        text-align: center;
+        font-size: 14px;
+    }
+    .contacts-area .contact-list form button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+    .subscribe .title h3{
+        font-size: 38px;
+    }
+    .subscribe .button form .button-style {
+        width: 180px;
+    }
+    .subscribe form .submit-btn {
+        left: 180px;
+        
+    }
+    .subscribe .button {
+        margin-top: 36px;
+        margin-left: 0px;
+    }
+    .fotter .side-bar ul li a img{
+        margin-left: -7px;
+    }
+    .fotter .text {
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+    .soical-contacts .social-sub .contatcs-title{
+        width:25%;
+    }
+    .fotter .company-title ul{
+        margin-left: 30px;
+    }
+    .fotter .contacts-info ul{
+        margin-left: 30px;
+    }
+    .fotter .icon-add ul{
+        margin-left: 2dvh;
+    }
+    .fotter .icon-add ul li {
+        margin: 10px 8px;
+    }
+    
+    .fotter .side-bar ul li a .text{
+        margin-left:-8px;
+    }
+}
+@media only screen and (min-width:601px) and (max-width:992px){
+    .about-company .shape img {
+        left: 27%;
+    }
+    .contacts-area .contacts-title h2{
+        text-align: center;
+        margin-top:30px;
+
+    }
+    .contacts-area .contacts-title p{
+        text-align: center;
+    }
+    .contacts-area .contact-list form button{
+        margin-top:15px;
+    }
+    .soical-contacts .social-sub .contatcs-title{
+        width:25%;
+    }
+    .subscribe .button{
+        margin-left: 0px;
+        margin-top:40px;
+    }
+    .subscribe .title h3{
+        font-size: 40px;
+    }
+
+}
+@media only screen and (min-width:992px) and (max-width:1201px){
+    .about-company .shape img {
+        left: 48%;
+    }
+    .subscribe .button{
+        margin-left: 70px;
+    }
+}
+
+/*contacts page End now*/
+
+/*service page start now*/
+
+/*Responsive all service page*/
+@media only screen and (min-width:349px) and (max-width:601px){
+    .about-company .shape img {
+        left: 20%;
+    }
+    .service .title h1{
+        font-size: 30px;
+    }
+    .service .title h2{
+        font-size: 30px; 
+    }
+    .service .shape-to img {
+        right: 8%;
+        top: -20px;
+    }
+    .service .shape img {
+       display: none;
+    }
+    .subscribe .title h3{
+        font-size: 38px;
+    }
+    .subscribe .button {
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+    .fotter .text {
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+    .fotter .company-title ul{
+        margin-left: 30px;
+    }
+    .fotter .contacts-info ul{
+        margin-left: 30px;
+    }
+    .fotter .icon-add ul{
+        margin-left: 2dvh;
+    }
+    .fotter .icon-add ul li {
+        margin: 10px 8px;
+    }
+    
+    .fotter .side-bar ul li a .text{
+        margin-left:-8px;
+    }
+    .fotter .side-bar ul li a img {
+        margin-left: -15px;
+    }
+    .fotter .sub-text p{
+        margin-left: 30px;
+    }
+    .testimonials .item .sub-text-area p {
+        font-size: 16px;
+    }
+    .testimonials .item .list-item ul {
+        position: absolute;
+        right: 0px;
+    }
+    .testimonials .text h1{
+        font-size: 30px;
+        text-align: center;
+    }
+    .testimonials .text p{
+        text-align: center;
+    }
+    .testimonials .shape-imgbox img {
+        position: absolute;
+        top: -150px;
+        right:10px;
+    }
+  
+}
+@media only screen and (min-width:601px) and (max-width:992px){
+    .about-company .shape img {
+        left: 27%;
+    }
+    .service .shape img {
+        position: absolute;
+        top: -70px;
+        left: -30px;
+    }
+    .subscribe .button{
+        margin-left: 0px;
+        margin-top:40px;
+    }
+    .service .shape-to img {
+        position: absolute;
+        right: 8%;
+        top:-10px;
+    }
+    .testimonials .item .sub-text-area p{
+        width: 100%;
+    }
+
+}
+@media only screen and (min-width:992px) and (max-width:1201px){
+    .about-company .shape img {
+        left: 48%;
+    }
+    .subscribe .button {
+        margin-top: 6px;
+        margin-left: 70px;
+    }
+}
+
+/*service page End now*/
+
+/*shop page start now*/
+
+/*Responsive design start now all */
+@media only screen and (min-width:349px) and (max-width:601px){
+    .about-company .shape img {
+        left: 20%;
+    }
+    .shop-blog .shop-select form select {
+        width: 150px;
+        margin-right: 0.4em;
+    }
+    .shop-blog .shop-select {
+        margin-top: -100px;
+        margin-left: 9px;
+    }
+    .shop-blog .shop-text p{
+        width:40%;
+    }
+    .shop-blog .text h6{
+        text-align: center;
+    }
+    .shop-blog .img-shop img{
+        width: 100%;
+    }
+    .shop-blog .content{
+        width: 100%;
+    }
+    .shop-blog .product-icon ul{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top:10px;
+    }
+    .shop-blog .demo-text p{
+        text-align: center;
+        margin-top:-15px;
+    }
+    .shop-blog .revies-title h2{
+        text-align: center;
+    }
+    .subscribe .title h3{
+        font-size: 38px;
+    }
+    .subscribe .button form .button-style {
+        width: 180px;
+    }
+    .subscribe form .submit-btn {
+        left: 180px;
+        
+    }
+    .subscribe .button {
+        margin-top: 36px;
+        margin-left: 0px;
+    }
+    .fotter .text {
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+    .fotter .company-title ul{
+        margin-left: 30px;
+    }
+    .fotter .contacts-info ul{
+        margin-left: 30px;
+    }
+    .fotter .icon-add ul{
+        margin-left: 2dvh;
+    }
+    .fotter .icon-add ul li {
+        margin: 10px 8px;
+    }
+    
+    .fotter .side-bar ul li a .text{
+        margin-left:-8px;
+    }
+  
+
+}
+@media only screen and (min-width:601px) and (max-width:992px){
+    .about-company .shape img {
+        left: 27%;
+    }
+    .shop-blog .shop-text {
+        margin-bottom: -60px;
+    }
+    .shop-blog .recent-img {
+        padding-top: 50px;
+        display: flex;
+        justify-content: left;
+        margin-left: 25px;
+    }
+    .subscribe .button{
+        margin-left: 0px;
+        margin-top:40px;
+    }
+    .subscribe .title h3{
+        font-size: 40px;
+    }
+
+}
+@media only screen and (min-width:992px) and (max-width:1201px){
+    .about-company .shape img {
+        left: 48%;
+    }
+    .subscribe .button {
+        margin-top: 6px;
+        margin-left: 82px;
+    }
+    .shop-blog .recent-img {
+        padding-top: 43px;
+        display: flex;
+        justify-content: left;
+        margin-left: -10px;
+    }
+    .shop-blog .input-group #max-input{
+        margin-left: 20px;
+        
+    }
+    
+
+ 
+}
+
+/*shop page End now*/

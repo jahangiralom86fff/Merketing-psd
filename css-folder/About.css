@@ -2,10 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
 
-:root {
-  --Rajdhani:"Rajdhani", sans-serif;
+body{
+    margin:0px;
+    padding: 0px;
+    font-family:"Roboto Condensed", sans-serif; 
+    font-family:"Rajdhani",sans-serif;
 }
-
 /*navbar section start now*/
 
 .navbar{
@@ -286,6 +288,7 @@
     color:#ffffff;
     text-transform: capitalize;
     font-weight: 600;
+    font-family:"Rajdhani",sans-serif;
     width:90%;
     margin-bottom: 100px;
 }
@@ -436,14 +439,9 @@
     font-size:16px;
     text-align: center;
     margin-top:20px;
-    font-family: "Roboto", sans-serif;
+    font-family:"Roboto Condensed", sans-serif; 
 }
-.service .single-text .text{
-    color:#737375;
-    font-size:16px;
-    text-align: center;
-    margin-top:-12px;
-}
+
 .service .service-single{
     margin-top:40px;
     margin-bottom:70px;
@@ -542,8 +540,10 @@
     text-decoration: none;
     font-size:18px;
     text-transform: capitalize;
+    font-family:"Rajdhani",sans-serif;
     overflow: hidden;
     transition: all 300ms ease-in-out;
+
 
 }
 .service .service-single .more-btn::before{
@@ -610,6 +610,7 @@
     overflow: hidden;
     display: inline-block;
     font-weight: 600;
+    font-family:"Rajdhani",sans-serif;
     transition:  width 500ms ease;
    
 }
@@ -734,6 +735,7 @@
     color:#ffffff;
     font-weight:600;
     text-transform: capitalize;
+    font-family:"Rajdhani",sans-serif;
     margin-bottom:3rem;
     margin-top:1.2rem;
 }
@@ -811,6 +813,7 @@
     color:#ffffff;
     font-size: 20px;
     font-weight: 600;
+    font-family:"Rajdhani",sans-serif;
     text-transform: capitalize;
 
 }
@@ -963,7 +966,7 @@
     color:#b4b6be;
     font-size: 16px;
     text-transform: capitalize;
-    font-family: "Roboto", sans-serif;
+    font-family:"Roboto Condensed", sans-serif; 
 
 }
 .fotter .icon-add ul{
@@ -1015,7 +1018,7 @@
     font-size: 16px;
     color:#b4b6be;
     text-transform: capitalize;
-    font-family: "Roboto",sans-serif;
+    font-family:"Roboto Condensed", sans-serif; 
     position: relative;
     transition: all 200ms ease-in;
 }

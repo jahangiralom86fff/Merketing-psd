@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
 
-:root {
-  --Rajdhani:"Rajdhani", sans-serif;
+body{
+    margin:0px;
+    padding: 0px;
+    font-family:"Roboto Condensed", sans-serif; 
+    font-family:"Rajdhani",sans-serif;
 }
-
 /*navbar section start now*/
 
 .navbar{
@@ -503,7 +505,7 @@
     width: 96%;
     font-weight: 500;
     padding-bottom: 30px;
-    font-family: "Roboto", sans-serif;
+    font-family:"Roboto Condensed", sans-serif; 
 }
 .blog .details-reomte{
     padding:40px 40px 30px 50px;
@@ -516,6 +518,8 @@
     color:#919191;
     font-weight: 500;
     text-transform: capitalize;
+    font-family:"Roboto Condensed", sans-serif; 
+
 }
 .blog .details-reomte .qoute{
     position: relative;
@@ -1071,7 +1075,8 @@ blog .achive-date .sub-achivess .text{
     color:#b4b6be;
     font-size: 16px;
     text-transform: capitalize;
-    font-family:"Roboto",sans-serif;
+    font-family:"Roboto Condensed", sans-serif; 
+    
 
 }
 .fotter .icon-add ul{
@@ -1144,8 +1149,8 @@ blog .achive-date .sub-achivess .text{
     font-size: 16px;
     color:#b4b6be;
     text-transform: capitalize;
-    font-family: "Roboto",sans-serif;
     position: relative;
+    font-family:"Roboto Condensed", sans-serif; 
     transition: all 200ms ease-in;
 }
 .fotter .company-title ul li a:hover{
@@ -1176,7 +1181,7 @@ blog .achive-date .sub-achivess .text{
     color:#b4b6be;
     margin:20px 0px;
     position: relative;
-    font-family: "Roboto",sans-serif;
+    font-family:"Roboto Condensed", sans-serif; 
     font-size: 16px;
     position: relative;
     transition: all 500ms ease-in-out;
