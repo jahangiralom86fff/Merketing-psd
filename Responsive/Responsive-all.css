@@ -687,6 +687,7 @@
     .service .title h2{
         font-size: 30px;
     }
+
     /*digital marketing*/
 
     /*chosse-us*/
@@ -773,11 +774,18 @@
     }
 
     /*articles part End now*/
+
+    /*fotter and subcribe start*/
+
     .subscribe .title{
         padding-top:25px;
     }
     .subscribe .title h3{
         font-size: 38px;
+        text-align: center;
+    }
+    .subscribe .title .text{
+        margin-left: 50px;
     }
     .subscribe .button form .button-style {
         width: 180px;
@@ -786,36 +794,49 @@
         left: 180px;
         
     }
+    
+    .subscribe .title h3{
+        font-size: 38px;
+    }
+    .subscribe .button form .button-style {
+        width: 180px;
+    }
+    .subscribe form .submit-btn {
+        left: 179px;
+        
+    }
     .subscribe .button {
         margin-top: 36px;
-        margin-left: 0px;
-    }
-    .fotter .side-bar ul li a img {
-        margin-left: -18px;
-    }
-    .fotter .sub-text p{
-        padding-left: 3px;
+        margin-left: 50px;
     }
 
-  .fotter .text {
-    margin-top: 30px;
-    margin-left: 0px;
-  }    .fotter .company-title ul{
-        margin-left: 30px;
-    }
-    .fotter .contacts-info ul{
-        margin-left: 3px;
+    .fotter .text{
+        margin-left: 39px;
     }
     .fotter .icon-add ul{
-        margin-left: 2dvh;
+        padding-left: 44px;
     }
+    .fotter .company-title ul{
+        margin-left: 40px;
+    }
+    .fotter .contacts-info ul{
+        margin-left: 35px;
+    }
+   
     .fotter .icon-add ul li {
         margin: 10px 8px;
     }
-    
+    .fotter .sub-text p{
+        padding-left: 40px;
+    }
     .fotter .side-bar ul li a .text{
         margin-left:-8px;
     }
+    .fotter .side-bar ul li a img {
+        margin-left: 0px;
+    }
+
+    /*fotter and subscribe End*/
    
 }
 @media only screen and (min-width:601px) and (max-width:992px){
@@ -876,10 +897,6 @@
     .articles .blog .single-blog{
         left:20%;
         top:70%;
-    }
-    .subscribe .button{
-        margin-left: 0px;
-        margin-top:40px;
     }
     .subscribe .title h3{
         font-size: 40px;
@@ -999,40 +1016,6 @@
         color: #ffffff;
     }
   
-    .subscribe .title h3{
-        font-size: 38px;
-    }
-    .subscribe .button form .button-style {
-        width: 180px;
-    }
-    .subscribe form .submit-btn {
-        left: 179px;
-        
-    }
-    .subscribe .button {
-        margin-top: 36px;
-        margin-left: 0px;
-    }
-  .fotter .text {
-    margin-top: 30px;
-    margin-left: 0px;
-  }    .fotter .company-title ul{
-        margin-left: 30px;
-    }
-    .fotter .contacts-info ul{
-        margin-left: 3px;
-    }
-    .fotter .icon-add ul{
-        margin-left: 2dvh;
-    }
-    .fotter .icon-add ul li {
-        margin: 10px 8px;
-    }
-    
-    .fotter .side-bar ul li a .text{
-        margin-left:-8px;
-    }
-
 }
 @media only screen and (min-width:601px) and (max-width:993px){
     .Experience .sub-title h2{
@@ -1046,10 +1029,6 @@
         display: flex;
         justify-content: center;
         align-items: center;
-    }
-    .subscribe .button{
-        margin-left: 0px;
-        margin-top:40px;
     }
     .subscribe .title h3{
         font-size: 40px;
@@ -1125,108 +1104,42 @@
         left: 180px;
         
     }
-    .subscribe .button {
-        margin-top: 36px;
-        margin-left: 0px;
-    }
-    .fotter .sub-text p{
-        margin-left: 15px;
-    }
-  .fotter .text {
-    margin-top: 30px;
-    margin-left: 0px;
-  }    .fotter .company-title ul{
-        margin-left: 30px;
-    }
-    .fotter .contacts-info ul{
-        margin-left: 3px;
-    }
-    .fotter .icon-add ul{
-        margin-left: 2dvh;
-    }
-    .fotter .icon-add ul li {
-        margin: 10px 8px;
-    }
-    
-    .fotter .side-bar ul li a .text{
-        margin-left:-8px;
-    }
-  
+
+   
 }
 
 /*blog-detais page End now*/
 
 
 /*blog page start now*/
-@media only screen and (max-width: 400px){
-    .blog .recent-single .recent-titles .single-text {
-        width: 100%;
-        font-size: 18px;
+@media only screen and (max-width:575px){
+    .blog  .Recent-sub{
+      flex-wrap: wrap;
+      width:35%;
+      height: 120px;
     }
-    .blog .recent-single .Recent-sub .Recent-sub-title{
-        width:65%;
-        float: left;
-    
+    .blog .Recent-sub-title{
+       width:65%;
+       float: right;
+       margin-top: -120px;
+       height: 120px;
     }
-    .blog .recent-single .Recent-sub {
-        width: 35%;
-        float: left;
-    }
-}
-@media only screen and (max-width: 600px){
-    .blog .recent-single .recent-titles .single-text {
-        width: 95%;
-        font-size: 18px;
-    }
-    .blog .recent-single .Recent-sub .Recent-sub-title{
-        width:75%;
-        float: left;
-    
-    }
-    .blog .recent-single .Recent-sub {
-        width: 25%;
-        float: left;
+    .blog .Recent-sub-title .recent-titles{
+        font-size: 16px;
     }
 
 }
-@media only screen and (min-width:600px) and (max-width:751px){
-    .blog .recent-single .recent-titles .single-text {
-        width: 95%;
-        font-size: 18px;
-    }
-    .blog .recent-single .Recent-sub .Recent-sub-title{
-        width:75%;
-        float: left;
-    
-    }
-    .blog .recent-single .Recent-sub {
-        width: 25%;
-        float: left;
-    }
-}
-@media only screen and (min-width:749px) and (max-width:992px){
-    .blog .recent-single .recent-titles .single-text {
-        width: 95%;
-        font-size: 18px;
-    }
-    .blog .recent-single .Recent-sub .Recent-sub-title{
-        width:75%;
-        float: left;
-    
-    }
-    .blog .recent-single .Recent-sub {
-        width: 25%;
-        float: left;
+@media only screen and (min-width:991px) and (max-width:1404px){
+    .blog .Recent-sub-title .recent-titles{
+        font-size: 16px;
     }
 
 }
-
 
 /*blog page End now*/
 
-/*cart page start now*/
 
-/*shape responsive area*/
+/*cart page start now*/
 
 @media only screen and (min-width:350px) and (max-width:600px){
    .about-company .shape img {
@@ -1275,67 +1188,6 @@
     .products #produts{
         margin-top: 40px;
     }
-
-    /*subscribe area now*/
-    .subscribe .title h3{
-        font-size: 35px;
-        text-align: center;
-    }
-    .subscribe .title .text{
-        font-size: 12px;
-        text-align: center;
-        display: flex;
-        justify-content: center;
-    }
-    .subscribe .button{
-        margin-top: 46px;
-        margin-left: 20px;
-    }
-
-    .subscribe .button form .button-style {
-        width: 148px;
-        height: 65px;
-    }
-    
-    .subscribe .button{
-        position: relative;
-    }
-    .subscribe form .submit-btn{
-        left:145px;
-        overflow: none;
-        
-    }
-    
-    /*subscribe area End now*/
-
-    /*fotter section start now*/
-   .fotter .sub-text p{
-        font-size: 14px;
-        padding-left: 25px;
-    }
-    .fotter .side-bar ul li a .text{
-        margin-left: -5px;
-    }
-    .fotter .side-bar ul li a img {
-        margin-left: -6px;
-    }
-    .fotter .icon-add ul{
-        margin-left: 15px;
-    }
-    .fotter .icon-add ul li{
-        margin:10px 10px;
-    }
-    .fotter .text h1{
-       margin-left: 27px;  
-    }
-    .fotter .company-title ul{
-        margin-left: 30px;
-    }
-    .fotter .contacts-info ul{
-        padding-left: 60px;
-    
-    }
-    /*fotter section End*/
    
   
 
@@ -1369,10 +1221,6 @@
     .products .content .sub-title p .text {
         right: 44%;
     }
-    .subscribe .button {
-        margin-top: 30px;
-        margin-left: 0px;
-    }
     .subscribe .title h3 {
         font-size: 40px;
     }
@@ -1380,9 +1228,7 @@
     .fotter .side-bar ul li a .text{
         margin-left: -9px;
     }
-    .fotter .side-bar ul li a img {
-        margin-left: -40px;
-    }
+
     .products #preducst{
         margin-top: 60px;
     }
@@ -1423,16 +1269,7 @@
     .products .content .sub-title p .text {
         right: 44%;
     }
-    .subscribe .button {
-        margin-top: 30px;
-        margin-left: 0px;
-    }
-    .subscribe .title h3 {
-        font-size: 40px;
-    }
-    .fotter .side-bar ul li a .text{
-        margin-left: -52px;
-    }
+
     .products .content .sub-title p .text {
         right: 120px;
     }
@@ -1457,19 +1294,11 @@
     .cart-count .sub-count .text {
         width: 80%;
     }
-    .subscribe .button {
-        margin-top: 6px;
-        margin-left: 50px;
-    }
+    
     .products .content .sub-title p .text {
         right: 70px;
     }
-    .fotter .icon-add ul li {
-        list-style-type: none;
-        float: left;
-        margin: 10px 8px;
-    }
-
+  
 }
 
 @media only screen and (min-width:1201px) and (max-width:1401px){
@@ -1518,45 +1347,18 @@
         align-items: center;
         margin: 0 auto;
     }
-    .subscribe .title h3{
-        font-size: 38px;
+
+ 
+  
+  
+}
+
+@media only screen and (min-width:450px) and (max-width:992px){
+    .soical-contacts .social-sub .contatcs-ares{
+        margin-left: -8%;
+
     }
-    .subscribe .button form .button-style {
-        width: 180px;
-    }
-    .subscribe form .submit-btn {
-        left: 180px;
-        
-    }
-    .subscribe .button {
-        margin-top: 36px;
-        margin-left: 0px;
-    }
-    .fotter .side-bar ul li a img{
-        margin-left: -7px;
-    }
-  .fotter .text {
-    margin-top: 30px;
-    margin-left: 0px;
-  }    .soical-contacts .social-sub .contatcs-title{
-        width:25%;
-    }
-    .fotter .company-title ul{
-        margin-left: 30px;
-    }
-    .fotter .contacts-info ul{
-        margin-left: 3px;
-    }
-    .fotter .icon-add ul{
-        margin-left: 2dvh;
-    }
-    .fotter .icon-add ul li {
-        margin: 10px 8px;
-    }
-    
-    .fotter .side-bar ul li a .text{
-        margin-left:-8px;
-    }
+
 }
 @media only screen and (min-width:601px) and (max-width:992px){
     .about-company .shape img {
@@ -1573,9 +1375,7 @@
     .contacts-area .contact-list form button{
         margin-top:15px;
     }
-    .soical-contacts .social-sub .contatcs-title{
-        width:25%;
-    }
+
     .subscribe .button{
         margin-left: 0px;
         margin-top:40px;
@@ -1619,36 +1419,7 @@
     .subscribe .title h3{
         font-size: 38px;
     }
-    .subscribe .button {
-        margin-top: 30px;
-        margin-left: 0px;
-    }
-    .fotter .text {
-        margin-top: 30px;
-        margin-left: 0px;
-    }    
-    .fotter .company-title ul{
-        margin-left: 30px;
-    }
-    .fotter .contacts-info ul{
-        margin-left: 3px;
-    }
-    .fotter .icon-add ul{
-        margin-left: 2dvh;
-    }
-    .fotter .icon-add ul li {
-        margin: 10px 8px;
-    }
     
-    .fotter .side-bar ul li a .text{
-        margin-left:-8px;
-    }
-    .fotter .side-bar ul li a img {
-        margin-left: -15px;
-    }
-    .fotter .sub-text p{
-        margin-left: 15px;
-    }
     .testimonials .item .sub-text-area p {
         font-size: 16px;
     }
@@ -1746,40 +1517,7 @@
     .shop-blog .revies-title h2{
         text-align: center;
     }
-    .subscribe .title h3{
-        font-size: 38px;
-    }
-    .subscribe .button form .button-style {
-        width: 180px;
-    }
-    .subscribe form .submit-btn {
-        left: 180px;
-        
-    }
-    .subscribe .button {
-        margin-top: 36px;
-        margin-left: 0px;
-    }
-    .fotter .text {
-        margin-top: 30px;
-        margin-left: 0px;
-    }    
-    .fotter .company-title ul{
-        margin-left: 30px;
-    }
-    .fotter .contacts-info ul{
-        margin-left: 3px;
-    }
-    .fotter .icon-add ul{
-        margin-left: 2dvh;
-    }
-    .fotter .icon-add ul li {
-        margin: 10px 8px;
-    }
-    
-    .fotter .side-bar ul li a .text{
-        margin-left:-8px;
-    }
+   
   
 
 }
@@ -1796,22 +1534,22 @@
         justify-content: left;
         margin-left: 25px;
     }
-    .subscribe .button{
-        margin-left: 0px;
-        margin-top:40px;
+   
+
+}
+@media only screen and (min-width:575px) and (max-width:992px){
+    .shop-blog .text h6{
+        font-size: 14px;
+
     }
-    .subscribe .title h3{
-        font-size: 40px;
+    .shop-blog .text{
+        padding-top: 48px;
     }
 
 }
 @media only screen and (min-width:992px) and (max-width:1201px){
     .about-company .shape img {
         left: 48%;
-    }
-    .subscribe .button {
-        margin-top: 6px;
-        margin-left: 82px;
     }
     .shop-blog .recent-img {
         padding-top: 43px;

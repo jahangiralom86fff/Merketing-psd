@@ -522,11 +522,12 @@ body{
 .blog .category .category-item:hover .category-arrow{
     color:#ff4934;
 }
+
 /*catagory area End*/
-.blog .Recent-news{
-    padding-top:0px;
-    padding-bottom: 40px;
-}
+
+/*Recent area start now*/
+
+
 .blog .Recent-news h1{
     font-size: 28px;
     color:#ffffff;
@@ -534,39 +535,34 @@ body{
     text-transform: capitalize;
     text-decoration: none;
 }
-.blog .recent-single{
-    width:100%;
-    margin-top:30px;
-    
 
-}
-.blog .recent-single .Recent-sub{
-    width:30%;
-    float: left;
-    text-decoration: none;
-}
-
-.blog .recent-single .Recent-sub .Recent-sub-title{
-    width:70%;
-    float: left;
-  
-}
 .blog .recent-single .Recent-sub img{
     height:auto;
     width:auto;
     border-radius: 10px;
     text-decoration: none;
 }
-.blog .Recent-sub-title .text{
-    display: inline-block;
-  
+.blog  #Recent_news h3{
+    font-size:28px;
+    font-weight: 600;
+    color:#ffffff;
+    margin-bottom: 10px;
 }
+.blog .Recent-sub{
+    margin-top:30px;
+}
+.blog .Recent-sub-title{
+    margin-top:30px;
+}
+
 .blog .Recent-sub-title .text p{
     font-size: 16px;
     color:#919191;
     font-weight: 500;
     text-transform: capitalize;
     position: relative;
+    margin-top: -8px;
+    
 }
 .blog .Recent-sub-title .text p::before{
     content: '';
@@ -579,22 +575,19 @@ body{
 
     
 }
-.blog .recent-title {
-    
-    text-decoration: none;
+.blog #Recent_news{
+    margin:45px 0px;
+    margin-left:-10px;
 }
-.blog .recent-single .recent-titles {
+
+.blog .Recent-sub-title .recent-titles{
     text-decoration: none;
-   
-}
-.blog .recent-single .recent-titles .single-text{
-    font-weight: bold;
-    font-size: 20px;
     color:#ffffff;
-    width:90%;
-    padding-top:7px;
-    
+    font-size: 20px;
+    font-weight: bold;
 }
+
+/*Recent area End Now*/
 
 .blog .tags-area{
     margin-top:-25px;
