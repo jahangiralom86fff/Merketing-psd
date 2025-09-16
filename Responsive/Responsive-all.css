@@ -606,6 +606,8 @@
 }
 /*navbar Responsive navbar*/
 
+
+
 /*home page Responsive start*/
 @media only screen and (min-width:349px) and (max-width:601px){
     .banner .title h1{
@@ -785,7 +787,7 @@
         text-align: center;
     }
     .subscribe .title .text{
-        margin-left: 50px;
+        margin-left: 6px;
     }
     .subscribe .button form .button-style {
         width: 180px;
@@ -807,7 +809,7 @@
     }
     .subscribe .button {
         margin-top: 36px;
-        margin-left: 50px;
+        margin-left: 10px;
     }
 
     .fotter .text{
@@ -913,7 +915,7 @@
         margin: 2px 1px;
     }
     .subscribe .button{
-        margin-left: 50px;
+        margin-left: 40px;
     }
 
 }
@@ -936,9 +938,10 @@
 /*home page End now*/
 
 
-/*about page start now*/
+/*about pages start now*/
 
 /*main Responsive start now*/
+
 @media only screen and (min-width:349px) and (max-width:601px){
         
     .about-company .shape img {
@@ -956,7 +959,7 @@
     .Digital-merketing .text p{
         font-size: 14px;
         text-align: center;
-        padding-top: 16px;
+        padding-top: 25px;
         width: 100%;
     }
     .Digital-merketing .single-text p{
@@ -976,7 +979,7 @@
     .service .shape-to img {
         position: absolute;
         right: 8%;
-        top: -71px;
+        top: -251px;
     }
     .service .title h1{
         font-size: 30px;
@@ -1009,7 +1012,7 @@
 
     }
     .Experience .link-area .plus-icon {
-        margin-left: 290px;
+        margin-left: 62%;
         margin-top: -60px;
         position: relative;
         z-index: 44555;
@@ -1039,6 +1042,7 @@
 }
 
 /*about page End now*/
+
 
 /*blog-details page start now*/
 
@@ -1411,7 +1415,7 @@
     }
     .service .shape-to img {
         right: 8%;
-        top: -20px;
+        top: -70px;
     }
     .service .shape img {
        display: none;
@@ -1449,10 +1453,6 @@
         position: absolute;
         top: -70px;
         left: -30px;
-    }
-    .subscribe .button{
-        margin-left: 0px;
-        margin-top:40px;
     }
     .service .shape-to img {
         position: absolute;
