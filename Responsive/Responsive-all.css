@@ -1036,9 +1036,35 @@
     .subscribe .title h3{
         font-size: 40px;
     }
-   
-   
-   
+    
+}
+@media only screen and (min-width:992px) and (max-width:1200px){
+    .Experience .link-area .plus-icon{
+        width:55px;
+        height: 55px;
+        margin-left: 66%;
+    }
+    .Experience .link-area .plus-icon .link-item {
+        position: absolute;
+        top: -160px;
+        left: 8px;
+        width: 50px;
+        height: 150px;
+
+    }
+    .Experience .link-area .plus-icon .link-item ul {
+        padding-left: 0px;
+        padding-top: 10px;
+       
+    }
+    .Digital-merketing .img-area img{
+        margin-top:-65px;
+    }
+}
+@media only screen and (min-width:1200px) and (max-width:1400px){
+    .Digital-merketing .img-area img{
+        margin-top:-58px;
+    }
 }
 
 /*about page End now*/
@@ -1061,10 +1087,13 @@
     }
   
     .blog .detail-tags .single-detais .single-list ul li{
-       margin:6px 10px;
+       margin:6px 5px;
 
     }
-  
+    .blog .detail-tags .single-detais .single-list ul{
+        width:100%;
+        margin-left:0px;
+    }
     .blog .detail-tags .single-detais{
         width: 100%;
     }
@@ -1085,15 +1114,15 @@
     .blog .achive-date .single-achive{
         margin: 10px 0px;
     }
-    .blog .sub-review .title{
-        padding-left: 55px;
+    .blog .review .single-review{
+        width:30%;
     }
-    .blog .sub-review .title h5{
-        font-size: 16px;
+    .blog .review .sub-review{
+        width:70%;
     }
     .blog .single-title p{
         font-size: 14px;
-        padding-left: 55px;
+        padding-left: 0px;
     }
    .blog .reply-area a{
         margin-left: 16%;
@@ -1109,35 +1138,74 @@
         
     }
 
+    .blog .main-review{
+        padding-left:60px;
+        padding-top: 100px;
+    }
+    
    
+
+   
+}
+
+@media only screen and (min-width:601px) and (max-width:800px){
+    .blog .detail-tags .single-detais {
+        width: 100%;
+    }
+    .blog .detail-tags .single-detais .single-list ul li {
+        margin: 6px 10px;
+    }
+    .blog .single-detais-sub .contacts-details ul li {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .blog .detail-tags .single-detais-sub {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin: 20px 0px;
+    }
+
+}
+@media only screen and (max-width:576px){
+    #preccest{
+        padding-top:120px;
+    }
+}
+@media only screen and (min-width:799px) and (max-width:1400px){
+    .blog .detail-tags .single-detais .single-list ul li{
+        margin-bottom:25px;
+    }
+    .blog .single-detais-sub .contacts-details ul li{
+        margin-bottom:25px;
+    }
+}
+
+@media only screen and (min-width:501px) and (max-width:575px){
+    .blog .achive-date .single-achive .sub-achivess{
+        margin-left:-15px;
+    }
+    .blog .achive-date .sub-achivess .title h4{
+        font-size: 18px;
+    }
 }
 
 /*blog-detais page End now*/
 
 
 /*blog page start now*/
-@media only screen and (max-width:575px){
-    .blog  .Recent-sub{
-      flex-wrap: wrap;
-      width:35%;
-      height: 120px;
-    }
-    .blog .Recent-sub-title{
-       width:65%;
-       float: right;
-       margin-top: -120px;
-       height: 120px;
-    }
-    .blog .Recent-sub-title .recent-titles{
-        font-size: 16px;
-    }
 
-}
 @media only screen and (min-width:991px) and (max-width:1404px){
     .blog .Recent-sub-title .recent-titles{
         font-size: 16px;
     }
 
+}
+@media only screen and (max-width:768px){
+    .blog .img-box img{
+        margin-top:60px;
+    }
 }
 
 /*blog page End now*/
@@ -1240,7 +1308,20 @@
         right: 215px;
     }
 }
+@media only screen and (max-width:768px){
+    #preducsts{
+        margin-top:60px;
+    }
 
+}
+@media only screen and (max-width:992px){
+    #preducsts{
+        margin-top:20px;
+    }
+    .service .single-title{
+        width:80%;
+    }
+}
 @media only screen and (min-width:851px) and (max-width:992px){
    .about-company .shape img {
         position: absolute;
@@ -1302,6 +1383,10 @@
     .products .content .sub-title p .text {
         right: 70px;
     }
+    .service .single-title{
+        width:70%;
+    }
+
   
 }
 
@@ -1351,19 +1436,10 @@
         align-items: center;
         margin: 0 auto;
     }
-
- 
-  
   
 }
 
-@media only screen and (min-width:450px) and (max-width:992px){
-    .soical-contacts .social-sub .contatcs-ares{
-        margin-left: -8%;
 
-    }
-
-}
 @media only screen and (min-width:601px) and (max-width:992px){
     .about-company .shape img {
         left: 27%;
@@ -1560,6 +1636,9 @@
     .shop-blog .input-group #max-input{
         margin-left: 20px;
         
+    }
+    .soical-contacts .social-sub .contatcs-ares{
+        margin-left:8px;
     }
     
 

@@ -352,41 +352,24 @@ body{
     padding-top:30px;
     padding-bottom: 40px;
 }
-.blog .Recent-news h1{
+.blog  h3{
     font-size: 28px;
     color:#ffffff;
     font-weight: 600;
+    margin-top:40px;
     text-transform: capitalize;
 }
-.blog .recent-single{
-    width:100%;
-    margin-top: 50px;
-
-}
-.blog .recent-single .Recent-sub{
-    width:30%;
-    height: 80px;
-    float:left;
-
-    
+.blog .imgbox{
+    margin:20px 0px;
 }
 
-.blog .recent-single .Recent-sub .Recent-sub-title{
-    width:70%;
-    height: 80px;
-    display: flex;
-    align-items: center;
-    float: left;
-}
 .blog .recent-single .Recent-sub img{
     height:auto;
     width:auto;
     border-radius: 10px;
 }
-.blog .Recent-sub-title .text{
-    display: flex;
-    align-items: center;
-    display: inline-block;
+.blog .Recent-sub-title{
+    margin-top:15px;
 } 
 .blog .Recent-sub-title .text p{
     font-size: 16px;
@@ -402,7 +385,7 @@ body{
     background-color: #ff4934;
     position: absolute;
     left:1px;
-    top:33px
+    top:26px
 
     
 }
@@ -677,14 +660,9 @@ body{
     align-items: center;
     
 }
-.blog .achive-date .single-achive .sub-achives{
-    width:30%;
-    float: left;
-}
+
 .blog .achive-date .single-achive .sub-achivess{
-    width:70%;
-    text-decoration: none;
-    float: left;
+    margin-left: 25px;
 }
 .blog .achive-date .single-achive .sub-achives img{
     width:auto;
@@ -692,14 +670,13 @@ body{
     border-radius: 5px;
     
 }
-blog .achive-date .sub-achivess .text{
-  
-}
+
 .blog .achive-date .sub-achivess .text p{
     font-size: 16px;
     color:#919191;
     text-transform: capitalize;
     font-weight: 500;
+    padding-top:16px;
     position: relative;
 }
 .blog .achive-date .sub-achivess .text p::after{
@@ -707,7 +684,7 @@ blog .achive-date .sub-achivess .text{
     position: absolute;
     width:60%;
     height:1px;
-    top:30px;
+    top:43px;
     left: 1px;
     background-color: #ff4934;
 }
@@ -754,10 +731,8 @@ blog .achive-date .sub-achivess .text{
     float: left;
 }
 .blog .review .single-review .img-review img{
-    width:110px;
-    height:110px;
-    border:2px solid #ff4934;
-    border-radius: 50%;
+    width:auto;
+    height:auto;
 }
 .blog .sub-review .title{
     padding-top:9px;
