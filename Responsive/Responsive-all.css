@@ -640,6 +640,9 @@
         padding: 30px 0px;
         margin:0 auto;
     }
+    .fancy-box .fancy-title h1{
+        font-size:30px;
+    }
     /*about us area*/
     .about-us .text a{
         text-align: center;
@@ -760,21 +763,7 @@
         left: 20px;
         top:-90px;
     }
-    .articles .imgbox{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        
-    }
-    .articles  #articles{
-        padding-top:230px;
-    }
-    .articles .blog .single-blog {
-        top: 90%;
-        left: 0px;
-        
-    }
-
+    
     /*articles part End now*/
 
     /*fotter and subcribe start*/
@@ -841,6 +830,43 @@
     /*fotter and subscribe End*/
    
 }
+
+
+@media only screen and (max-width:768px){
+    .articles .blog .single-blog .sub-title{
+        padding-bottom: 5px;
+    }
+    .articles .blog .single-blog .list ul li .text{
+        font-size:12px;
+    }
+    .articles .blog .single-blog .list ul li a{
+        font-size: 12px;
+    }
+   .articles .blog .single-blog .list ul li{
+        margin: 0px 3px;
+   }
+   .articles .blog .single-blog{
+       margin-top:-82px;
+   }
+   .articles .blog .single-blog .sub-title h2{
+        font-size: 18px;
+   }
+   .articles .blog .single-blog .date-text P{
+        font-size: 10px;
+   }
+   .articles .blog .single-blog {
+        width:90%;
+        padding-left: 17px;
+        padding-top: 20px;
+        padding-right: 20px;
+        margin-top: -76px;
+        margin-left: 13px;
+      
+    }
+
+}
+
+
 @media only screen and (min-width:601px) and (max-width:992px){
   
     .banner .smart-phone{
@@ -891,15 +917,7 @@
     .articles .title h2{
         font-size: 40px;
     }
-    .articles .blog{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .articles .blog .single-blog{
-        left:20%;
-        top:70%;
-    }
+ 
     .subscribe .title h3{
         font-size: 40px;
     }
@@ -908,30 +926,24 @@
     .banner .graph-img{
         display: none;
     }
-    .articles .blog .single-blog{
-        width: 250px;
-    }
-    .articles .blog .single-blog .list ul li{
-        margin: 2px 1px;
-    }
     .subscribe .button{
         margin-left: 40px;
     }
 
 }
 @media only screen and (min-width:1201px) and (max-width:1401px){
-    .articles .blog .single-blog{
-        width: 300px;
-    }
-    .articles .blog .single-blog .list ul li{
-        margin: 6px 5px;
-    }
+   
     .subscribe .button {
         margin-top: 6px;
         margin-left: 170px;
     }
     .work-process .work-blog .single-blog .null{
         top:-98px;
+    }
+}
+@media only screen and (min-width:601px) and (max-width:768px){
+    .articles #articles {
+        margin-top: 160px;
     }
 }
 
@@ -1172,6 +1184,7 @@
     #preccest{
         padding-top:120px;
     }
+
 }
 @media only screen and (min-width:799px) and (max-width:1400px){
     .blog .detail-tags .single-detais .single-list ul li{
@@ -1623,6 +1636,7 @@
     }
 
 }
+
 @media only screen and (min-width:992px) and (max-width:1201px){
     .about-company .shape img {
         left: 48%;

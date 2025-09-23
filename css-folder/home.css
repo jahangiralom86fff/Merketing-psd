@@ -1316,10 +1316,9 @@ h1{
     margin-top:10px;
 }
 .articles .blog .single-blog{
-    top:212px;
-    left:55px;
-    position: absolute;
-    width:338px;
+    position: relative;
+    z-index: 1552;
+    width:85%;
     height:241px;
     border-radius: 25px;
     background-color: #ff4934;
@@ -1327,7 +1326,10 @@ h1{
     padding-left:34px;
     padding-top:30px;
     padding-right: 30px;
+    margin-top: -178px;
+    margin-left:40px;
 }
+
 .articles .blog .single-blog:hover{
     box-shadow: 0px 0px 15px #010a2b;
 }
