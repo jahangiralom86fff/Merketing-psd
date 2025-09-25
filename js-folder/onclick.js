@@ -65,3 +65,5 @@ function parallax(e){
 }
 
 //shape animation js element End Now//
+
+

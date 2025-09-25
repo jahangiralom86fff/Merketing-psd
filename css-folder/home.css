@@ -5,7 +5,7 @@ body{
     margin:0px;
     padding: 0px;
     font-family:"Roboto Condensed", sans-serif; 
-    font-family:"Rajdhani",sans-serif;
+    font-family:"Rajdhani",sans-serif; 
 }
 
 h1{
@@ -1489,6 +1489,27 @@ h1{
     right:13px;
     top:18px;
 }
+.subscribe #scrollUp {
+    width:45px;
+    height: 45px;
+    text-align: center;
+    bottom: 40px;
+    cursor: pointer;
+    position:fixed;
+    font-size: 18px;
+    display: none;
+    right: 20px;
+    top:90%;
+    background-color: red;
+    z-index: 999;
+    border-radius: 50px 50px 50px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#ffffff;
+}
+
+
 /*subscribe section End now*/
 
 /*fotter section start now*/
