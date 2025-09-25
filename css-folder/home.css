@@ -831,9 +831,11 @@ h1{
     position: relative;
 }
 .choose-us .choose-imgbox img{
-    position: absolute;
-    top:-170px;
-    left: 70px;
+    width:auto;
+    height: auto;
+    position: relative;
+    margin-top:-170px;
+    margin-left: 70px;
     z-index: 145;
 }
 

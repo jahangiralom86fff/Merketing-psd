@@ -715,11 +715,7 @@
     .choose-us .choose-shape{
         margin-top: 40px;
     }
-    .choose-us .choose-imgbox img{
-        top:-40px;
-        width: 92%;
-        left: 0px;
-    }
+    
     /*chosse-us*/
 
     /*testimonials area*/
@@ -862,6 +858,14 @@
         margin-top: -76px;
         margin-left: 13px;
       
+    }
+    .choose-us .choose-imgbox img {
+        width: 92%;
+        height: auto;
+        position: relative;
+        margin-top: -71px;
+        margin-left: 0px;
+        z-index: 145;
     }
 
 }
@@ -1212,6 +1216,12 @@
 @media only screen and (min-width:991px) and (max-width:1404px){
     .blog .Recent-sub-title .recent-titles{
         font-size: 16px;
+    }
+    .choose-us .choose-imgbox img {
+        width: 92%;
+        margin-left:0px;
+        margin-top: -121px;
+       
     }
 
 }
@@ -1658,5 +1668,7 @@
 
  
 }
+
+
 
 /*shop page End now*/
