@@ -1494,16 +1494,14 @@ h1{
     cursor: pointer;
     position:fixed;
     font-size: 18px;
-    display: none;
     right: 20px;
     top:90%;
     background-color: red;
     z-index: 999;
     border-radius: 50px 50px 50px 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    
     color:#ffffff;
+    padding-top: 10px;
 }
 
 
