@@ -31,3 +31,19 @@ scrollUp.addEventListener("click", function(){
 
 //scroll up btn down End//
 
+
+//preloder start now//
+
+window.addEventListener('load', () => {
+   let preloder = document.querySelector(".preloder");
+   if (preloder) {
+      setTimeout(() => {
+         preloder.style.display = "none";
+      }, 2000);
+   }
+});
+
+//preloder start End//
+
+
+

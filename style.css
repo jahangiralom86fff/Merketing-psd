@@ -52,7 +52,7 @@ h1{
     overflow: hidden;
     position: relative;
     margin-top:40px;
-    z-index: 45522;
+    z-index: 42;
 
 }
 .banner .banner-btn .more-btn{
@@ -134,7 +134,7 @@ h1{
     z-index: 5;
 }
 .banner .img img{
-    z-index: 12545;
+    z-index: 12;
 }
 .banner .banner-title .single-banner img{
    position:absolute;
@@ -156,7 +156,7 @@ h1{
 }
 .banner .main-banner{
     position: relative;
-    z-index: 5555;
+    z-index: 55;
 }
 .banner .main-banner img{
     position:absolute;
@@ -1316,7 +1316,7 @@ h1{
 }
 .articles .blog .single-blog{
     position: relative;
-    z-index: 1552;
+    z-index: 155;
     width:85%;
     height:241px;
     border-radius: 25px;
@@ -5051,3 +5051,63 @@ h1{
 }
 
 /*contacts-us page End Now*/
+
+
+/******** preloader start ******/
+
+.preloder{
+    position: fixed;
+    top:0px;
+    left: 0;
+    width:100%;
+    height: 100%;
+    z-index: 1225574;
+    background-color: rgba(31, 29, 29, 0.6);
+    backdrop-filter: blur(50px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('img-folder/preloder/pre-logo1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+  
+}
+.preloder::before{
+    content:'';
+    position: absolute;
+    display: block;
+    width: 150px;
+    height: 150px;
+    border: 5px solid white;
+    border-radius: 50%;
+    
+
+}
+.preloder::after{
+    content:'';
+    position: absolute;
+    display: block;
+    width: 150px;
+    height: 150px;
+    border: 5px solid blue;
+    border-radius: 50%;
+    border-bottom: none;
+    border-right:none;
+    border-left: none;
+    animation: preloder 1s ease-in infinite;
+}
+
+@keyframes preloder {
+    form{
+        transform: rotate(0deg);
+        border-right: none;
+    }
+    to{
+        transform: rotate(360deg);
+        border-color:red;
+    }
+    
+}
+
+
+/******** preloader end ******/
