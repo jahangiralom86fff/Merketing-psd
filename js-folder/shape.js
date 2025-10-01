@@ -38,7 +38,7 @@ window.addEventListener('load', () => {
    let preloder = document.querySelector(".preloder");
    if (preloder) {
       setTimeout(() => {
-         preloder.style.display = "none";
+        preloder.style.display = "none";
       }, 2000);
    }
 });
