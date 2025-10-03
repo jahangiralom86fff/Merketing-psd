@@ -8,26 +8,20 @@ body{
     padding: 0px;
     font-family:"Rajdhani",sans-serif; 
 }
-
 h1{
    font-family:"Rajdhani",sans-serif; 
 }
-
-
 /*banner section start now*/
 .banner{
     background-image: linear-gradient(to right, #030c2e, #08154f);
     padding:0px;
     padding-top:120px;
     overflow: hidden;
-    
-
 }
 .banner .title h1{
     color:#ffffff;
     font-size:50px;
-    font-weight: 600;
-   
+    font-weight: 600; 
 }
 .banner .single-text{
     padding-top:15px;
@@ -40,7 +34,6 @@ h1{
 }
 
 /*banner btn area*/
-
 .banner .banner-btn{
     width:186px;
     height:60px;
@@ -52,7 +45,6 @@ h1{
     position: relative;
     margin-top:40px;
     z-index: 42;
-
 }
 .banner .banner-btn .more-btn{
     position: absolute;
@@ -102,10 +94,9 @@ h1{
     right:25px;
     transform:rotate(-45deg);
 }
-
 /*about btn area end*/
-/*banner btn end*/
 
+/*banner btn end*/
 .banner .toko-shape {
     position:relative;
 
@@ -115,9 +106,6 @@ h1{
     top:-200px;
     left:-340px;
     transform: rotate(-10deg);
-    
-
-  
 }
 .banner .banner-title{
     position: relative;
@@ -139,13 +127,11 @@ h1{
    position:absolute;
    top:10px;
    left:10px;
-
 }
 .banner .banner-title .banner-item{
     position:absolute;
     top:80px;
-    left:-22px;
-    
+    left:-22px;  
 }
 .banner .mike-banner{
     position: absolute;
@@ -165,7 +151,6 @@ h1{
 }
 .banner .img-shpe{
     position:relative;
-
 }
 .banner .graph-img{
     position:relative;
@@ -223,29 +208,23 @@ h1{
     color:#ffffff;
     text-transform: uppercase;
     font-family:"Rajdhani",sans-serif;
-    position:relative;
-    
+    position:relative;  
 }
 .brand .item .text a::after{
-    content: url(img-folder/home/coursel-item-img.png);
+    content: url('img-folder/home/coursel-item-img.png');
     position: absolute;
     left:-60px;
     top: -9px;
     width:50px;
-    height:50px;
-    
+    height:50px;   
 }
 .brand .item .img-box{
     margin-left:40px;
     
 }
-
 .brand .owl-nav{
     display: none !important;
 }
-
-
-
 /*brand section end now*/
 
 /*about section start now*/
@@ -267,7 +246,6 @@ h1{
     top:-50px;
     left:120px;
     z-index: 1;
-
 }
 .about-us .Digital-merketing{
     margin-top:45px;
@@ -278,7 +256,6 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 .about-us .Digital-merketing .img-bg{
     width:114px;
@@ -300,7 +277,7 @@ h1{
 }
 .about-us .Digital-merketing .img-bg::after{
     position: absolute;
-    content:url(img-folder/about-us/title-marketyinhg.png);
+    content:url('img-folder/about-us/title-marketyinhg.png');
     top:-27px;
     left:-26px;
 }
@@ -312,14 +289,12 @@ h1{
     color:#ff4934;
     font-size:16px;
     font-family:"Rajdhani",sans-serif;
-
 }
 .about-us .title h1{
     color:#ffffff;
     margin-top:18px;
     font-size:38px;
 }
-
 .about-us .text .txt{
     font-size:16px;
     color:#737374;
@@ -327,9 +302,7 @@ h1{
     width:100%;
     margin-top:-5px;
 }
-
 /*about btn area*/
-
 .about-us .about-btn{
     width:186px;
     height:60px;
@@ -340,7 +313,6 @@ h1{
     overflow: hidden;
     position: relative;
     margin-top:40px;
-
 }
 .about-us .about-btn .more-btn{
     position: absolute;
@@ -390,9 +362,7 @@ h1{
     right:25px;
     transform:rotate(-45deg);
 }
-
 /*about btn area end*/
-
 .about-us .img-box-one{
     margin-top:250px;
     position: relative;
@@ -416,7 +386,6 @@ h1{
 }
 .service .shape{
     position:relative;
-
 }
 .service .shape-to{
     position:relative;
@@ -431,14 +400,11 @@ h1{
     top:-20px;
     left:0px;
 }
-
 .service .title h1{
     font-size:38px;
     color:#ffffff;
     text-align: center;
-   
 }
-
 .service .single-text p{
     color:#737375;
     font-size:16px;
@@ -446,7 +412,6 @@ h1{
     margin-top:30px;
     font-family:"Roboto Condensed", sans-serif; 
 }
-
 .service .service-single{
     margin-top:40px;
     border-radius:10px;
@@ -454,13 +419,11 @@ h1{
     width:100%;
     border:1px solid #333951;
     transition: all 300ms ease-in-out;
-
 }
 .service .service-single:hover{
     background-color:#ff4934;
     box-shadow: 0px 0px 10px #333951;
 }
-
 .service .service-single .email-box{
     width:75px;
     height:75px;
@@ -473,8 +436,6 @@ h1{
     border-radius: 50%;
     line-height: 1;
     transition: all 300ms ease-in-out;
-
-
 }
 .service .service-single:hover .email-box{
     background-color:#ffffff;
@@ -497,10 +458,8 @@ h1{
     font-size:24px;
     color:#ffffff;
     text-align: center;
-    font-family:"Rajdhani",sans-serif;
-    
+    font-family:"Rajdhani",sans-serif;   
 }
-
 .service .service-single .single-text .text{
     text-align: center;
     text-decoration: none;
@@ -548,7 +507,6 @@ h1{
     text-transform: capitalize;
     overflow: hidden;
     transition: all 300ms ease-in-out;
-
 }
 .service .service-single .more-btn::before{
     content:'';
@@ -560,8 +518,6 @@ h1{
     top:0px;
     left:-170px;
     transition: all 500ms ease-in-out;
-
-
 }
 .service .service-single .more-btn:hover::before{
     top:0px;
@@ -588,7 +544,6 @@ h1{
     transform: rotate(-45deg);
     transition: all 500ms ease-in-out;
 }
-
 .service .service-single .more-btn:hover{
     width: 175px;
 }
@@ -596,11 +551,9 @@ h1{
     color: #ff4934;
     background-color: #ffffff;
 }
-
 .service .null{
     margin:40px 0px;
 }
-
 /*view service btn*/
 .service  .single-btn{
     width:160px;
@@ -619,8 +572,7 @@ h1{
     overflow: hidden;
     display: inline-block;
     font-family:"Rajdhani",sans-serif;
-    transition:  width 500ms ease;
-   
+    transition:  width 500ms ease;   
 }
 .service  .single-btn::after{
     content: '';
@@ -638,9 +590,7 @@ h1{
     font-size: 18px;
     top:70px;
     transform: rotate(0deg);
-    transition: all 500ms ease-in-out;
-
-    
+    transition: all 500ms ease-in-out;   
 }
 .service .single-btn:hover .right-arrow{
     right:18px;
@@ -682,7 +632,6 @@ h1{
     font-family:"Roboto Condensed", sans-serif; 
     margin-top:28px;
     width:74%;
-
 }
 .choose-us .service-item{
     margin-top:25px;
@@ -692,11 +641,8 @@ h1{
 }
 .choose-us .service-item ul li{
     list-style-type: none;
-    margin-top:6px;
-   
-
+    margin-top:6px;  
 }
-
 .choose-us .service-item ul li a{
     text-decoration: none;
     color:#7b7b7b;
@@ -708,18 +654,14 @@ h1{
     position:absolute;
     font-family: "Font Awesome 5 Free";
     font-weight:1000;
-    content: url(../img-folder/choose-us/sign.png);
+    content: url("../img-folder/choose-us/sign.png");
     left:-22px;
     top:-2px;
 }
 .choose-us .chosse-null {
     margin-top:50px;
 }
-
-
-
 /*digital btn area*/
-
 .choose-us .Choose-btn{
     width:186px;
     height:60px;
@@ -730,7 +672,6 @@ h1{
     overflow: hidden;
     position: relative;
     margin-top:40px;
-
 }
 .choose-us .Choose-btn .more-btn{
     position: absolute;
@@ -781,7 +722,6 @@ h1{
     transform:rotate(-45deg);
 }
 /*digital btn area end*/
-
 .choose-us .choose-shape{
     position: relative;
 }
@@ -814,7 +754,6 @@ h1{
     padding-left:60px;
     padding-top:30px;
     z-index: 1;
-
 }
 .choose-us .transprency .chosse-title h5{
     color:#ffffff;
@@ -839,7 +778,6 @@ h1{
     margin-left: 70px;
     z-index: 145;
 }
-
 /*choose us section end now*/
 
 /*testimonials section start now*/
@@ -850,30 +788,25 @@ h1{
     background-color: #010a2b;
     box-sizing: border-box;
     overflow: hidden;
-  
-
 }
 .testimonials .shape-imgbox{
     position: relative;
 }
-
 .testimonials .text p{
     color:#ff4934;
     font-size: 16px;
-    text-transform: uppercase;
-    
+    text-transform: uppercase;    
 }
 .testimonials .text h1{
     font-size:46px;
     font-weight: 600;
-    color: #ffffff;
+    color: #ffffff;    
     text-transform: capitalize;
 }
 .testimonials  .img-box img{
     width:400px;
     height:415px;
-    margin-top:60px;
-    
+    margin-top:60px;    
 }
 .testimonials .shape-star img{
     width:38px;
@@ -905,8 +838,6 @@ h1{
     font-family: "Roboto",sans-serif;
     text-transform: capitalize;
     margin-top:-13px;
-
-
 }
 .testimonials .item .list-item{
     position: relative;
@@ -933,9 +864,7 @@ h1{
     font-weight: 400;
     font-family: "Roboto",sans-serif;
 }
-
 /*prev btn section area*/
-
 .testimonials .testimonial-carousel .owl-nav{
     position: relative;
     z-index: 445;
@@ -943,10 +872,8 @@ h1{
 .testimonials .testimonial-carousel .owl-nav{
     display: block;
     font-size:40px;
-    position: relative;
-    
+    position: relative; 
 }
-
 .testimonials .testimonial-carousel .owl-nav .owl-prev{
     position: absolute;
     top:40px;
@@ -986,8 +913,7 @@ h1{
     font-size: 0px;
     border: 1px solid #34172d;
     transition: all 500ms ease-in-out;
-    position: relative;
-    
+    position: relative;    
 }
 .testimonials .testimonial-carousel .owl-nav .owl-next::before{
     content: "\f061";
@@ -1001,9 +927,7 @@ h1{
 .testimonials .testimonial-carousel .owl-nav .owl-next:hover{
     background-color: #ff4934;
 }
-
 /*prev btn section end now*/
-
 .testimonials .qote-box{
     position: relative;
 }
@@ -1024,14 +948,13 @@ h1{
 .fancy-box{
     width:100%;
     height:604px;
-    background: url(img-folder/fancy-box/marketing-home.png);
+    background: url('img-folder/fancy-box/marketing-home.png');
     background-repeat: no-repeat;
     position: relative;
     z-index: 1;
     display: flex;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center; 
 }
 .fancy-box::before{
     content: '';
@@ -1041,14 +964,11 @@ h1{
     background-color: rgba(0, 0, 0, 0.80);
     z-index: 1;
 }
-
 .fancy-box .fancy-box-btn .fancy-play-btn{
     position: absolute;
     z-index: 455;
     top: 40%;
-    left: 50%;
-   
-   
+    left: 50%;  
 }
 .fancy-box .fancy-box-btn .fancy-play-btn .play-btn{
     position: absolute;
@@ -1060,9 +980,7 @@ h1{
     font-size: 30px;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-
-  
+    transform: translate(-50%, -50%); 
 }
 .fancy-box .fancy-title {
     position: relative;
@@ -1077,7 +995,6 @@ h1{
     z-index: 455;
     font-weight: 600;
 }
-
 /*fancybox section End now*/
 
 /*counter section start now*/
@@ -1100,10 +1017,8 @@ h1{
 }
 .counter .counter-flex{
     display: flex;
-    justify-content: center;
-    
+    justify-content: center;   
 }
-
 .counter .img-area{
     display: flex;
     justify-content: center;
@@ -1120,8 +1035,7 @@ h1{
 }
 .counter  .img-box img{
     width:50px;
-    height: 50px;
-  
+    height: 50px;  
 }
 .counter .counter-flex .counter-box{
     margin-top: 15px;
@@ -1138,7 +1052,6 @@ h1{
     color:#ffffff;
     text-transform: uppercase;
     font-weight: 600;
-
 }
 .counter .text{
     text-align: center;
@@ -1150,7 +1063,6 @@ h1{
     font-weight: 600;
     text-transform: capitalize;
 }
-
 /*counter section End now*/
 
 /*work process section start now*/
@@ -1203,7 +1115,6 @@ h1{
     border-bottom: none;
     border-radius:90px 90px 0px 0px;
     transition: all 500ms ease;
-
 }
 .work-process .work-blog:hover .single-blog .null{
     background-color: #ff4934;
@@ -1212,7 +1123,6 @@ h1{
     position:relative;
     z-index: 45545;
     margin-bottom: 47px;
-
 }
 .work-process .work-blog .icon .icon-steam2{
     position: absolute;
@@ -1274,7 +1184,6 @@ h1{
 }
 .articles .shape{
     position:relative;
-
 }
 .articles .shape img{
     position:absolute;
@@ -1327,7 +1236,6 @@ h1{
     margin-top: -178px;
     margin-left:40px;
 }
-
 .articles .blog .single-blog:hover{
     box-shadow: 0px 0px 15px #010a2b;
 }
@@ -1374,10 +1282,7 @@ h1{
    margin-left: 10px;
    margin-top: 2px;
 }
-
 /*articles section End now*/
-
-
 
 /*subscribe section start now*/
 .subscribe{
@@ -1427,20 +1332,16 @@ h1{
     box-shadow: none;
     border:none;
 }
-
 .subscribe .button form .button-style:focus{
     outline: none !important;
     border:none !important;
     border-style: none;
     box-shadow: none;
 }
-
 .subscribe .button form .button-style::placeholder{
     color:#dddddd;
     font-size: 16px;
-
 }
-
 .subscribe .button{
     position: relative;
 }
@@ -1456,8 +1357,7 @@ h1{
     height:65px;
     border: none;
     background-color: #ff4934;
-    overflow: hidden;
-    
+    overflow: hidden;   
 }
 .subscribe form .submit-btn::after{
     position: absolute;
@@ -1473,7 +1373,6 @@ h1{
 .subscribe form .submit-btn:hover:after{
     left: 0px;
 }
-
 .subscribe form .submit-btn::before{
     position: absolute;
     content: "\f061";
@@ -1500,13 +1399,10 @@ h1{
     top:90%;
     background-color: red;
     z-index: 999;
-    border-radius: 50px 50px 50px 50px;
-    
+    border-radius: 50px 50px 50px 50px;   
     color:#ffffff;
     padding-top: 10px;
 }
-
-
 /*subscribe section End now*/
 
 /*fotter section start now*/
@@ -1541,7 +1437,6 @@ h1{
     color:#b4b6be;
     font-size: 16px;
     text-transform: capitalize;
-
 }
 .fotter .icon-add ul{
     padding-left:0px;
@@ -1550,8 +1445,7 @@ h1{
 .fotter .icon-add ul li{
     list-style-type: none;
     float: left;
-    margin:10px 15px;
-   
+    margin:10px 15px; 
 }
 .fotter .icon-add ul li a{
     width:45px;
@@ -1565,8 +1459,7 @@ h1{
     font-size: 18px;
     line-height: 1;
     text-decoration: none;
-    position: relative;
-    
+    position: relative;    
 }
 .fotter .icon-add ul li a .brands-icon{
    color: #ffffff;
@@ -1581,14 +1474,11 @@ h1{
     transform: scale(0,0);
     color:#ffffff;
     transition: all 500ms ease-in-out;
-
 }
 .fotter .icon-add ul li a:hover::before{
     background-color: #ff4934;
     transform: scale(1,1);
- 
 }
-
 .fotter .text {
     margin-top:30px;
 }
@@ -1597,19 +1487,15 @@ h1{
     color:#ffffff;
     text-transform: capitalize;
     font-family:"Rajdhani",sans-serif;
-
 }
 .fotter .company-title ul{
     padding-left: 23px;
-    padding-top:20px;
-    
+    padding-top:20px;    
 }
 .fotter .company-title ul li{
     list-style-type: none;
     margin:16px 0px;
 }
-
-
 .fotter .company-title ul li a{
     text-decoration: none;
     font-size: 16px;
@@ -1631,12 +1517,10 @@ h1{
     top:-4px;
     left:-25px;
     transition: all 200ms ease-in;
-
 }
 .fotter .company-title ul li a:hover::after{
     color:#ff4934;
 }
-
 .fotter .contacts-info ul{
     width:70%;
     padding-left: 30px;
@@ -1651,8 +1535,6 @@ h1{
     font-size: 16px;
     position: relative;
     transition: all 500ms ease-in-out;
-
-
 }
 .fotter .contacts-info ul li:hover{
     color: #ff4934;
@@ -1718,24 +1600,19 @@ h1{
     font-family: "Roboto",sans-serif;
     color:#818592;
 }
-
 /*home page css End*/
 
-
 /*about page css start now*/
-
-/*about company section start now*/
 .about-company{
     padding: 150px 0px;
     width: 100%;
-    background:url(img-folder/about-page/about-background-img.png);
+    background:url('img-folder/about-page/about-background-img.png');
     background-position: center;
     margin-top:-3px;
     overflow: hidden;
 }
 .about-company .title {
     text-align: center;
-
 }
 .about-company .title h1{
     text-align: center;
@@ -1756,7 +1633,6 @@ h1{
 }
 .about-company .shape{
     position:relative;
-
 }
 .about-company .shape img{
     position: absolute;
@@ -1769,14 +1645,12 @@ h1{
 .Digital-merketing{
     padding:100px 0px;
     background-color: #000720;
-    width:100%;
-    
+    width:100%;   
 }
 .Digital-merketing .title-text p{
     color:#ff4934;
     font-size:18px;
     text-transform: capitalize;
-
 }
 .Digital-merketing .sub-title h2{
     font-size: 46px;
@@ -1799,7 +1673,6 @@ h1{
     text-transform: capitalize;
     width:70%;
 }
-
 .Digital-merketing .single-text p{
     margin: 30px 0px;
     color:#919191;
@@ -1808,9 +1681,7 @@ h1{
     text-transform: capitalize;
     width:70%;
 }
-
 /*digital btn area*/
-
 .Digital-merketing .digital-btn{
     position: relative;
     width:240px;
@@ -1819,12 +1690,8 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
-    
-   
+    overflow: hidden;  
 }
-   
-
 .Digital-merketing .digital-btn .more-btn{
     height: 55px;
     width: 70%;
@@ -1841,7 +1708,6 @@ h1{
     position: relative;
     text-transform: capitalize;
 }
-
 .Digital-merketing .digital-btn .more-btn::after{
     content:'';
     width:100%;
@@ -1874,10 +1740,7 @@ h1{
     right:-20px;
     transform: rotate(-45deg);
 }
-
 /*digital btn area end*/
-
-
 .Digital-merketing .img-box{
     width:90%;
     height:383px;
@@ -1890,9 +1753,7 @@ h1{
     border-radius:20px;
     display: block;
 }
-
 /*Digital-merketing End*/
-
 
 /*service section start now*/
 .service{
@@ -1925,10 +1786,8 @@ h1{
 .service .title h1{
     font-size:38px;
     color:#ffffff;
-    text-align: center;
-    
+    text-align: center;   
 }
-
 .service .single-text p{
     color:#737375;
     font-size:16px;
@@ -1936,7 +1795,6 @@ h1{
     margin-top:20px;
     font-family:"Roboto Condensed", sans-serif; 
 }
-
 .service .service-single{
     margin-top:40px;
     margin-bottom:70px;
@@ -1945,13 +1803,11 @@ h1{
     width:100%;
     border:1px solid #333951;
     transition: all 300ms ease-in-out;
-
 }
 .service .service-single:hover{
     background-color:#ff4934;
     box-shadow: 0px 0px 10px #333951;
 }
-
 .service .service-single .email-box{
     width:75px;
     height:75px;
@@ -1964,7 +1820,6 @@ h1{
     border-radius: 50%;
     transition: all 300ms ease-in-out;
     line-height: 1;
-
 }
 .service .service-single:hover .email-box{
     background-color:#ffffff;
@@ -1986,10 +1841,8 @@ h1{
 .service .service-single .single-title h3{
     font-size:24px;
     color:#ffffff;
-    text-align: center;
-    
+    text-align: center;   
 }
-
 .service .service-single .single-text .text{
     text-align: center;
     text-decoration: none;
@@ -2008,7 +1861,6 @@ h1{
 .service .service-single:hover .title-text{
     color:#ffffff;
 }
-
 /*service btn*/
 .service .service-single .service-btn{
     position: relative;
@@ -2017,7 +1869,6 @@ h1{
     align-items: center;
     transition: all 300ms ease-in-out;
 }
-
 .service .service-single:hover .service-btn::before{
     color:#ff4934;
 }
@@ -2038,8 +1889,6 @@ h1{
     font-family:"Rajdhani",sans-serif;
     overflow: hidden;
     transition: all 300ms ease-in-out;
-
-
 }
 .service .service-single .more-btn::before{
     content:'';
@@ -2051,8 +1900,6 @@ h1{
     top:0px;
     left:-170px;
     transition: all 500ms ease-in-out;
-
-
 }
 .service .service-single .more-btn:hover::before{
     top:0px;
@@ -2079,7 +1926,6 @@ h1{
     transform: rotate(-45deg);
     transition: all 500ms ease-in-out;
 }
-
 .service .service-single .more-btn:hover{
     width: 175px;
 }
@@ -2087,7 +1933,6 @@ h1{
     color: #ff4934;
     background-color: #ffffff;
 }
-
 /*view service btn*/
 .service .single-btn{
     width:160px;
@@ -2106,8 +1951,7 @@ h1{
     display: inline-block;
     font-weight: 600;
     font-family:"Rajdhani",sans-serif;
-    transition:  width 500ms ease;
-   
+    transition:  width 500ms ease;  
 }
 .service .single-btn::after{
     content: '';
@@ -2125,9 +1969,7 @@ h1{
     right:50px;
     top:70px;
     transform: rotate(0deg);
-    transition: all 500ms ease-in-out;
-
-    
+    transition: all 500ms ease-in-out;   
 }
 .service .single-btn:hover .right-arrow{
     right:20px;
@@ -2141,22 +1983,19 @@ h1{
 .service .single-btn:hover{
     width: 190px;
 }
-
 /*service section End now*/
-
 
 /*fancybox section start now*/
 .fancy-box{
     width:100%;
     height:604px;
-    background: url(img-folder/fancy-box/marketing-home.png);
+    background: url('img-folder/fancy-box/marketing-home.png');
     background-repeat: no-repeat;
     position: relative;
     z-index: 1;
     display: flex;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center;   
 }
 .fancy-box::before{
     content: '';
@@ -2172,8 +2011,6 @@ h1{
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
-   
-   
 }
 .fancy-box .fancy-box-btn .fancy-play-btn .play-btn{
     position: absolute;
@@ -2185,9 +2022,7 @@ h1{
     font-size: 30px;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-
-  
+    transform: translate(-50%, -50%); 
 }
 .fancy-box .text {
     position: relative;
@@ -2202,7 +2037,6 @@ h1{
     text-transform: capitalize;
     z-index: 455;
 }
-
 /*fancybox section End now*/
 
 /*Experience section start now*/
@@ -2211,14 +2045,12 @@ h1{
     padding-bottom: 100px;
     width: 100%;
     background-color:#000825;
-
 }
 .Experience .title p{
     text-align: center;
     color:#ff4934;
     font-size: 16px;
-    text-transform: capitalize;
-    
+    text-transform: capitalize;   
 }
 .Experience .sub-title{
     text-align: center;
@@ -2234,7 +2066,6 @@ h1{
     margin-bottom:3rem;
     margin-top:1.2rem;
 }
-
 .Experience .single-bolg .img-area img{
     width: auto;
     height:auto;
@@ -2254,7 +2085,6 @@ h1{
     color:#ffffff;
     text-decoration: none;
 }
-
 .Experience .link-area .plus-icon .plus{
     width:100%;
     height: 100%;
@@ -2264,8 +2094,7 @@ h1{
     justify-content: center;
     align-items: center;
     line-height: 1;
-    cursor: pointer;
-   
+    cursor: pointer; 
 }
 .Experience .link-area .plus-icon .link-item{
     position: absolute;
@@ -2285,19 +2114,16 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    
+    flex-direction: column;   
 }
 .Experience .link-area .plus-icon .link-item ul li{
     list-style-type: none;
-    margin:-6px 0px; 
-    
+    margin:-6px 0px;    
 }
 .Experience .link-area .plus-icon .link-item ul li a{
     text-decoration: none;
     font-size: 16px;
-    color:#ff4934;
-  
+    color:#ff4934;  
 }
 .Experience .text{
     text-align: center;
@@ -2310,7 +2136,6 @@ h1{
     font-weight: 600;
     font-family:"Rajdhani",sans-serif;
     text-transform: capitalize;
-
 }
 .Experience .text h6{
     text-align: center;
@@ -2320,24 +2145,19 @@ h1{
     text-transform: capitalize;
     font-family:"Roboto",sans-serif;
 }
-
 /*about page css End now*/
 
-
 /*blog-details page start now*/
-
-/*about company section start now*/
 .about-company{
     padding: 150px 0px;
     width: 100%;
-    background:url(../img-folder/about-page/about-background-img.png);
+    background:url("../img-folder/about-page/about-background-img.png");
     background-position: center;
     margin-top:-3px;
     overflow: hidden;
 }
 .about-company .title {
     text-align: center;
-
 }
 .about-company .title h1{
     text-align: center;
@@ -2358,7 +2178,6 @@ h1{
 }
 .about-company .shape{
     position:relative;
-
 }
 .about-company .shape img{
     position: absolute;
@@ -2372,10 +2191,8 @@ h1{
     padding:100px 0px;
     padding-bottom: 380px;
     background-color: #000825;
-    width:100%;
-    
+    width:100%;    
 }
-
 /*side blog area start now*/
 .blog .search-btn{
     margin-top: -10px;
@@ -2409,7 +2226,6 @@ h1{
     font-weight: 600;
     text-transform: capitalize;
 }
-
 /*catagory area*/
 .blog .category-list h2{
     color:#ffffff;
@@ -2446,7 +2262,6 @@ h1{
     color:#ff4934;
 }
 /*catagory area End*/
-
 .blog .Recent-news{
     padding-top:30px;
     padding-bottom: 40px;
@@ -2484,9 +2299,7 @@ h1{
     background-color: #ff4934;
     position: absolute;
     left:1px;
-    top:26px
-
-    
+    top:26px   
 }
 .blog .recent-title {
     margin-top: 10px;
@@ -2499,8 +2312,7 @@ h1{
     font-weight: bold;
 }
 .blog .tags-area{
-    margin-top:-15px;
-    
+    margin-top:-15px;   
 }
 .blog .tags-area h3{
     font-size: 28px;
@@ -2531,8 +2343,7 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    position:relative;
-    
+    position:relative; 
 }
 .blog .tags-area ul li a::after{
     content:'';
@@ -2546,8 +2357,7 @@ h1{
     transition: all 500ms ease-in-out;
 }
 .blog .tags-area ul li a:hover::after{
-    transform: scale(1,1);
-    
+    transform: scale(1,1);   
 }
 .blog .tags-area ul li .zed{
     z-index: 45;
@@ -2601,7 +2411,6 @@ h1{
     font-weight: 500;
     text-transform: capitalize;
     font-family:"Roboto Condensed", sans-serif; 
-
 }
 .blog .details-reomte .qoute{
     position: relative;
@@ -2623,7 +2432,6 @@ h1{
     color:#ff4934;
     font-weight: 600;
     text-transform: capitalize;
-
 }
 .blog .details-reomte .ceo-title p{
     font-size:16px;
@@ -2631,7 +2439,6 @@ h1{
     font-weight: 500;
     text-transform: capitalize;
     margin-top:-6px;
-
 }
 .blog .single-text{
     padding-top:26px;
@@ -2747,7 +2554,6 @@ h1{
 .blog .single-detais-sub .contacts-details ul li a:hover::after{
     background-color: #ff4934;
     transform: scale(1,1);
-
 }
 .blog .achive-date{
     padding-top:150px;
@@ -2756,20 +2562,16 @@ h1{
     width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center;   
 }
-
 .blog .achive-date .single-achive .sub-achivess{
     margin-left: 25px;
 }
 .blog .achive-date .single-achive .sub-achives img{
     width:auto;
     height: auto;
-    border-radius: 5px;
-    
+    border-radius: 5px;   
 }
-
 .blog .achive-date .sub-achivess .text p{
     font-size: 16px;
     color:#919191;
@@ -2804,7 +2606,6 @@ h1{
     padding-top:60px;
     padding-bottom:20px;
     border:1px solid #1a213b;
-
 }
 .blog  .comments h3{
     font-size: 30px;
@@ -2814,8 +2615,7 @@ h1{
 }
 .blog .review{
     width:100%;
-    margin-top: 35px;
-   
+    margin-top: 35px;   
 }
 .blog .main-review{
     padding-top:160px;
@@ -2849,9 +2649,7 @@ h1{
     font-weight: 500;
     color:#ffffff;
     width:90%;
-    font-family: "Roboto",sans-serif;
-
-    
+    font-family: "Roboto",sans-serif;   
 }
 .blog .reply-area a{
     text-decoration: none;
@@ -2867,7 +2665,6 @@ h1{
 }
 .blog .leave-title{
     padding-top:60px;
-
 }
 .blog .leave-title h4{
     color:#ffffff;
@@ -2902,7 +2699,6 @@ h1{
     color:#ffffff;
     text-transform: capitalize;
     font-weight: 500;  
-
 }
 .blog .details-list form .single-email-box input{
     width:90%;
@@ -2941,7 +2737,6 @@ h1{
     color:#ffffff;
     text-transform: capitalize;
     font-weight: 500;  
-
 }
 .blog .details-list form .message-box textarea{
     width: 95%;
@@ -2952,7 +2747,6 @@ h1{
     color:#919191;
     padding: 20px 0px 0px 20px;
     outline: none;
-
 }
 .blog .details-list form .btn-area{
     margin: 36px 0px;
@@ -3004,25 +2798,19 @@ h1{
 .blog .details-list form .btn-area button:hover::before{
     right:0px
 }
-
 /*blog-details page End now*/
 
-
 /*cart page start now*/
-
-
-/*about company section start now*/
 .about-company{
     padding: 150px 0px;
     width: 100%;
-    background:url(img-folder/about-page/about-background-img.png);
+    background:url('img-folder/about-page/about-background-img.png');
     background-position: center;
     overflow: hidden;
     margin-top:-3px;
 }
 .about-company .title {
     text-align: center;
-
 }
 .about-company .title h1{
     text-align: center;
@@ -3043,7 +2831,6 @@ h1{
 }
 .about-company .shape{
     position:relative;
-
 }
 .about-company .shape img{
     position: absolute;
@@ -3058,7 +2845,6 @@ h1{
     width:100%;
     padding-bottom: 60px;
     background-color: #000825;
-
 }
 .add-to-cart form table{
     width:100%;
@@ -3071,8 +2857,7 @@ h1{
     padding-bottom:30px;
     font-size: 24px;
     font-family:"Roboto",sans-serif;
-    color:#ffffff;
-    
+    color:#ffffff;   
 }
 .add-to-cart form table tbody tr td{
     width:auto;
@@ -3130,9 +2915,7 @@ h1{
     top:0px;
     left: -170px;
     transition: all 400ms ease-in-out;
-
 }
-
 .add-to-cart .Quantity button::before{
     position:absolute;
     content: "\f061";
@@ -3172,8 +2955,7 @@ h1{
     font-size: 46px;
     font-weight: 500;
     border-bottom: 1px solid #2f364d;
-    padding-bottom: 10px;
-    
+    padding-bottom: 10px;   
 }
 .cart-count .sub-count{
     width:100%;
@@ -3194,7 +2976,6 @@ h1{
     width:10%;
     float: left;
     padding-top:15px;
-
 }
 .cart-count .sub-count .text-dollars p{
     color:#ff4934;
@@ -3209,7 +2990,6 @@ h1{
     justify-content: center;
     align-items: center;
 }
-
 .cart-count .count-btn a{
     width:380px;
     height:60px;
@@ -3221,8 +3001,7 @@ h1{
     padding:19px 0px 0px 25px;
     overflow: hidden;
     position: relative;
-    transition: width 400ms ease-in-out;
-    
+    transition: width 400ms ease-in-out;   
 }
 .cart-count .count-btn a:hover{
     width:390px;
@@ -3251,14 +3030,11 @@ h1{
     transform: rotate(0deg);
     transition: all 500ms ease-in-out;
 }
-
 .cart-count .count-btn a:hover::after{
     right:32px;
     top:19px;
-    transform: rotate(-42deg);
-   
+    transform: rotate(-42deg); 
 }
-
 /*cart-count section End now*/
 
 /*products section start now*/
@@ -3267,7 +3043,6 @@ h1{
     padding-top:60px;
     background-color:#000825;
     width: 100%;
-
 }
 .products .products-title h2{
     font-size: 46px;
@@ -3276,9 +3051,7 @@ h1{
     text-transform: capitalize;
     padding:60px 0px;
     text-align: center;
-
 }
-
 .products .products-imgbox img{
     width:100%;
     height:auto;
@@ -3300,8 +3073,6 @@ h1{
     text-decoration: none;
     text-align: center;
     text-transform: capitalize;
-    
-
 }
 .products .content .title{
     text-decoration: none;
@@ -3322,8 +3093,7 @@ h1{
     text-transform: capitalize;
     font-weight: 500;
     text-align: center;
-    margin-left:0px;
-   
+    margin-left:0px;   
 }
 .products .content .sub-title p .text{
     color:#7b7b7b;
@@ -3331,11 +3101,7 @@ h1{
     text-transform: capitalize;
     font-weight: 500;
     padding-left:15px;
-    
-
-
 }
-
 .products .star-icon{
     display: flex;
     justify-content: center;
@@ -3391,23 +3157,19 @@ h1{
 .products .btn .products-btn:hover::after{
     color: #ffffff;
 }
-
-
 /*cart page End now*/
 
 /*service page start now*/
-/*about company section start now*/
 .about-company{
     padding: 150px 0px;
     width: 100%;
-    background:url(img-folder/about-page/about-background-img.png);
+    background:url('img-folder/about-page/about-background-img.png');
     background-position: center;
     margin-top:-3px;
     overflow: hidden;
 }
 .about-company .title {
     text-align: center;
-
 }
 .about-company .title h1{
     text-align: center;
@@ -3428,7 +3190,6 @@ h1{
 }
 .about-company .shape{
     position:relative;
-
 }
 .about-company .shape img{
     position: absolute;
@@ -3436,8 +3197,6 @@ h1{
     left:64%;
 }
 /*about company section End now*/
-
-
 
 /*service section start now*/
 .service{
@@ -3448,7 +3207,6 @@ h1{
 }
 .service .shape{
     position:relative;
-
 }
 .service .shape-to{
     position:relative;
@@ -3472,16 +3230,12 @@ h1{
     color:#ff4934;
     font-size: 20px;
     font-weight: 600;
-
-
 }
 .service .title h1{
     font-size:38px;
     color:#ffffff;
-    text-align: center;
-    
+    text-align: center; 
 }
-
 .service .single-text p{
     color:#737375;
     font-size:16px;
@@ -3489,7 +3243,6 @@ h1{
     margin-top:20px;
     font-family: "Roboto", sans-serif;
 }
-
 .service .service-single{
     margin-top:40px;
     margin-bottom:10px;
@@ -3498,13 +3251,11 @@ h1{
     width:100%;
     border:1px solid #333951;
     transition: all 300ms ease-in-out;
-
 }
 .service .service-single:hover{
     background-color:#ff4934;
     box-shadow: 0px 0px 10px #333951;
 }
-
 .service .service-single .email-box{
     width:75px;
     height:75px;
@@ -3517,7 +3268,6 @@ h1{
     border-radius: 50%;
     transition: all 300ms ease-in-out;
     line-height: 1;
-
 }
 .service .service-single:hover .email-box{
     background-color:#ffffff;
@@ -3539,10 +3289,8 @@ h1{
 .service .single-title h3{
     font-size:24px;
     color:#ffffff;
-    text-align: center;
-    
+    text-align: center;  
 }
-
 .service .service-single .single-text .text{
     text-align: center;
     text-decoration: none;
@@ -3561,7 +3309,6 @@ h1{
 .service .service-single:hover .title-text{
     color:#ffffff;
 }
-
 /*service btn*/
 .service .service-single .service-btn{
     position: relative;
@@ -3570,7 +3317,6 @@ h1{
     align-items: center;
     transition: all 300ms ease-in-out;
 }
-
 .service .service-single:hover .service-btn::before{
     color:#ff4934;
 }
@@ -3590,7 +3336,6 @@ h1{
     text-transform: capitalize;
     overflow: hidden;
     transition: all 300ms ease-in-out;
-
 }
 .service .service-single .more-btn::before{
     content:'';
@@ -3602,8 +3347,6 @@ h1{
     top:0px;
     left:-170px;
     transition: all 500ms ease-in-out;
-
-
 }
 .service .service-single .more-btn:hover::before{
     top:0px;
@@ -3630,7 +3373,6 @@ h1{
     transform: rotate(-45deg);
     transition: all 500ms ease-in-out;
 }
-
 .service .service-single .more-btn:hover{
     width: 175px;
 }
@@ -3638,7 +3380,6 @@ h1{
     color: #ff4934;
     background-color: #ffffff;
 }
-
 /*view service btn*/
 .service .single-btn{
     width:160px;
@@ -3657,8 +3398,7 @@ h1{
     overflow: hidden;
     display: inline-block;
     font-weight: 600;
-    transition:  width 500ms ease;
-   
+    transition:  width 500ms ease;  
 }
 .service .single-btn::after{
     content: '';
@@ -3676,9 +3416,7 @@ h1{
     right:50px;
     top:70px;
     transform: rotate(0deg);
-    transition: all 500ms ease-in-out;
-
-    
+    transition: all 500ms ease-in-out;    
 }
 .service .single-btn:hover .right-arrow{
     right:20px;
@@ -3692,9 +3430,7 @@ h1{
 .service .single-btn:hover{
     width: 190px;
 }
-
 /*service section End now*/
-
 
 /*testimonials section start now*/
 .testimonials {
@@ -3704,8 +3440,6 @@ h1{
     background-color: #010a2b;
     box-sizing: border-box;
     overflow: hidden;
-  
-
 }
 .testimonials .shape-imgbox{
     position: relative;
@@ -3714,13 +3448,11 @@ h1{
     position:absolute;
     top:-150px;
     right:-100px;
-
 }
 .testimonials .text p{
     color:#ff4934;
     font-size: 16px;
-    text-transform: uppercase;
-    
+    text-transform: uppercase;    
 }
 .testimonials .text h1{
     font-size:46px;
@@ -3731,8 +3463,7 @@ h1{
 .testimonials  .img-box img{
     width:400px;
     height:415px;
-    margin-top:60px;
-    
+    margin-top:60px;   
 }
 .testimonials .shape-star img{
     width:38px;
@@ -3755,8 +3486,7 @@ h1{
     font-size:22px;
     color:#ffffff;
     font-weight: 500;
-    text-transform: capitalize;
-    
+    text-transform: capitalize;    
 }
 .testimonials .item  .txt{
     color:#7b7b7b;
