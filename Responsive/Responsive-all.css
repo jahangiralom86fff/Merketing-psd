@@ -1262,6 +1262,9 @@
     .service .single-title{
         width:80%;
     }
+    .fotter .icon-add ul li{
+        margin: 10px 6px;
+    }
 }
 @media only screen and (min-width:851px) and (max-width:992px){
    .about-company .shape img {
@@ -1541,18 +1544,14 @@
         justify-content: left;
         margin-left: 25px;
     }
-   
-
 }
 @media only screen and (min-width:575px) and (max-width:992px){
     .shop-blog .text h6{
         font-size: 14px;
-
     }
     .shop-blog .text{
         padding-top: 48px;
     }
-
 }
 @media only screen and (min-width:992px) and (max-width:1201px){
     .about-company .shape img {
