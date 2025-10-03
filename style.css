@@ -6,7 +6,6 @@
 body{
     margin:0px;
     padding: 0px;
-    font-family:"Roboto Condensed", sans-serif; 
     font-family:"Rajdhani",sans-serif; 
 }
 
@@ -3292,14 +3291,20 @@ h1{
     border-radius:0px 0px 10px 10px;
     padding-top:40px;
 }
-.products .content h2{
+.products .content .product-text{
     color:#313331;
     font-size: 20px;
     font-weight: 500;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
     text-align: center;
     text-transform: capitalize;
     
 
+}
+.products .content .title{
+    text-decoration: none;
 }
 .products .content .text{
     color:#101210;

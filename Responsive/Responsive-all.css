@@ -955,7 +955,6 @@
 
 /*about pages start now*/
 
-/*main Responsive start now*/
 
 @media only screen and (min-width:349px) and (max-width:601px){
         
@@ -1487,6 +1486,9 @@
     }
     .subscribe .title h3{
         font-size: 40px;
+    }
+    .blog .review .single-review .img-review img{
+        margin-left:-6%;
     }
 
 }
