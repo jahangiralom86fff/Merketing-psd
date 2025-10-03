@@ -1387,6 +1387,9 @@ h1{
     background-color: #030c24;
     
 }
+#subscribes{
+    padding-top:350px;
+}
 .subscribe .null-button{
    position:relative;
 }

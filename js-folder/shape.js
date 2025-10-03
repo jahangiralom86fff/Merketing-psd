@@ -39,7 +39,7 @@ window.addEventListener('load', () => {
    if (preloder) {
       setTimeout(() => {
         preloder.style.display = "none";
-      }, 100);
+      }, 500);
    }
 });
 
@@ -89,6 +89,20 @@ produts.addEventListener("mouseout", () =>{
     produts .style .transform = "translateY(0)";
 
 });
+
+const produtse = document .getElementById("mb-20");
+
+produtse .addEventListener("mouseover", ()=>{
+  produtse .style .transform = "translateY(-20px)";
+  produtse .style .transition = "all 0.3s ease";
+
+});
+
+produtse .addEventListener("mouseout", ()=>{
+  produtse .style .transform = "translateY(0)";
+
+});
+//wow js End Now//
 
 
 

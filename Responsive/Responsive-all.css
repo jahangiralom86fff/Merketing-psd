@@ -870,7 +870,8 @@
         margin-left: 0px;
         z-index: 145;
     }
-
+   
+    
 }
 
 
@@ -1135,7 +1136,7 @@
         width:70%;
     }
     .blog .single-title p{
-        font-size: 14px;
+        font-size: 12px;
         padding-left: 0px;
     }
    .blog .reply-area a{
@@ -1279,6 +1280,9 @@
         font-size: 38px;
     }
     .products #produts{
+        margin-top: 40px;
+    }
+    .products #mb-20{
         margin-top: 40px;
     }
    
@@ -1558,6 +1562,7 @@
     }
     .testimonials .item .sub-text-area p{
         width: 100%;
+        font-size: 16px;
     }
 
 }
