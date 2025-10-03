@@ -32,7 +32,6 @@ h1{
     color:#a8a8b3;
     width:90%;
 }
-
 /*banner btn area*/
 .banner .banner-btn{
     width:186px;
@@ -3494,8 +3493,6 @@ h1{
     font-family: "Roboto",sans-serif;
     text-transform: capitalize;
     margin-top:-13px;
-
-
 }
 .testimonials .item .list-item{
     position: relative;
@@ -3522,9 +3519,7 @@ h1{
     font-weight: 400;
     font-family: "Roboto",sans-serif;
 }
-
 /*prev btn section area*/
-
 .testimonials .testimonial-carousel .owl-nav{
     position: relative;
     z-index: 445;
@@ -3532,10 +3527,8 @@ h1{
 .testimonials .testimonial-carousel .owl-nav{
     display: block;
     font-size:40px;
-    position: relative;
-    
+    position: relative;  
 }
-
 .testimonials .testimonial-carousel .owl-nav .owl-prev{
     position: absolute;
     top:40px;
@@ -3575,8 +3568,7 @@ h1{
     font-size: 0px;
     border: 1px solid #34172d;
     transition: all 500ms ease-in-out;
-    position: relative;
-    
+    position: relative;   
 }
 .testimonials .testimonial-carousel .owl-nav .owl-next::before{
     content: "\f061";
@@ -3590,9 +3582,7 @@ h1{
 .testimonials .testimonial-carousel .owl-nav .owl-next:hover{
     background-color: #ff4934;
 }
-
 /*prev btn section end now*/
-
 .testimonials .qote-box{
     position: relative;
 }
@@ -3607,23 +3597,19 @@ h1{
     font-size:46px;
     font-weight: bold;
 }
-
 /*service page End Now*/
 
-
 /*shop page start Now*/
-
 .about-company{
     padding: 150px 0px;
     width: 100%;
-    background:url(img-folder/about-page/about-background-img.png);
+    background:url('img-folder/about-page/about-background-img.png');
     background-position: center;
     margin-top:-3px;
     overflow: hidden;
 }
 .about-company .title {
     text-align: center;
-
 }
 .about-company .title h1{
     text-align: center;
@@ -3644,7 +3630,6 @@ h1{
 }
 .about-company .shape{
     position:relative;
-
 }
 .about-company .shape img{
     position: absolute;
@@ -3658,7 +3643,6 @@ h1{
     padding:80px 0px;
     background:#000825;
     width:100%;
-
 }
 .shop-blog .shop-text{
     margin-bottom: 47px
@@ -3673,8 +3657,6 @@ h1{
 .shop-blog .shop-select{
     margin-right:19px;
     float: right;
-
-
 }
 .shop-blog .shop-select{
     margin-bottom: 27px;
@@ -3688,10 +3670,7 @@ h1{
     font-size: 16px;
     font-family:"Roboto",sans-serif;
     margin-right: 18px;
-   
-
 }
-
 .shop-blog .img-shop img{
     width:90%;
     height:auto;
@@ -3729,7 +3708,6 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 .shop-blog .content .shop-list ul li{
     float: left;
@@ -3760,8 +3738,7 @@ h1{
     font-weight: 600;
     text-transform: capitalize;
     overflow: hidden;
-    position: relative;
-    
+    position: relative;  
 }
 .shop-blog .content .shop-btn-area .shop-btn::after{
     width:100%;
@@ -3771,8 +3748,7 @@ h1{
     left:-142px;
     top:0px;
     background-color:rgba(255,255,255,.2);
-    transition: all 400ms ease-in;
-    
+    transition: all 400ms ease-in;  
 }
 .shop-blog .content .shop-btn-area .shop-btn:hover::after{
     left:0px;   
@@ -3781,9 +3757,6 @@ h1{
     padding-right:10px;
     padding-top:2px;
 }
-
-
-
 .shop-blog .blog-number ul {
    margin-left:-18px;
    margin-top: 40px;
@@ -3813,7 +3786,6 @@ h1{
 }
 .shop-blog .blog-number ul li a:hover{
     color:#ffffff;
-
 }
 .shop-blog .blog-number ul li a::after{
     content: "";
@@ -3836,9 +3808,7 @@ h1{
 .shop-blog .blog-number ul a .arrow-right{
     color:#000518;
 }
-
 /*read more blog end*/
-
 
 /*side blog area start now*/
 .shop-blog .search-btn{
@@ -3907,13 +3877,8 @@ h1{
     text-transform: capitalize;
     font-weight: 600;
     padding-bottom:0px;
-
 }
-
-
 /*product fillter plugin*/
-
-/* Container styles */
 
 /* range slider container */
 .range-slider {
@@ -3922,7 +3887,6 @@ h1{
     height: 50px;
     margin: 40px 0;
 }
-
 /* Slider track (the base line) */
 .slider-track {
     position: absolute;
@@ -3934,7 +3898,6 @@ h1{
     transform: translateY(-50%);
     border-radius: 4px;
 }
-
 /* Colored range bar (between handles) */
 .slider-range {
     position: absolute;
@@ -3944,7 +3907,6 @@ h1{
     transform: translateY(-50%);
     border-radius: 4px;
 }
-
 /* Slider handles */
 .shop-blog .slider-handle {
     position: absolute;
@@ -3960,14 +3922,12 @@ h1{
     touch-action: none;
     z-index: 2;
 }
-
 /* Input fields styling */
 .shop-blog .inputs {
     display: flex;
     justify-content: space-between;
     gap: 20px;
 }
-
 .shop-blog .input-group {
     display: flex;
     flex-direction: column;
@@ -3982,7 +3942,6 @@ h1{
 .shop-blog .input-group{
     position: relative;
 }
-
 .shop-blog  .input-group input {
     width: 120px;
     padding:8px;
@@ -3997,7 +3956,6 @@ h1{
     font-family: "Roboto",sans-serif;
     font-weight: 500;
     margin-left: -100px;
-
 }
 .shop-blog  .input-group .product-input{
     position: absolute;
@@ -4006,16 +3964,12 @@ h1{
     width:90px;
     height: 36px;
     background-color: #ff4934;
-    text-align: center;
-       
-        
+    text-align: center;     
 }
 .shop-blog  .input-group .product-input::placeholder{
     color:#ffffff !important;
 }
-
 /*product fillter plugin end*/
-
 .shop-blog .revies-title{
     padding-top:50px;
 }
@@ -4051,7 +4005,6 @@ h1{
     font-size: 16px;
     text-transform: capitalize;
     font-family: "Roboto",sans-serif;
-
 }
 .shop-blog .product-icon ul{
     padding-left:0;
@@ -4060,8 +4013,7 @@ h1{
 .shop-blog .product-icon ul li{
     list-style-type: none;
     float: left;
-    margin:0px 3px;
-  
+    margin:0px 3px;  
 }
 .shop-blog .product-icon ul li a{
     color:#ff4934;
@@ -4073,13 +4025,9 @@ h1{
     color:#ff4934;
     font-family: "Roboto",sans-serif;
     text-transform: capitalize;
-
 }
-
-
 .shop-blog .tags-area{
-    margin-top:30px;
-    
+    margin-top:30px;  
 }
 .shop-blog .tags-area h3{
     font-size: 28px;
@@ -4112,8 +4060,7 @@ h1{
     align-items: center;
     font-weight: 600;
     z-index: 222;
-    position:relative;
-    
+    position:relative;   
 }
 .shop-blog .tags-area ul li a::after{
     content:'';
@@ -4124,30 +4071,25 @@ h1{
     background-color: #ff4934;
     color:#ffffff;
     z-index: -1;
-  
     transform: scale(0,1);
     transition: all 500ms ease-in-out;
 }
 .shop-blog .tags-area ul li a:hover::after{
-    transform: scale(1,1);
-    
+    transform: scale(1,1);   
 }
-
 /*shop page start Now*/
 
 /*blog page start now*/
-
 .about-company{
     padding: 150px 0px;
     width: 100%;
-    background:url(img-folder/about-page/about-background-img.png);
+    background:url('img-folder/about-page/about-background-img.png');
     background-position: center;
     margin-top:-3px;
     overflow: hidden;
 }
 .about-company .title {
     text-align: center;
-
 }
 .about-company .title h1{
     text-align: center;
@@ -4168,7 +4110,6 @@ h1{
 }
 .about-company .shape{
     position:relative;
-
 }
 .about-company .shape img{
     position: absolute;
@@ -4177,14 +4118,11 @@ h1{
 }
 /*about company section End now*/
 
-
-
 /*blog-area start now*/
 .blog {
     padding:100px 0px;
     background-color: #000825;
-    width:100%;
-    
+    width:100%;   
 }
 .blog .img-area{
     margin-bottom: 41px;
@@ -4195,7 +4133,6 @@ h1{
     object-fit: cover;
     border-radius: 10px;
     text-decoration: none;
-
 }
 .blog .list-blog ul{
     width: 100%;
@@ -4212,7 +4149,6 @@ h1{
     width:93%;
     height:1px;
     background-color: #1a213b;
-
 }
 .blog .list-blog ul li{
     list-style-type: none;
@@ -4247,7 +4183,6 @@ h1{
     color:#ffffff;
 }
 .blog .sub-title{
-  
     text-decoration: none;
 }
 .blog .sub-title p{
@@ -4255,8 +4190,7 @@ h1{
     font-family:"Roboto Condensed", sans-serif; 
     color: #919191;
     text-transform: lowercase;
-    padding-top: 20px;
-    
+    padding-top: 20px;   
 }
 /*read more blog btn*/
 .blog .Read-more{
@@ -4312,9 +4246,7 @@ h1{
 }
 .blog .Read-more:hover{
     width:190px;
-
 }
-
 .blog .blog-number ul {
    margin-left:-18px;
 }
@@ -4343,7 +4275,6 @@ h1{
 }
 .blog .blog-number ul li a:hover{
     color:#ffffff;
-
 }
 .blog .blog-number ul li a::after{
     content: "";
@@ -4366,9 +4297,7 @@ h1{
 .blog .blog-number ul a .arrow-right{
     color:#000518;
 }
-
 /*read more blog end*/
-
 /*blog-area End now*/
 
 /*side blog area start now*/
@@ -4431,12 +4360,9 @@ h1{
 .blog .category .category-item:hover .category-arrow{
     color:#ff4934;
 }
-
 /*catagory area End*/
 
 /*Recent area start now*/
-
-
 .blog .Recent-news h1{
     font-size: 28px;
     color:#ffffff;
@@ -4444,7 +4370,6 @@ h1{
     text-transform: capitalize;
     text-decoration: none;
 }
-
 .blog .recent-single .Recent-sub img{
     height:auto;
     width:auto;
@@ -4463,15 +4388,13 @@ h1{
 .blog .Recent-sub-title{
     margin-top:30px;
 }
-
 .blog .Recent-sub-title .text p{
     font-size: 16px;
     color:#919191;
     font-weight: 500;
     text-transform: capitalize;
     position: relative;
-    margin-top: -8px;
-    
+    margin-top: -8px;    
 }
 .blog .Recent-sub-title .text p::before{
     content: '';
@@ -4480,27 +4403,21 @@ h1{
     background-color: #ff4934;
     position: absolute;
     left:2px;
-    top:30px
-
-    
+    top:30px;   
 }
 .blog #Recent_news{
     margin:45px 0px;
     margin-left:-10px;
 }
-
 .blog .Recent-sub-title .recent-titles{
     text-decoration: none;
     color:#ffffff;
     font-size: 20px;
     font-weight: bold;
 }
-
 /*Recent area End Now*/
-
 .blog .tags-area{
-    margin-top:-25px;
-    
+    margin-top:-25px; 
 }
 .blog .tags-area h3{
     font-size: 28px;
@@ -4533,8 +4450,7 @@ h1{
     align-items: center;
     font-weight: 600;
     z-index: 222;
-    position:relative;
-    
+    position:relative;   
 }
 .blog .tags-area ul li a::after{
     content:'';
@@ -4545,39 +4461,31 @@ h1{
     background-color: #ff4934;
     color:#ffffff;
     z-index: -1;
-  
     transform: scale(0,1);
     transition: all 500ms ease-in-out;
 }
 .blog .tags-area ul li a:hover::after{
-    transform: scale(1,1);
-    
+    transform: scale(1,1);   
 }
-
 .blog .img-box img{
     height:499px;
     width:377px;
     border-radius: 10px;
     padding-top:30px;
-
 }
-
 /*blog page End now*/
 
 /*contacts-us page start Now*/
-
-/*about company section start now*/
 .about-company{
     padding: 150px 0px;
     width: 100%;
-    background:url(img-folder/about-page/about-background-img.png);
+    background:url('img-folder/about-page/about-background-img.png');
     background-position: center;
     overflow: hidden;
     margin-top:-3px;
 }
 .about-company .title {
     text-align: center;
-
 }
 .about-company .title h1{
     text-align: center;
@@ -4598,7 +4506,6 @@ h1{
 }
 .about-company .shape{
     position:relative;
-
 }
 .about-company .shape img{
     position: absolute;
@@ -4612,7 +4519,6 @@ h1{
     padding:100px 0px;
     background-color: #020c33;
     width:100%;
-
 }
 .contacts-area .img-box img{
     width:auto;
@@ -4661,16 +4567,13 @@ h1{
     color:#919191;
     padding-top:20px;
     outline: none;
-    font-family:"Roboto",sans-serif;
-    
+    font-family:"Roboto",sans-serif;   
 }
 .contacts-area .contact-list form textarea::placeholder{
     color:#919191;
     font-size: 16px;
     font-weight: 400;
-
 }
-
 .contacts-area .contact-list form button{
     width:150px;
     height:50px;
@@ -4687,7 +4590,6 @@ h1{
     border: none;
     position: relative;
     overflow: hidden;
-
 }
 .contacts-area .contact-list form button::after{
     width: 100%;
@@ -4724,7 +4626,6 @@ h1{
     padding:100px 0px;
     background-color: #000826;
     width:100%;
-
 }
 .soical-contacts .social-sub{
     max-width:100%;
@@ -4733,12 +4634,10 @@ h1{
     justify-content: center;
     border-radius: 8px;
     align-items: center;
-    transition: all 500ms ease-in-out;
-  
+    transition: all 500ms ease-in-out; 
 }
 .soical-contacts .social-sub:hover{
     background-color: #1a213c;
-
 }
 .soical-contacts .social-sub .contatcs-title{
     width:40%;
@@ -4784,15 +4683,11 @@ h1{
     color:#ffffff;
     font-weight: 600;
     text-decoration: none;
-    text-transform: capitalize;
-    
+    text-transform: capitalize; 
 }
-
 /*contacts-us page End Now*/
 
-
-/******** preloader start ******/
-
+/* preloader start */
 .preloder{
     position: fixed;
     top:0px;
@@ -4807,8 +4702,7 @@ h1{
     justify-content: center;
     background-image: url('img-folder/preloder/pre-logo1.png');
     background-repeat: no-repeat;
-    background-position: center;
-  
+    background-position: center; 
 }
 .preloder::before{
     content:'';
@@ -4818,8 +4712,6 @@ h1{
     height: 150px;
     border: 5px solid white;
     border-radius: 50%;
-    
-
 }
 .preloder::after{
     content:'';
@@ -4834,7 +4726,6 @@ h1{
     border-left: none;
     animation: preloder 1s ease-in infinite;
 }
-
 @keyframes preloder {
     form{
         transform: rotate(0deg);
@@ -4846,6 +4737,4 @@ h1{
     }
     
 }
-
-
 /******** preloader end ******/
