@@ -1950,7 +1950,10 @@ h1{
     display: inline-block;
     font-weight: 600;
     font-family:"Rajdhani",sans-serif;
-    transition:  width 500ms ease;  
+    transition:  width 500ms ease;
+    display: flex;
+    justify-content: center;
+
 }
 .service .single-btn::after{
     content: '';
@@ -1962,6 +1965,7 @@ h1{
     top:0px;
     left: -190px;
     transition: all 500ms ease-in-out;
+    margin:0 auto;
 }
 .service .single-btn .right-arrow{
     position: absolute;
@@ -2083,7 +2087,9 @@ h1{
     z-index: 44555;
     color:#ffffff;
     text-decoration: none;
+    
 }
+
 .Experience .link-area .plus-icon .plus{
     width:100%;
     height: 100%;
@@ -2094,6 +2100,15 @@ h1{
     align-items: center;
     line-height: 1;
     cursor: pointer; 
+}
+.Experience .link-area .plus-icon .plus::after{
+    content: "\2b";
+    position: absolute;
+    left:5px;
+    right:5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .Experience .link-area .plus-icon .link-item{
     position: absolute;
@@ -3397,7 +3412,8 @@ h1{
     overflow: hidden;
     display: inline-block;
     font-weight: 600;
-    transition:  width 500ms ease;  
+    transition:  width 500ms ease;
+    display: flex;  
 }
 .service .single-btn::after{
     content: '';
@@ -3409,6 +3425,7 @@ h1{
     top:0px;
     left: -190px;
     transition: all 500ms ease-in-out;
+    margin: 0 auto;
 }
 .service .single-btn .right-arrow{
     position: absolute;
@@ -3856,10 +3873,11 @@ h1{
     font-size: 18px;
     font-weight: 600;
     color:#919191;
-    transition: all 500ms ease;
+    transition: all 400ms ease;
 }
 .shop-blog .category .category-item:hover{
     color:#ff4934;
+    transform: translateX(18px);
 }
 .shop-blog .category .category-item .category-arrow{
     position: absolute;
@@ -4346,9 +4364,10 @@ h1{
     font-size: 18px;
     font-weight: 600;
     color:#919191;
-    transition: all 500ms ease;
+    transition: all 400ms ease;
 }
 .blog .category .category-item:hover{
+    transform: translateX(18px);
     color:#ff4934;
 }
 .blog .category .category-item .category-arrow{

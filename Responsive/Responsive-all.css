@@ -1120,6 +1120,7 @@
         padding-top:120px;
     }
 }
+
 @media only screen and (min-width:799px) and (max-width:1400px){
     .blog .detail-tags .single-detais .single-list ul li{
         margin-bottom:25px;
@@ -1257,13 +1258,25 @@
 }
 @media only screen and (max-width:992px){
     #preducsts{
-        margin-top:20px;
+        margin-top:57px;
     }
     .service .single-title{
         width:80%;
     }
     .fotter .icon-add ul li{
         margin: 10px 6px;
+    }
+    .contacts-area .img-box img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+    .blog .search-btn{
+        margin-top:15px;
+    }
+    #mb-20{
+        margin-top:60px;
     }
 }
 @media only screen and (min-width:851px) and (max-width:992px){
@@ -1290,10 +1303,10 @@
 
     }
     .products #preducst{
-        margin-top:20px;
+        margin-top:60px;
     }
     .products #produts{
-       margin-top:20px;
+       margin-top:60px;
     }
     .products .content .sub-title p .text {
         right: 44%;
@@ -1351,9 +1364,8 @@
   
 }
 /*cart page End now*/
-/*contact-us page start now*/
 
-/*main section start now*/
+/*contact-us page start now*/
 @media only screen and (min-width:349px) and (max-width:601px){
     .about-company .shape img {
         left: 20%;
@@ -1373,6 +1385,12 @@
         justify-content: center;
         align-items: center;
         margin: 0 auto;
+    }
+    .blog .category .category-item:hover{
+        transform: translateX(8px);
+    }
+    .shop-blog .category .category-item{
+        transform: translateX(8px);
     }
   
 }
@@ -1488,9 +1506,8 @@
     }
 }
 /*service page End now*/
-/*shop page start now*/
 
-/*Responsive design start now all */
+/*shop page start now*/
 @media only screen and (min-width:349px) and (max-width:601px){
     .about-company .shape img {
         left: 20%;
@@ -1569,6 +1586,11 @@
     }
     .soical-contacts .social-sub .contatcs-ares{
         margin-left:8px;
+    }
+}
+@media only screen and (min-width:992px) and (max-width:1401px){
+    .fotter .icon-add ul li{
+        margin: 10px 5px;
     }
 }
 /*shop page End now*/

@@ -11,10 +11,16 @@ $('.brand-carousel').owlCarousel({
                 items:2
             },
             600:{
-                items:4
+                items:3
             },
             1000:{
-                items:7
+                items:4
+            },
+            1100:{
+                items:5
+            },
+            1200:{
+                items:6
             }
         }
 })
