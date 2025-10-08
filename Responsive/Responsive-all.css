@@ -1291,19 +1291,13 @@
     .add-to-cart form table thead tr th {
         font-size: 20px;
     }
-
-    .add-to-cart form table tbody tr td:has(img){
-       
-    }
     .add-to-cart form table tbody tr td {
         width:20%;
         font-size: 16px;
         height: 120px;
     }
-  
     .add-to-cart .Quantity button {
         left: 355px;
-
     }
     .products #preducst{
         margin-top:60px;
@@ -1314,7 +1308,6 @@
     .products .content .sub-title p .text {
         right: 44%;
     }
-
     .products .content .sub-title p .text {
         right: 120px;
     }
@@ -1325,7 +1318,6 @@
     }
     .add-to-cart form table thead tr th {
         font-size: 20px;
-       
     }
     .add-to-cart form table tbody tr td {
         font-size: 18px;
@@ -1343,9 +1335,19 @@
         right: 70px;
     }
     .service .single-title{
-        width:70%;
+        width:100%;
+        margin:0;
+        display: flex;
+        padding:0px 12px;
+        justify-content: center;
+        align-items: center;
+        margin:0 auto;
+        margin:10px 0px;
     }
-  
+    .service .service-single .single-title h3{
+        font-size: 20px;
+        padding-top:10px;
+    }
 }
 @media only screen and (min-width:1201px) and (max-width:1401px){
     .add-to-cart .Quantity button { 
@@ -1359,7 +1361,6 @@
         right: 90px;
     }
 }
-
 @media only screen and (min-width:1401px) and (max-width:1551px){
     .add-to-cart .Quantity button { 
         left: 410px;

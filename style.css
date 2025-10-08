@@ -448,12 +448,16 @@ h1{
 .service .service-single:hover .email-box .email-icon{
     color:#ff4934;
 }
-.service .single-title{
-    margin:0 auto;
-    width:50%;
+.service .single-titles{
     margin-top:20px;
+    margin-bottom: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.service .single-title h4{
+.service .single-titles h4{
     font-size:24px;
     color:#ffffff;
     text-align: center;
@@ -1834,7 +1838,7 @@ h1{
 }
 .service .single-title{
     margin:0 auto;
-    width:50%;
+    width:70%;
     margin-top:20px;
 }
 .service .service-single .single-title h3{
@@ -3296,8 +3300,13 @@ h1{
 }
 .service .single-title{
     margin:0 auto;
-    width:70%;
     margin-top:20px;
+    margin-bottom: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .service .single-title h3{
     font-size:24px;
