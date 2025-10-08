@@ -590,6 +590,14 @@
         padding: 30px 0px;
         margin:0 auto;
     }
+    .about-us .img-box img{
+        display: flex;
+        margin:0 auto;
+    }
+    .about-us .shape img{
+        left: 39%;
+        top: -68px;
+    }
     .fancy-box .fancy-title h1{
         font-size:30px;
     }
@@ -609,19 +617,19 @@
     }
     .about-us .text .txt{
         text-align: center;
-    }
-
+    } 
     .about-us .about-btn{
         padding-top:36px;
         margin:0 auto;
     }
     .about-us .shape-area img{
-        left:80px;
+        display: none;
     }
     .about-us .img-box-one{
         display:flex;
         justify-content: center;
         align-items: center;
+        margin-top:60px;
     }
     /*about us End*/
 
@@ -1169,17 +1177,14 @@
     .add-to-cart form table thead tr th {
         max-width:  20%;
         padding-left: -15px;
-        font-size: 18px;
+        font-size: 14px;
         font-family: "Roboto",sans-serif;
         color: #ffffff;
     }
-    .add-to-cart form table tbody tr td:has(img){
-        display: none;
-    }
     .add-to-cart form table tbody tr td {
-        width:35%;
+        width:26%;
         text-align: left;
-        font-size: 17px;
+        font-size: 12px;
         height: 120px;
     }
     .add-to-cart .Quantity input {
@@ -1208,7 +1213,10 @@
     }
     .products #mb-20{
         margin-top: 40px;
-    }  
+    }
+    #summer-products{
+        color: transparent;
+    } 
 
 }
 @media only screen and (min-width:600px) and (max-width:851px){
@@ -1219,13 +1227,9 @@
     .add-to-cart form table thead tr th {
         font-size: 20px;
     }
-
-    .add-to-cart form table tbody tr td:has(img){
-        display: none;
-    }
     .add-to-cart form table tbody tr td {
-        width:20%;
-        font-size: 16px;
+        width:27%;
+        font-size: 12px;
         height: 120px;
     }
     .add-to-cart .Quantity button {
@@ -1290,7 +1294,7 @@
     }
 
     .add-to-cart form table tbody tr td:has(img){
-        display: none;
+       
     }
     .add-to-cart form table tbody tr td {
         width:20%;

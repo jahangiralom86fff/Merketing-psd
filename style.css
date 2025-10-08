@@ -2261,9 +2261,10 @@ h1{
     font-size: 18px;
     font-weight: 600;
     color:#919191;
-    transition: all 500ms ease;
+    transition: all 400ms ease;
 }
 .blog .category-item:hover{
+    transform:translateX(18px);
     color:#ff4934;
 }
 .blog .category-item .category-arrow{
@@ -2384,7 +2385,6 @@ h1{
     width:auto;
     border-radius: 10px;
     padding-top:30px;
-
 }
 /*side blog area end now*/
 
@@ -2393,7 +2393,6 @@ h1{
     width:auto;
     height:auto;
     border-radius: 10px;
-
 }
 .blog .details-title{
     padding-top:50px;
@@ -4757,3 +4756,4 @@ h1{
     
 }
 /******** preloader end ******/
+
