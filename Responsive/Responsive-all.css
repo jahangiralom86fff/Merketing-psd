@@ -1217,7 +1217,6 @@
     #summer-products{
         color: transparent;
     } 
-
 }
 @media only screen and (min-width:600px) and (max-width:851px){
    .about-company .shape img {
@@ -1435,9 +1434,8 @@
     }
 }
 /*contacts page End now*/
-/*service page start now*/
 
-/*Responsive all service page*/
+/*service page start now*/
 @media only screen and (min-width:349px) and (max-width:601px){
     .about-company .shape img {
         left: 20%;
