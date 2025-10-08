@@ -835,6 +835,19 @@
     .banner .graph-img{
         display: none;
     }
+    .about-us .img-box img{
+        display: flex;
+        margin:0 auto;
+    }
+    .about-us .shape img {
+        position: absolute;
+        top: -67px;
+        left: 42%;
+        z-index: 1;
+    }
+    .about-us .Digital-merketing{
+        display: none;
+    }
     .choose-us .choose-shape{
         margin-top:50px;
     }
@@ -1396,7 +1409,6 @@
     .shop-blog .category .category-item{
         transform: translateX(8px);
     }
-  
 }
 @media only screen and (min-width:601px) and (max-width:992px){
     .about-company .shape img {
@@ -1424,7 +1436,6 @@
     .blog .review .single-review .img-review img{
         margin-left:-6%;
     }
-
 }
 @media only screen and (min-width:992px) and (max-width:1201px){
     .about-company .shape img {
