@@ -4099,7 +4099,7 @@ h1{
     background-color: #ff4934;
     color:#ffffff;
     z-index: -1;
-    transform: scale(0,1);
+    transform: scale(0,-1);
     transition: all 500ms ease-in-out;
 }
 .shop-blog .tags-area ul li a:hover::after{
@@ -4756,15 +4756,14 @@ h1{
     animation: preloder 1s ease-in infinite;
 }
 @keyframes preloder {
-    form{
+    from{
         transform: rotate(0deg);
         border-right: none;
     }
     to{
         transform: rotate(360deg);
         border-color:red;
-    }
-    
+    }   
 }
 /******** preloader end ******/
 

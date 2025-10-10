@@ -2,7 +2,6 @@
 const button = document .getElementById("plus-button");
 const item = document .getElementById("link-item");
 
-
 button .addEventListener('click',()=>{
     const currentDisplay = window .getComputedStyle(item) .display;
     if(currentDisplay === "none"){
@@ -39,8 +38,6 @@ button_two .addEventListener('click',function(){
     }
 });
 
-
-
 const button_three = document.getElementById("plus-button3");
 const item3 = document.getElementById("link-item3");
 
@@ -56,19 +53,5 @@ button_three.addEventListener('click', function() {
 //Expresnces section js End now //
 
 
-//shape animation js element start now//
-document .addEventListener("mousemove", parallax);
-function parallax(e){
-    document .querySelectorAll(".shape-parallax").forEach(function(move){
-
-        var moving_value = move.getAttribute("data-value");
-        var x = (e.clientX * moving_value) /200;
-        var y = (e.clientY * moving_value) /200;
-
-        move .style.transform = "translateX("+ x +"px) translateY("+ y +"px)";
-    });
-}
-
-//shape animation js element End Now//
 
 

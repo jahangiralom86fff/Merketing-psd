@@ -56,8 +56,8 @@
     color: white;
 }
 .dropdown-content a:focus {
-    background-color: #ddd transparent;
-    color: black transparent;
+    background-color:transparent;
+    color: transparent;
 }
 @media screen and (max-width:992px) {
     .topnav a:not(:first-child), .dropdown-navbar .dropbtn {
@@ -854,7 +854,6 @@
     .testimonials .text p{
         text-align: center;
     }
-    
     .testimonials .text h1{
         text-align: center;
         font-size: 40px;
@@ -902,7 +901,6 @@
     .subscribe .button{
         margin-left: 40px;
     }
-
 }
 @media only screen and (min-width:1201px) and (max-width:1401px){
    
@@ -984,7 +982,6 @@
         margin-top:20px;
         display: flex;
         justify-content: center;
-
     }
     .Experience .link-area .plus-icon {
         margin-left: 62%;
@@ -992,8 +989,7 @@
         position: relative;
         z-index: 44555;
         color: #ffffff;
-    }
-  
+    } 
 }
 @media only screen and (min-width:601px) and (max-width:993px){
     .Experience .sub-title h2{
@@ -1010,8 +1006,7 @@
     }
     .subscribe .title h3{
         font-size: 40px;
-    }
-    
+    } 
 }
 @media only screen and (min-width:992px) and (max-width:1200px){
     .Experience .link-area .plus-icon{
@@ -1025,7 +1020,6 @@
         left: 8px;
         width: 50px;
         height: 150px;
-
     }
     .Experience .link-area .plus-icon .link-item ul {
         padding-left: 0px;
@@ -1041,7 +1035,6 @@
         margin-top:-58px;
     }
 }
-/*about page End now*/
 /*blog-details page start now*/
 
 /*main section responsive start now*/
@@ -1057,10 +1050,8 @@
         text-align: center;
         font-size: 14px;
     }
-  
     .blog .detail-tags .single-detais .single-list ul li{
        margin:6px 5px;
-
     }
     .blog .detail-tags .single-detais .single-list ul{
         width:100%;
@@ -1096,9 +1087,9 @@
         font-size: 12px;
         padding-left: 0px;
     }
-   .blog .reply-area a{
+    .blog .reply-area a{
         margin-left: 16%;
-   }
+    }
     .subscribe .title h3{
         font-size: 38px;
     }
@@ -1109,12 +1100,10 @@
         left: 180px;
         
     }
-
     .blog .main-review{
         padding-left:60px;
         padding-top: 100px;
     }
-
 }
 @media only screen and (min-width:601px) and (max-width:800px){
     .blog .detail-tags .single-detais {
@@ -1134,14 +1123,12 @@
         justify-content: center;
         margin: 20px 0px;
     }
-
 }
 @media only screen and (max-width:576px){
     #preccest{
         padding-top:120px;
     }
 }
-
 @media only screen and (min-width:799px) and (max-width:1400px){
     .blog .detail-tags .single-detais .single-list ul li{
         margin-bottom:25px;
@@ -1168,10 +1155,8 @@
     .choose-us .choose-imgbox img {
         width: 92%;
         margin-left:0px;
-        margin-top: -121px;
-       
+        margin-top: -121px;  
     }
-
 }
 @media only screen and (max-width:768px){
     .blog .img-box img{
@@ -1189,7 +1174,7 @@
     }
     .add-to-cart form table thead tr th {
         max-width:  20%;
-        padding-left: -15px;
+        padding-left:-15px;
         font-size: 14px;
         font-family: "Roboto",sans-serif;
         color: #ffffff;
@@ -1207,8 +1192,7 @@
     .add-to-cart .Quantity button {
         width: 150px;
         height: 60px;
-        left: 170px;
-       
+        left: 170px;  
     }
     .cart-count .sub-count .text{
         width:70%;

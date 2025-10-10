@@ -1,4 +1,4 @@
-
+//shape animation//
 document .addEventListener("mousemove", parallax);
 function parallax(e){
     document .querySelectorAll(".shape-parallax").forEach(function(move){
@@ -10,6 +10,7 @@ function parallax(e){
         move .style.transform = "translateX("+ x +"px) translateY("+ y +"px)";
     });
 }
+//shape animtion//
 
 //scroll up btn start//
 const scrollUp = document .getElementById("scrollUp");
@@ -28,12 +29,9 @@ scrollUp.addEventListener("click", function(){
     behavior: "smooth"
   });
 });
-
 //scroll up btn down End//
 
-
 //preloder start now//
-
 window.addEventListener('load', () => {
    let preloder = document.querySelector(".preloder");
    if (preloder) {
@@ -42,12 +40,9 @@ window.addEventListener('load', () => {
       }, 500);
    }
 });
-
 //preloder start End//
 
-
-
-//wow js//
+//cart page products one//
 const preducst = document.getElementById("preducst");
 
 preducst.addEventListener("mouseover", () => {
@@ -59,9 +54,7 @@ preducst.addEventListener("mouseout", () => {
   preducst.style.transform = "translateY(0)";
 });
 
-
-
-
+//cart page products two//
 let preducsts = document .getElementById("preducsts");
 
 preducsts.addEventListener("mouseover", () =>{
@@ -75,8 +68,7 @@ preducsts .addEventListener("mouseout", () =>{
 
 });
 
-
-
+//cart page products three//
 let produts = document .getElementById("produts");
 
 produts.addEventListener("mouseover", () =>{
@@ -90,6 +82,7 @@ produts.addEventListener("mouseout", () =>{
 
 });
 
+//cart page products four//
 const produtse = document .getElementById("mb-20");
 
 produtse .addEventListener("mouseover", ()=>{
@@ -102,7 +95,7 @@ produtse .addEventListener("mouseout", ()=>{
   produtse .style .transform = "translateY(0)";
 
 });
-//wow js End Now//
+//cart page transformx up//
 
 
 

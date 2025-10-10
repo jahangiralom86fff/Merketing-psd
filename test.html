@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <style>
+        .container{
+            width: 100%;
+            height:5em;
+            background-color: red;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container .list-item ul{
+            padding:0;
+        }
+        .container .list-item ul li{
+            list-style-type: none;
+            float: left;
+            margin:0px 20px;
+        }
+        .container .list-item ul li a{
+            color:white;
+            font-size: 18px;
+            font-style: italic;
+            font-weight: 600;
+            text-decoration: none;
+        }
+        .container .apply-item{
+            position: relative;
+      
+        }
+       .container .apply-item ul {
+            position: absolute;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 0px; 
+            right: -110px;
+            padding: 0;
+            margin: 0;
+            top:42px;
+            transition: all 500ms ease-in;
+            display: none;
+        }
+        .container .apply-item ul li{
+            list-style: none;
+            background: red;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+    <body>
+        <div class="container">
+            <div class="list-item">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li class="apply-item" id="apply">
+                        <a href="#">apply</a>
+                        <ul id="list-items">
+                            <li><a href="#">National university</a></li>
+                            <li><a href="#">Berlin</a></li>
+                            <li><a href="#">Germany</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <script>
+            let clist = document.getElementById("apply");
+            let click2 = document.getElementById("list-items");
+
+            clist.addEventListener("mouseover", function() {
+                if(click2.style .display === "none"){
+                    click2 .style .display = "block";
+                }
+            });
+
+            clist.addEventListener("mouseout", () => {
+                click2.style.display = "none";
+            });
+
+
+        </script>
+    </body>
+</html>
